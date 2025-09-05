@@ -22,21 +22,12 @@ but CV ...
     transition: all 0.3s ease;
   }
   
-  details:hover {
-    border-color: #a29bfe;
-    background: #f1f3f5;
-  }
-  
   summary {
     cursor: pointer;
     font-weight: bold;
     padding: 0.6rem;
-    color: #2d3436;
+    color: #ed8032;
     font-size: 1.2rem;
-  }
-  
-  summary:hover {
-    color: #6c5ce7;
   }
   
   .info-grid {
@@ -48,11 +39,11 @@ but CV ...
   
   .info-label {
     font-weight: bold;
-    color: #2d3436;
+    color: #ed8032;
   }
   
   .special-interests {
-    background: #dfe6e9;
+    background: #0d242e;
     padding: 0.8rem;
     border-radius: 6px;
     margin: 1rem 0;
@@ -60,7 +51,7 @@ but CV ...
   }
   
   .nerd-fact {
-    background: #ffeaa7;
+    background: #594d26;
     padding: 0.3rem 0.6rem;
     border-radius: 4px;
     display: inline-block;
