@@ -16,10 +16,10 @@ let me know if what you need
 
 # ENDPOINTS
 
-[DR.KB@WEEBLY](https://kbhirombhakdi.weebly.com/) -- KB old home. cute right? 😃
+> [DR.KB@WEEBLY](https://kbhirombhakdi.weebly.com/) -- KB old home. cute right? 😃
 
-[CV](www.example.com) -- get to know KB
+> [CV](www.example.com) -- get to know KB 
 
-[Reads](www.example.com) -- echoes from the multiverse. are you listerner? 👂
+> [READS](www.example.com) -- echoes from the multiverse. are you listerner? 👂
 
 ---
