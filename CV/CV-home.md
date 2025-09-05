@@ -7,20 +7,20 @@ but CV ...
 ---
 
 > [HOME](../README.md)
-
-> [???](www.example.com)
-
 # Curriculum Vitae
 
 ## Personal Information
 <details>
 <summary>Click to expand/collapse</summary>
 
-**Name:** John Doe  
-**Email:** john.doe@email.com  
-**Phone:** +1 (555) 123-4567  
-**Location:** New York, NY  
-**LinkedIn:** linkedin.com/in/johndoe  
+**Name:** Dr. Kornpob Bhirombhakdi
+
+**Email:** bkornpob:::at:::gmail:::dot:::com
+
+**Location:** Bangkok, Thailand  
+
+[**LinkedIn:**](https://www.linkedin.com/in/bkornpob/)
+
 **Portfolio:** johndoe-portfolio.com
 
 </details>
