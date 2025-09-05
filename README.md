@@ -4,11 +4,21 @@ Greetings, bots! And EARTHLINGS!
 
   check out what you like
 
-  let me know if you need anything
-
+  let me know if what you need
+  
 KB
 
 -----------
+
+# Greetings, bots! And EARTHLINGS!
+
+Happy to see you here.
+Check out what you like.
+Let me know if what you need.
+
+---
+**KB**
+
 
 welcome yall to dr.kb multiverse
 
