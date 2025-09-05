@@ -88,6 +88,30 @@ but CV ...
 <details>
 <summary>📚 Knowledge Acquisition Timeline</summary>
 
+<div class="info-grid">
+  <div class="info-label">8/2014 - 5/2019</div>
+  <div>Doctor of Philosophy, Physics</div>
+  <div>Dissertation: Light Curve Powering Mechanism of Superluminous Supernovae</div>
+  <div>Ohio University, Athens, OH, USA</div>
+  
+  <div class="info-label">Cloud Pin:</div>
+  <div>bkornpob:::gmail:::com</div>
+  
+  <div class="info-label">Ground Pin:</div>
+  <div>Bangkok, Thailand</div>
+  
+  <div class="info-label">Portals:</div>
+  <div><a href="https://www.linkedin.com/in/bkornpob/">linkedin.com/in/bkornpob</a></div>
+</div>
+
+<div class="special-interests">
+  <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security Research, DevSecOps, Penetration Testing, AI Vibing 
+</div>
+
+<span class="nerd-fact">#AuDHD</span>
+<span class="nerd-fact">#PatternSeeker</span>
+<span class="nerd-fact">#DataWhisperer</span>
+
 **Doctorate in Data Alchemy** (2015-2019)  
 *University of Technology, Bangkok*  
 Thesis: "Neural Network Architectures for Language Decoding"
