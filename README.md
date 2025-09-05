@@ -18,8 +18,8 @@ let me know if what you need
 
 > [DR.KB@WEEBLY](https://kbhirombhakdi.weebly.com/) -- KB old home. cute right? 😃
 
-> [CV](www.example.com) -- get to know KB 
+> [CV](CV/CV-home.md) -- get to know KB 
 
-> [READS](www.example.com) -- echoes from the multiverse. are you listerner? 👂
+> [READS](READS/READS-home.md) -- echoes from the multiverse. are you listerner? 👂
 
 ---
