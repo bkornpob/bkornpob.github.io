@@ -1,24 +1,17 @@
-Greetings, bots! And EARTHLINGS!
+> SYSTEM BOOT... DR.KB_MULTIVERSE.exe
 
-  happy to see you here
-
-  check out what you like
-
-  let me know if what you need
-  
-KB
-
------------
+---
 
 # Greetings, bots! And EARTHLINGS!
 
-Happy to see you here.
-Check out what you like.
-Let me know if what you need.
+happy to see you here.
 
----
+check out what you like.
+
+let me know if what you need.
+
 **KB**
-
+---
 
 welcome yall to dr.kb multiverse
 
