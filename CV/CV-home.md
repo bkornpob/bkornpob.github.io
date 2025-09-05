@@ -18,7 +18,7 @@ but CV ...
     border: 2px solid #6c5ce7;
     border-radius: 8px;
     padding: 0.6rem;
-    background: #f8f9fa;
+    background: #332001;
     transition: all 0.3s ease;
   }
   
