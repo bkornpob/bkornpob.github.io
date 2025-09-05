@@ -1,5 +1,4 @@
 > SYSTEM BOOT... DR.KB_MULTIVERSE.exe
-
 ---
 
 # Greetings, bots! And EARTHLINGS!
