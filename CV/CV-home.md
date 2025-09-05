@@ -10,8 +10,6 @@ but CV ...
 
 ---
 
-# Dr. Kornpob Bhirombhakdi - Cognitive Itinerary
-
 <style>
   details {
     margin-bottom: 1.2rem;
@@ -64,21 +62,21 @@ but CV ...
 <summary>🧠 Cognitive Profile & Contact Coordinates</summary>
 
 <div class="info-grid">
-  <div class="info-label">Designation:</div>
+  <div class="info-label">Code Name:</div>
   <div>Dr. Kornpob Bhirombhakdi</div>
+
+  <div class="info-label">Cloud Pin:</div>
+  <div>bkornpob:::gmail:::com</div>
   
-  <div class="info-label">Neural Network Address:</div>
-  <div>bkornpob@gmail.com</div>
-  
-  <div class="info-label">Geographical Coordinates:</div>
+  <div class="info-label">Ground Pin:</div>
   <div>Bangkok, Thailand</div>
   
-  <div class="info-label">Professional Nexus:</div>
+  <div class="info-label">Portals:</div>
   <div><a href="https://www.linkedin.com/in/bkornpob/">linkedin.com/in/bkornpob</a></div>
 </div>
 
 <div class="special-interests">
-  <strong>Current Hyperfocus Areas:</strong> Machine Learning, Neural Architecture, Data Patterns, Algorithmic Beauty
+  <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security Research, DevSecOps, Penetration Testing, AI Vibing 
 </div>
 
 <span class="nerd-fact">#AuDHD</span>
