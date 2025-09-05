@@ -6,6 +6,6 @@ but CV ...
 
 ---
 
-> [HOME](README.md)
+> [HOME](../README.md)
 
 > [???](www.example.com)
