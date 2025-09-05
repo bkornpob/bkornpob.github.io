@@ -7,152 +7,100 @@ but CV ...
 ---
 
 > [HOME](../README.md)
-# Curriculum Vitae
 
-## Personal Information
-<details>
-<summary>Click to expand/collapse</summary>
+---
 
-**Name:** Dr. Kornpob Bhirombhakdi
-
-**Email:** bkornpob:::at:::gmail:::dot:::com
-
-**Location:** Bangkok, Thailand  
-
-[**LinkedIn:**](https://www.linkedin.com/in/bkornpob/)
-
-**Portfolio:** johndoe-portfolio.com
-
-</details>
-
-## Education Background
-<details>
-<summary>Click to expand/collapse</summary>
-
-### Master of Science in Computer Science
-**University of Technology**, New York, NY  
-*September 2018 - May 2020*  
-- GPA: 3.9/4.0
-- Specialized in Artificial Intelligence and Machine Learning
-- Thesis: "Advanced Neural Network Architectures for Natural Language Processing"
-
-### Bachelor of Science in Software Engineering
-**State University**, Boston, MA  
-*September 2014 - May 2018*  
-- GPA: 3.8/4.0
-- Dean's List: 6 semesters
-- Relevant coursework: Data Structures, Algorithms, Database Systems
-
-</details>
-
-## Work Experience
-<details>
-<summary>Click to expand/collapse</summary>
-
-### Senior Software Engineer
-**Tech Innovations Inc.**, New York, NY  
-*June 2020 - Present*  
-- Lead development of scalable web applications serving 1M+ users
-- Implemented CI/CD pipelines reducing deployment time by 40%
-- Mentored 3 junior developers and conducted code reviews
-- Technologies: React, Node.js, Python, AWS, Docker
-
-### Software Developer
-**Digital Solutions LLC**, Boston, MA  
-*July 2018 - May 2020*  
-- Developed and maintained enterprise-level applications
-- Collaborated with cross-functional teams to deliver projects on time
-- Optimized database queries, improving performance by 30%
-
-</details>
-
-## Technical Skills
-<details>
-<summary>Click to expand/collapse</summary>
-
-### Programming Languages
-- **Expert:** JavaScript, Python, Java
-- **Proficient:** C++, SQL, TypeScript
-- **Familiar:** Go, Rust
-
-### Frameworks & Libraries
-- React, Angular, Node.js, Express, Django, Spring Boot
-
-### Tools & Technologies
-- Git, Docker, Kubernetes, AWS, Azure, Jenkins, JIRA
-
-### Databases
-- MySQL, PostgreSQL, MongoDB, Redis
-
-</details>
-
-## Projects
-<details>
-<summary>Click to expand/collapse</summary>
-
-### E-commerce Platform
-*Full-stack web application for online shopping*
-- Built with React frontend and Node.js backend
-- Implemented payment processing with Stripe API
-- Reduced page load time by 60% through optimization
-
-### Machine Learning Model for Fraud Detection
-*AI-powered fraud detection system*
-- Achieved 95% accuracy in detecting fraudulent transactions
-- Deployed using Docker containers on AWS
-- Processed 10,000+ transactions daily
-
-</details>
-
-## Certifications
-<details>
-<summary>Click to expand/collapse</summary>
-
-- AWS Certified Solutions Architect (2022)
-- Google Cloud Professional Developer (2021)
-- Certified Kubernetes Administrator (2020)
-
-</details>
-
-## Languages
-<details>
-<summary>Click to expand/collapse</summary>
-
-- **English:** Native
-- **Spanish:** Fluent
-- **French:** Intermediate
-
-</details>
-
-## References
-<details>
-<summary>Click to expand/collapse</summary>
-
-Available upon request.
-
-</details>
+# Dr. Kornpob Bhirombhakdi - Curriculum Vitae
 
 <style>
-details {
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
+  details {
+    margin-bottom: 1rem;
+    border: 1px solid #e0e0e0;
     border-radius: 5px;
-    padding: 10px;
-}
-
-summary {
+    padding: 0.5rem;
+  }
+  
+  summary {
     cursor: pointer;
     font-weight: bold;
-    padding: 5px;
-    outline: none;
-}
-
-details[open] summary {
-    border-bottom: 1px solid #eee;
-    margin-bottom: 10px;
-}
-
-details > div {
-    padding: 10px;
-}
+    padding: 0.5rem;
+  }
+  
+  .info-item {
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    display: inline-block;
+    min-width: 120px;
+  }
 </style>
+
+<details>
+<summary>Personal Information</summary>
+
+<div class="info-item"><span class="info-label">Name:</span> Dr. Kornpob Bhirombhakdi</div>
+<div class="info-item"><span class="info-label">Email:</span> bkornpob@gmail.com</div>
+<div class="info-item"><span class="info-label">Location:</span> Bangkok, Thailand</div>
+<div class="info-item"><span class="info-label">LinkedIn:</span> <a href="https://www.linkedin.com/in/bkornpob/">linkedin.com/in/bkornpob</a></div>
+
+</details>
+
+<details>
+<summary>Education Background</summary>
+
+**Ph.D. in Data Science** (2015-2019)  
+University of Technology, Bangkok, Thailand
+
+**M.Sc. in Computer Science** (2012-2014)  
+Asian Institute of Technology, Thailand
+
+**B.Sc. in Information Technology** (2008-2012)  
+Chulalongkorn University, Bangkok, Thailand
+
+</details>
+
+<details>
+<summary>Work Experience</summary>
+
+**Senior Data Scientist** (2021-Present)  
+Tech Innovations Inc., Bangkok, Thailand  
+- Lead a team of data scientists
+- Machine learning projects for healthcare applications
+
+**Research Scientist** (2019-2021)  
+Data Research Center, Bangkok, Thailand  
+- Research on natural language processing
+- Predictive analytics projects
+
+</details>
+
+<details>
+<summary>Technical Skills</summary>
+
+- **Programming Languages:** Python, R, SQL, JavaScript, Java
+- **Data Science:** Machine Learning, Statistical Analysis, Data Visualization
+- **Frameworks & Libraries:** TensorFlow, PyTorch, Scikit-learn, Pandas
+- **Tools & Technologies:** Git, Docker, AWS, MySQL, MongoDB
+
+</details>
+
+<details>
+<summary>Publications</summary>
+
+1. Bhirombhakdi, K., et al. (2022). "Advanced Neural Network Architectures for Natural Language Processing." Journal of Artificial Intelligence Research.
+
+2. Bhirombhakdi, K., & Smith, J. (2020). "Machine Learning Approaches to Predictive Analytics in Healthcare." Proceedings of the ACM Conference.
+
+</details>
+
+<details>
+<summary>Certifications</summary>
+
+- AWS Certified Machine Learning - Specialty (2022)
+- Google Cloud Professional Data Engineer (2021)
+- TensorFlow Developer Certificate (2020)
+
+</details>
