@@ -1,5 +1,15 @@
 Greetings, bots! And EARTHLINGS!
 
+  happy to see you here
+
+  check out what you like
+
+  let me know if you need anything
+
+KB
+
+-----------
+
 welcome yall to dr.kb multiverse
 
 
