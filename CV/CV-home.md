@@ -159,7 +159,7 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Deep Learning Specialization</div>
     <div class="dissertation">Credential ID: <a href="https://www.coursera.org/account/accomplishments/specialization/GYIBDXJ9UMCP" target="_blank" rel="noopener noreferrer">GYIBDXJ9UMCP</a></div>
-    <div class="institution">DeepLearning.AI</div>
+    <div class="institution">DeepLearning.AI (Coursera)</div>
   </div>
 </div>
 
@@ -169,6 +169,23 @@ but CV ...
     <div class="degree-title">Doctor of Philosophy, Physics</div>
     <div class="dissertation">Dissertation: Light Curve Powering Mechanism of Superluminous Supernovae</div>
     <div class="institution">Ohio University, Athens, OH, USA</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">7/2015 - 1/2017</div>
+  <div class="degree-info">
+    <div class="degree-title">Data Science and Machine Learning</div>
+    <div class="institution">Johns Hopkins University (Coursera)</div>
+    <div class="dissertation">The Data Scientist's Toolbox: <a href="https://www.coursera.org/account/accomplishments/verify/KN2NUU43VJ" target="_blank" rel="noopener noreferrer">KN2NUU43VJ</a></div>
+    <div class="dissertation">Statistiical Inference: <a href="https://www.coursera.org/account/accomplishments/verify/YNC4QTZKP5" target="_blank" rel="noopener noreferrer">YNC4QTZKP5</a></div>
+    <div class="dissertation">Reproducible Research: <a href="https://www.coursera.org/account/accomplishments/verify/GEWM7E46ER" target="_blank" rel="noopener noreferrer">GEWM7E46ER</a></div>
+    <div class="dissertation">R Programming: <a href="https://www.coursera.org/account/accomplishments/verify/X8C7NB86B4" target="_blank" rel="noopener noreferrer">X8C7NB86B4</a></div>
+    <div class="dissertation">Getting and Cleaning Data: <a href="https://www.coursera.org/account/accomplishments/verify/PK2XXPTQ26" target="_blank" rel="noopener noreferrer">PK2XXPTQ26</a></div>
+    <div class="dissertation">Exploratory Data Analysis: <a href="https://www.coursera.org/account/accomplishments/verify/6DH5R8M63S" target="_blank" rel="noopener noreferrer">6DH5R8M63S</a></div>
+    <div class="dissertation">Regression Models: <a href="https://www.coursera.org/account/accomplishments/verify/YURS2DZ7Q5" target="_blank" rel="noopener noreferrer">YURS2DZ7Q5</a></div>
+    <div class="dissertation">Practical Machine Learning: <a href="https://www.coursera.org/account/accomplishments/verify/QV4A6FDSG2C7" target="_blank" rel="noopener noreferrer">QV4A6FDSG2C7</a></div>
+    <div class="dissertation">Developing Data Products: <a href="https://www.coursera.org/account/accomplishments/verify/YYLSN542NW73" target="_blank" rel="noopener noreferrer">YYLSN542NW73</a></div>
   </div>
 </div>
 
