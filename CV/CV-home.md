@@ -239,14 +239,14 @@ but CV ...
 <details>
 <summary>💰 Pay bills near me 💰</summary>
 
-<div class="info-grid">
-  <div class="info-label">9/2025 - Current timeline</div>
-  <div class="degree-info">
-    <div class="degree-title">Consultant (AI, data, business, research and development)</div>
-    <div class="institution">Freelance, Bangkok, Thailand</div>
-    <div class="dissertation">
-    **TBD**</div> 
-  </div>
+
+<div class="info-grid"> 
+  <div class="info-label">9/2025 - Now</div> 
+  <div class="degree-info"> 
+    <div class="degree-title">Outsource Specialist</div> 
+    <div class="institution">DR.KB</div>
+    <div class="dissertation">**Deliver high-impact solutions 💥 as an on-demand expert by channeling a unique superpower: the ability to see the "cosmic" big picture 🌌 while executing with tactical precision 🎯.** I parachute into complex challenges to drive measurable growth 📈, leveraging leadership forged in immense operations like Hubble and James Webb Space Telescopes. My role is to integrate 🤝 seamlessly into any team, fill critical gaps, and rapidly master new domains. I deploy my multi-faceted skillset — be it as an AI specialist 🧠, Scrum Master 🏃, or data analyst 📊 — to turn chaos into elegant, efficient solutions and ensure project success.</div> 
+  </div> 
 </div>
 
 <div class="info-grid">
@@ -263,7 +263,7 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Postdoctoral Researcher</div>
     <div class="institution"><a href="https://www.stsci.edu" target="_blank" rel="noopener noreferrer">The Space Telescope Science Institute</a>, Baltimore, MD, USA</div>
-    <div class="dissertation">**Forged the frontiers of cosmic knowledge by translating The Universe's most violent explosions 💥 into a language of science and discovery.** I channeled my passion for the cosmos 🔭 into a multi-faceted role: a researcher, a community architect, and an innovator. My work was a blend of deep, analytical investigation and broad, human-centric collaboration. I thrived on partnering with brilliant minds across the globe to propose, execute, and publish groundbreaking research, while also ensuring our community was equitable, inclusive, and moving forward together. This meant not just developing software to probe the secrets of supernovae and gamma-ray bursts, but also advocating for my peers, managing the whirlwind of multiple research priorities, and organizing global meetings to connect our far-flung community. I served as a bridge🌈—🌈between theory and data, between disciplines, and between people.</div> 
+    <div class="dissertation">**Forged the frontiers of cosmic knowledge by translating The Universe's most violent explosions 💥 into a language of science and discovery.** I channeled my passion for the cosmos 🔭 into a multi-faceted role: a researcher, a community architect, and an innovator. My work was a blend of deep, analytical investigation and broad, human-centric collaboration. I thrived on partnering with brilliant minds across the globe to propose, execute, and publish groundbreaking research, while also ensuring our community was equitable, inclusive, and moving forward together. This meant not just developing software to probe the secrets of supernovae and gamma-ray bursts, but also advocating for my peers, managing the whirlwind of multiple research priorities, and organizing global meetings to connect our far-flung community. I served as a bridge 🌈—🌈 between theory and data, between disciplines, and between people.</div> 
   </div>
 </div>
 
@@ -272,8 +272,7 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Research and Teaching Assistant</div>
     <div class="institution"><a href="https://www.ohio.edu" target="_blank" rel="noopener noreferrer">Ohio University</a>, Athens, OH, USA</div>
-    <div class="dissertation">
-    **TBD***</div> 
+    <div class="dissertation">**Excelled in a dual role as a cosmic researcher and an educator, driving forward the study of superluminous supernovae 💥 while fostering the next generation of scientists 👨‍🎓.** I seamlessly pivoted between conducting deep astrophysical research 🔍 and teaching fundamental physics 🍎, mastering the art of translating complex data into clear understanding. My work involved collaborating 🤝 with global experts to develop published research on the universe's most brilliant explosions, while simultaneously guiding students through laboratory work, providing supportive instruction during help sessions, and offering constructive feedback through grading 👍. This position honed my ability to manage intricate analysis and dedicated mentorship, serving the academic community with both my astrophysical expertise and a passion for education ❤️.</div> 
   </div>
 </div>
 
@@ -282,8 +281,7 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Senior Consultant</div>
     <div class="institution">LEARN Corporation, Bangkok, Thailand</div>
-    <div class="dissertation">
-    **TBD***</div> 
+    <div class="dissertation">**Orchestrated organizational evolution by transforming raw data 💾 and research into a strategic vision for the future 🔮.** I led a dedicated research and development team 👪 on a mission to pinpoint opportunities for growth and innovation. My role was that of an architect and a catalyst: I conducted deep-dive research 🔍 to uncover policy implications, then translated those complex findings into powerful, executive-level briefings that drove decision-making. I thrived on cross-departmental collaboration 🤝, designing robust metrics to quantify performance and overseeing activities to ensure strategic alignment 👍. Beyond analysis, I was a builder of capability, empowering my team and training staff 👨‍🎓 in the art and science of effective research, turning insights into actionable organizational momentum.</div> 
   </div>
 </div>
 
