@@ -240,12 +240,62 @@ but CV ...
 <summary>💰 Pay bills near me 💰</summary>
 
 <div class="info-grid">
+  <div class="info-label">9/2025 - Current timeline</div>
+  <div class="degree-info">
+    <div class="degree-title">Consultant (AI, data, business, research and development)</div>
+    <div class="institution">Freelance, Bangkok, Thailand</div>
+    <div class="dissertation">
+    **TBD**</div> 
+  </div>
+</div>
+
+<div class="info-grid">
   <div class="info-label">8/2024 - 8/2025</div>
   <div class="degree-info">
     <div class="degree-title">Data Scientist</div>
-    <div class="institution">Sertis</div>
+    <div class="institution"><a href="https://www.sertiscorp.com/" target="_blank" rel="noopener noreferrer">Sertis</a>, Bangkok, Thailand</div>
     <div class="dissertation">
     **Architected the future: Turning business chaos into elegant order with AI and automated solutions** My leadership leveraged my neurospicy superpower 🌶️: deep-dive hyperfocus on client puzzles. I thrived on consulting directly with stakeholders to architect a vision, breaking down the monumental into a tactical sprint plan. Then, we worked on the magic 🪄🔮 -- let it be digging insights in your noisy data, unveiling anomaly in large and convoluted database, empowering business acumen and clarity through data products (e.g., executive summary and dashboard), deploying bot agents that automated entire workflows, or artificial eye and mind for your business surveillance and guidance (e.g., brand management, media analysis, consumer-behavioural analysis, forecasting, and association-farming).</div> 
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">8/2019 - 2/2024</div>
+  <div class="degree-info">
+    <div class="degree-title">Postdoctoral Researcher</div>
+    <div class="institution"><a href="https://www.stsci.edu" target="_blank" rel="noopener noreferrer">The Space Telescope Science Institute</a>, Baltimore, MD, USA</div>
+    <div class="dissertation">
+    **TBD***</div> 
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">8/2014 - 5/2019</div>
+  <div class="degree-info">
+    <div class="degree-title">Research and Teaching Assistant</div>
+    <div class="institution"><a href="https://www.ohio.edu" target="_blank" rel="noopener noreferrer">Ohio University</a>, Athens, OH, USA</div>
+    <div class="dissertation">
+    **TBD***</div> 
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">1/2012 - 1/2014</div>
+  <div class="degree-info">
+    <div class="degree-title">Senior Consultant</div>
+    <div class="institution">LEARN Corporation, Bangkok, Thailand</div>
+    <div class="dissertation">
+    **TBD***</div> 
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">more</div>
+  <div class="degree-info">
+    <div class="degree-title">will</div>
+    <div class="institution">be here</div>
+    <div class="dissertation">
+    **TBD***</div> 
   </div>
 </div>
 
