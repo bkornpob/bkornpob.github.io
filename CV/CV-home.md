@@ -286,6 +286,25 @@ but CV ...
 </div>
 
 <div class="info-grid">
+  <div class="info-label">2007 - 2014</div>
+  <div class="degree-info">
+    <div class="degree-title">Consultant for Business Research and Development</div>
+    <div class="institution">Freelance, Bangkok, Thailand</div>
+    
+    <div class="degree-title">Tutor</div>
+    <div class="institution">Freelance, Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">2007 - 2014</div>
+  <div class="degree-info">
+    <div class="degree-title">Consultant for Business Research and Development</div>
+    <div class="institution">Freelance, Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
   <div class="info-label">1/2011 - 1/2013</div>
   <div class="degree-info">
     <div class="degree-title">Coordinator Assistant</div>
@@ -312,26 +331,24 @@ but CV ...
     
     <div class="degree-title">Mathematician</div>
     <div class="institution">Institute of Academic Development Inc., Bangkok, Thailand</div>
+
+    <div class="degree-title">Teaching Assistant</div>
+    <div class="institution">Faculty of Economics, Chulalongkorn University, Bangkok, Thailand</div>
+    <div class="dissertation">Advanced Microeconomic Theory II (Ph.D. Level, Internation/English Program):::2010-2011</div>
+    <div class="dissertation">Statistics for Health Economics (Graduate Level, Internation/English Program):::2011</div>
+    <div class="dissertation">Introduction to Econometrics (Undergraduate Level):::2010-2012</div>
+    <div class="dissertation">Introduction to Economics (Undergraduate Level):::2010</div>
+    <div class="dissertation">Math for Economist I (Undergraduate Level):::2009</div>
+    <div class="dissertation">Math for Economist II (Undergraduate Level):::2012</div>
   </div>
 </div>
 
 <div class="info-grid">
-  <div class="info-label">2009</div>
+  <div class="info-label">2005 - 2010</div>
   <div class="degree-info">
-    <div class="degree-title">Mathematician</div>
-    <div class="institution">Institute of Academic Development Inc., Bangkok, Thailand</div>
-  </div>
-</div>
-
-
-
-<div class="info-grid">
-  <div class="info-label">more</div>
-  <div class="degree-info">
-    <div class="degree-title">will</div>
-    <div class="institution">be here</div>
-    <div class="dissertation">
-    **TBD***</div> 
+    <div class="degree-title">Public Relations, Brand Ambassador, Actor, Model, DJ, Event Host and MC</div>
+    <div class="institution">Freelance, Bangkok, Thailand</div>
+    <div class="special-interests">Check out my <a href="https://www.imdb.com/name/nm3594521/" target="_blank" rel="noopener noreferrer"><strong>IMDb:</strong></a></div>
   </div>
 </div>
 
