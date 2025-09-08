@@ -8,7 +8,7 @@ happy to see you here
 
 check out what you like
 
-let me know if what you need
+let me know what you need
 
 **KB**
 
