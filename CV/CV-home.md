@@ -305,8 +305,21 @@ but CV ...
   <div class="info-label">2009 - 2012</div>
   <div class="degree-info">
     <div class="degree-title">Lecturer</div>
-    <div class="dissertation">Principles of Economics (Undergraduate Level, International/English Program):::Faculty of Hospitality and Tourism, Prince of Songkla University, Phuket, Thailand:::2010,2012</div>
-    <div class="dissertation">Health Economics (Undergraduate Level):::Faculty of Economics, Khonkaen University, Nongkhai, Thailand:::2009</div>
+    <div class="institution">Faculty of Hospitality and Tourism, Prince of Songkla University, Phuket, Thailand</div>
+    <div class="dissertation">Principles of Economics (Undergraduate Level, International/English Program):::2010,2012</div>
+    <div class="institution">Faculty of Economics, Khonkaen University, Nongkhai, Thailand</div>
+    <div class="dissertation">Health Economics (Undergraduate Level):::2009</div>
+    
+    <div class="degree-title">Mathematician</div>
+    <div class="institution">Institute of Academic Development Inc., Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">2009</div>
+  <div class="degree-info">
+    <div class="degree-title">Mathematician</div>
+    <div class="institution">Institute of Academic Development Inc., Bangkok, Thailand</div>
   </div>
 </div>
 
