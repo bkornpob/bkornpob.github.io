@@ -237,7 +237,7 @@ but CV ...
 </details>
 
 <details>
-<summary>🔬 Applied Cognitive Experiments</summary>
+<summary>💰 Pay my bills near me ...</summary>
 
 **Senior Data Shaman** (2021-Present)  
 *Tech Innovations Inc., Bangkok*  
