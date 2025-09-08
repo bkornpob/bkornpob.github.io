@@ -254,8 +254,7 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Data Scientist</div>
     <div class="institution"><a href="https://www.sertiscorp.com/" target="_blank" rel="noopener noreferrer">Sertis</a>, Bangkok, Thailand</div>
-    <div class="dissertation">
-    **Architected the future: Turning business chaos into elegant order with AI and automated solutions** My leadership leveraged my neurospicy superpower 🌶️: deep-dive hyperfocus on client puzzles. I thrived on consulting directly with stakeholders to architect a vision, breaking down the monumental into a tactical sprint plan. Then, we worked on the magic 🪄🔮 -- let it be digging insights in your noisy data, unveiling anomaly in large and convoluted database, empowering business acumen and clarity through data products (e.g., executive summary and dashboard), deploying bot agents that automated entire workflows, or artificial eye and mind for your business surveillance and guidance (e.g., brand management, media analysis, consumer-behavioural analysis, forecasting, and association-farming).</div> 
+    <div class="dissertation">**Architected the future by transforming business chaos into elegant order with AI and automation.** I leveraged my neurospicy superpower 🌶️: a deep-dive hyperfocus on complex client puzzles. I thrived on consulting directly with stakeholders to architect a vision, breaking down monumental problems into tactical sprint plans. Then, we worked the magic 🪄🔮—whether it was digging insights from noisy data, unveiling anomalies in large and convoluted databases, empowering business acumen through data products (e.g., executive summaries and dashboards), deploying bot agents that automated entire workflows, or creating artificial eyes and minds for business surveillance and guidance (e.g., brand management, media analysis, consumer-behavioral analysis, forecasting, and association mining).</div> 
   </div>
 </div>
 
@@ -264,8 +263,7 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Postdoctoral Researcher</div>
     <div class="institution"><a href="https://www.stsci.edu" target="_blank" rel="noopener noreferrer">The Space Telescope Science Institute</a>, Baltimore, MD, USA</div>
-    <div class="dissertation">
-    **TBD***</div> 
+    <div class="dissertation">**Forged the frontiers of cosmic knowledge by translating The Universe's most violent explosions 💥 into a language of science and discovery.** I channeled my passion for the cosmos 🔭 into a multi-faceted role: a researcher, a community architect, and an innovator. My work was a blend of deep, analytical investigation and broad, human-centric collaboration. I thrived on partnering with brilliant minds across the globe to propose, execute, and publish groundbreaking research, while also ensuring our community was equitable, inclusive, and moving forward together. This meant not just developing software to probe the secrets of supernovae and gamma-ray bursts, but also advocating for my peers, managing the whirlwind of multiple research priorities, and organizing global meetings to connect our far-flung community. I served as a bridge🌈—🌈between theory and data, between disciplines, and between people.</div> 
   </div>
 </div>
 
