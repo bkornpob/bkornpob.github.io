@@ -163,6 +163,33 @@ but CV ...
   </div>
 </div>
 
+<div class="info-grid">
+  <div class="info-label">5/2009 - 9/2013</div>
+  <div class="degree-info">
+    <div class="degree-title">Doctor of Philosophy, Economics</div>
+    <div class="dissertation">Dissertation: Essays in Experimental Studies on Positive Reciprocity and Auction Design for an Object with Countervailing Positive Externalities</div>
+    <div class="institution">Chulalongkorn University, Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">5/2007 - 2/2009</div>
+  <div class="degree-info">
+    <div class="degree-title">Master of Science, Health Economics</div>
+    <div class="dissertation">Thesis: Technical Efficiency of University Hospitals in Thailand</div>
+    <div class="institution">Chulalongkorn University, Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">5/2003 - 4/2007</div>
+  <div class="degree-info">
+    <div class="degree-title">Bachelor of Science, Medical Science</div>
+    <div class="dissertation">Second Class Honours</div>
+    <div class="institution">Mahidol University, Bangkok, Thailand</div>
+  </div>
+</div>
+
 </details>
 
 <details>
