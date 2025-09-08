@@ -117,19 +117,19 @@ but CV ...
 </div>
 
 <div class="special-interests">
-  <strong>XXX:</strong> Astrophysicist, blah blah 
+  <strong>Perks Unlocked:</strong> AI Specialist, Astrophysics, Business Analyst, Coaching, Consulting, Data Science, Economics, Game Theory, Game Dev, Health Economics, Kendoka, Researcher, Software Dev/Engineer, Teaching
 </div>
 
 <div class="special-interests-2">
-  <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, AI Vibing 
+  <strong>Assigning XP to:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, AI Vibing 
 </div>
 
 <span class="nerd-fact">#AuDHD</span>
-<span class="nerd-fact">#PatternSeeker</span>
-<span class="nerd-fact">#DataWhisperer</span>
 <span class="nerd-fact">#CatBro</span>
-<span class="nerd-fact">#420</span>
+<span class="nerd-fact">#DataWhisperer</span>
 <span class="nerd-fact">#Gaymer</span>
+<span class="nerd-fact">#PatternSeeker</span>
+<span class="nerd-fact">#420</span>
 
 </details>
 
