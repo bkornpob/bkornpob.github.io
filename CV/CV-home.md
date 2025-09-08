@@ -237,19 +237,17 @@ but CV ...
 </details>
 
 <details>
-<summary>💰 Pay my bills near me ...</summary>
+<summary>💰 Pay bills near me 💰</summary>
 
-**Senior Data Shaman** (2021-Present)  
-*Tech Innovations Inc., Bangkok*  
-- Leading exploratory missions into healthcare data realms
-- Building predictive models that glimpse possible futures
-- Mentoring fellow knowledge seekers
-
-**Research Alchemist** (2019-2021)  
-*Data Research Center, Bangkok*  
-- Transformed raw data into knowledge gold
-- Deciphered patterns in human language using machine learning
-- Published findings in scholarly scrolls
+<div class="info-grid">
+  <div class="info-label">8/2024 - 8/2025</div>
+  <div class="degree-info">
+    <div class="degree-title">Data Scientist</div>
+    <div class="institution">Sertis</div>
+    <div class="dissertation">
+    **Architected the future: Turning business chaos into elegant order with AI and automated solutions** My leadership leveraged my neurospicy superpower 🌶️: deep-dive hyperfocus on client puzzles. I thrived on consulting directly with stakeholders to architect a vision, breaking down the monumental into a tactical sprint plan. Then, we worked on the magic 🪄🔮 -- let it be digging insights in your noisy data, unveiling anomaly in large and convoluted database, empowering business acumen and clarity through data products (e.g., executive summary and dashboard), deploying bot agents that automated entire workflows, or artificial eye and mind for your business surveillance and guidance (e.g., brand management, media analysis, consumer-behavioural analysis, forecasting, and association-farming).</div> 
+  </div>
+</div>
 
 </details>
 
