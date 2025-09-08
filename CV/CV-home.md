@@ -109,12 +109,15 @@ but CV ...
 </div>
 
 <div class="special-interests">
-  <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security Research, DevSecOps, Penetration Testing, AI Vibing 
+  <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, AI Vibing 
 </div>
 
 <span class="nerd-fact">#AuDHD</span>
 <span class="nerd-fact">#PatternSeeker</span>
 <span class="nerd-fact">#DataWhisperer</span>
+<span class="nerd-fact">#CatBro</span>
+<span class="nerd-fact">#420</span>
+<span class="nerd-fact">#Gaymer</span>
 
 </details>
 
