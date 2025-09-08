@@ -140,7 +140,7 @@ but CV ...
   <div class="info-label">8/16/2024</div>
   <div class="degree-info">
     <div class="degree-title">Deep Learning Specialization</div>
-    <div class="dissertation">Credential ID: <a href="https://www.coursera.org/account/accomplishments/specialization/GYIBDXJ9UMCP">GYIBDXJ9UMCP</a></div>
+    <div class="dissertation">Credential ID: <a href="https://www.coursera.org/account/accomplishments/specialization/GYIBDXJ9UMCP" target="_blank" rel="noopener noreferrer">GYIBDXJ9UMCP</a></div>
     <div class="institution">DeepLearning.AI</div>
   </div>
 </div>
