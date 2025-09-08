@@ -286,6 +286,33 @@ but CV ...
 </div>
 
 <div class="info-grid">
+  <div class="info-label">1/2011 - 1/2013</div>
+  <div class="degree-info">
+    <div class="degree-title">Coordinator Assistant</div>
+    <div class="institution">Economic Impacts of Demographic Change Project, Thailand Research Fund, Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">1/2010 - 1/2012</div>
+  <div class="degree-info">
+    <div class="degree-title">Market Research Consultant</div>
+    <div class="institution">Freelance, Bangkok, Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
+  <div class="info-label">2009 - 2012</div>
+  <div class="degree-info">
+    <div class="degree-title">Lecturer</div>
+    <div class="dissertation">Principles of Economics (Undergraduate Level, International/English Program):::Faculty of Hospitality and Tourism, Prince of Songkla University, Phuket, Thailand:::2010,2012</div>
+    <div class="dissertation">Health Economics (Undergraduate Level):::Faculty of Economics, Khonkaen University, Nongkhai, Thailand:::2009</div>
+  </div>
+</div>
+
+
+
+<div class="info-grid">
   <div class="info-label">more</div>
   <div class="degree-info">
     <div class="degree-title">will</div>
