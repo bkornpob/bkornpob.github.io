@@ -297,14 +297,6 @@ but CV ...
 </div>
 
 <div class="info-grid">
-  <div class="info-label">2007 - 2014</div>
-  <div class="degree-info">
-    <div class="degree-title">Consultant for Business Research and Development</div>
-    <div class="institution">Freelance, Bangkok, Thailand</div>
-  </div>
-</div>
-
-<div class="info-grid">
   <div class="info-label">1/2011 - 1/2013</div>
   <div class="degree-info">
     <div class="degree-title">Coordinator Assistant</div>
@@ -348,29 +340,19 @@ but CV ...
   <div class="degree-info">
     <div class="degree-title">Public Relations, Brand Ambassador, Actor, Model, DJ, Event Host and MC</div>
     <div class="institution">Freelance, Bangkok, Thailand</div>
-    <div class="special-interests">Check out my <a href="https://www.imdb.com/name/nm3594521/" target="_blank" rel="noopener noreferrer"><strong>IMDb:</strong></a></div>
+    <div class="special-interests">Check out my <a href="https://www.imdb.com/name/nm3594521/" target="_blank" rel="noopener noreferrer"><strong>IMDb.</strong></a></div>
   </div>
 </div>
 
 </details>
 
 <details>
-<summary>🛠️ Cognitive Toolkit</summary>
+<summary>📢 Research, Publications, and Talks 📢</summary>
 
-<div class="info-grid">
-  <div class="info-label">Language Fluency:</div>
-  <div>Python, R, SQL, JavaScript, Java</div>
-  
-  <div class="info-label">Data Sorcery:</div>
-  <div>Machine Learning, Statistical Divination, Predictive Analytics</div>
-  
-  <div class="info-label">Framework Mastery:</div>
-  <div>TensorFlow, PyTorch, Scikit-learn, Pandas, NumPy</div>
-  
-  <div class="info-label">Tool Proficiency:</div>
-  <div>Git, Docker, AWS, MySQL, MongoDB, Apache Spark</div>
-</div>
+<div class="info-label">Software released</div><div><a href="https://bkornpob.github.io/hstgrism/" target="_blank" rel="noopener noreferrer">hstgrism</a></div>
 
+  <div class="info-label">The Redshift of GRB 190829A/SN 2019oyw: A Case Study of GRB-SN Evolution</div><div>Bhirombhakdi et al. (2024) in The Astrophysical Journal, Volume 977, Issue 2, id.256, 16 pp.</div><div><a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...977..256B/abstract" target="_blank" rel="noopener noreferrer">🔗</a></div>
+  
 </details>
 
 <details>
