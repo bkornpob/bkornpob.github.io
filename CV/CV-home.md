@@ -349,10 +349,18 @@ but CV ...
 <details>
 <summary>📢 Research, Publications, and Talks 📢</summary>
 
-<div class="info-label">Software released</div><div><a href="https://bkornpob.github.io/hstgrism/" target="_blank" rel="noopener noreferrer">hstgrism</a></div>
+<div class="info-grid">
+  <div class="info-label">Software released</div>
+  <div><a href="https://bkornpob.github.io/hstgrism/" target="_blank" rel="noopener noreferrer">hstgrism</a></div>
 
-  <div class="info-label">The Redshift of GRB 190829A/SN 2019oyw: A Case Study of GRB-SN Evolution</div><div>Bhirombhakdi et al. (2024) in The Astrophysical Journal, Volume 977, Issue 2, id.256, 16 pp.</div><div><a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...977..256B/abstract" target="_blank" rel="noopener noreferrer">🔗</a></div>
-  
+  <div class="info-label">The Redshift of GRB 190829A/SN 2019oyw: A Case Study of GRB-SN Evolution</div>
+  <div>Bhirombhakdi et al. (2024) in The Astrophysical Journal, Volume 977, Issue 2, id.256, 16 pp.</div>
+  <div><a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...977..256B/abstract" target="_blank" rel="noopener noreferrer">🔗</a></div>
+
+  <div class="info-label">A Hubble Space Telescope Search for r-Process Nucleosynthesis in Gamma-ray Burst Supernovae</div>
+  <div>with Rastinejad et al. (2024) in The Astrophysical Journal, Volume 968, Issue 1, id.14, 17 pp.</div><div><a href="https://ui.adsabs.harvard.edu/abs/2024ApJ...968...14R/abstract" target="_blank" rel="noopener noreferrer">🔗</a></div>
+</div>
+
 </details>
 
 <details>
