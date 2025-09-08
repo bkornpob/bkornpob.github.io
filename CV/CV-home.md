@@ -137,6 +137,15 @@ but CV ...
 <summary>📚 Knowledge Acquisition Timeline</summary>
 
 <div class="info-grid">
+  <div class="info-label">6/26/2025</div>
+  <div class="degree-info">
+    <div class="degree-title">Basic Cybersecurity</div>
+    <div class="dissertation">Credential ID: <a href="https://media.mooc.ncsa.or.th/certificate/ZNEXJM1UDTRGX.pdf" target="_blank" rel="noopener noreferrer">SPG-ZNEXJM1UDTRGX</a></div>
+    <div class="institution">National Cyber Security Agency of Thailand</div>
+  </div>
+</div>
+
+<div class="info-grid">
   <div class="info-label">8/16/2024</div>
   <div class="degree-info">
     <div class="degree-title">Deep Learning Specialization</div>
