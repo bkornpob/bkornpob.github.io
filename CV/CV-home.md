@@ -45,7 +45,7 @@ but CV ...
     padding: 0.8rem;
     border-radius: 6px;
     margin: 1rem 0;
-    border-left: 4px solid #fd79a8;
+    border-left: 4px solid #79fde0;
   }
 
   .special-interests-2 {
