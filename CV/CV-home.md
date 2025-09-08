@@ -145,17 +145,23 @@ but CV ...
   </div>
 </div>
 
-**Doctorate in Data Alchemy** (2015-2019)  
-*University of Technology, Bangkok*  
-Thesis: "Neural Network Architectures for Language Decoding"
+<div class="info-grid">
+  <div class="info-label">8/2014 - 8/2015</div>
+  <div class="degree-info">
+    <div class="degree-title">Master of Science, Physics</div>
+    <div class="dissertation">GPA: 3.951</div>
+    <div class="institution">Ohio University, Athens, OH, USA</div>
+  </div>
+</div>
 
-**Mastery of Computational Arts** (2012-2014)  
-*Asian Institute of Technology*  
-Focus: Algorithmic thinking and data transformation
-
-**Foundations of Digital Wizardry** (2008-2012)  
-*Chulalongkorn University*  
-Core studies: Information systems and logical structures
+<div class="info-grid">
+  <div class="info-label">6/2013 - 6/2014</div>
+  <div class="degree-info">
+    <div class="degree-title">Pre-Degree, Physics</div>
+    <div class="dissertation">GPA: 4.0</div>
+    <div class="institution">Ramkhamhaeng University, Bangkok, Thailand</div>
+  </div>
+</div>
 
 </details>
 
