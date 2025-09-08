@@ -47,6 +47,14 @@ but CV ...
     margin: 1rem 0;
     border-left: 4px solid #fd79a8;
   }
+
+  .special-interests-2 {
+    background: #0d242e;
+    padding: 0.8rem;
+    border-radius: 6px;
+    margin: 1rem 0;
+    border-left: 4px solid #fd79a8;
+  }
   
   .nerd-fact {
     background: #594d26;
@@ -109,10 +117,10 @@ but CV ...
 </div>
 
 <div class="special-interests">
-  <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, AI Vibing 
+  <strong>XXX:</strong> Astrophysicist, blah blah 
 </div>
 
-<div class="special-interests">
+<div class="special-interests-2">
   <strong>Current Hyperfocus Areas:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, AI Vibing 
 </div>
 
