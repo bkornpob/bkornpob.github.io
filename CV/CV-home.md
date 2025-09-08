@@ -137,6 +137,15 @@ but CV ...
 <summary>📚 Knowledge Acquisition Timeline</summary>
 
 <div class="info-grid">
+  <div class="info-label">8/16/2024</div>
+  <div class="degree-info">
+    <div class="degree-title">Deep Learning Specialization</div>
+    <div class="dissertation">Credential ID: <a href="https://www.coursera.org/account/accomplishments/specialization/GYIBDXJ9UMCP">GYIBDXJ9UMCP</a></div>
+    <div class="institution">DeepLearning.AI</div>
+  </div>
+</div>
+
+<div class="info-grid">
   <div class="info-label">8/2014 - 5/2019</div>
   <div class="degree-info">
     <div class="degree-title">Doctor of Philosophy, Physics</div>
