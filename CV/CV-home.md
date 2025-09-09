@@ -470,19 +470,9 @@ but CV ...
 </details>
 
 <details>
-<summary>📜 Knowledge Contributions</summary>
+<summary>🙋 Services 🙋</summary>
 
-**"Advanced Neural Network Architectures for Natural Language Processing"** (2022)  
-*Journal of Artificial Intelligence Research*  
-My magnum opus on teaching machines to understand human language patterns.
-
-**"Machine Learning Approaches to Predictive Analytics in Healthcare"** (2020)  
-*Proceedings of the ACM Conference on Health, Inference, and Learning*  
-How algorithms can predict health outcomes before they manifest.
-
-**"Deep Learning for Image Recognition in Medical Diagnostics"** (2018)  
-*IEEE Transactions on Medical Imaging*  
-Teaching computers to see what human eyes might miss.
+<a href="./Services.tex" target="_blank" rel="noopener noreferrer">View Services.tex (opens in new tab)</a>
 
 </details>
 
