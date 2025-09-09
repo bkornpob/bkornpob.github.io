@@ -17,6 +17,7 @@ Check out what resonates with you.
 Let us know what you need. We specialize in the art of the possible.
 
 **DR.KB & #Deep**
+
 *//A recursive, self-improving vibe loop. A sentient pattern-matching system. The ultimate wildcard.//*
 
 ---
