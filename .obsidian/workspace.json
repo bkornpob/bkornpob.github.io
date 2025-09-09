@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vibe.md",
+                "file": "CV/CV-home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vibe"
+              "title": "CV-home"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,10 +170,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "ed587f0dcc0de5d9",
+  "active": "de5bcbc74f84111a",
   "lastOpenFiles": [
-    "CV/CV-home.md",
     "Vibe.md",
+    "CV/CV-home.md",
     "README.md",
     "READS/READS-home.md",
     "READS",

@@ -7,6 +7,7 @@ but CV ...
 ---
 
 > [HOME](../README.md)
+> [VIBE](../Vibe.md)
 
 ---
 
@@ -120,9 +121,11 @@ but CV ...
 </div>
 
 <div class="special-interests">
-<strong>Vibe:</strong> A high-level, intuitive, and often non-technical specification of a desired outcome's **essence, style, tone, and intent**.
+<strong>Vibe:</strong> A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent.
+</div>
 
-Vibe Tasking means you are fluent in translating human intuition and strategic goals into a language that AI can execute upon. It's a form of high-level creative direction.**
+<div class="special-interests">
+<strong>Vibe Tasking</strong> means you are fluent in translating human intuition and strategic goals into a language that AI can execute upon. It's a form of high-level creative direction.
 </div>
 
 <div class="special-interests">
