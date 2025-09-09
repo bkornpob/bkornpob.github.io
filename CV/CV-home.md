@@ -7,7 +7,6 @@ but CV ...
 ---
 
 > [HOME](../README.md)
-> [VIBE](../Vibe.md)
 
 ---
 
@@ -108,7 +107,7 @@ but CV ...
   <div>Dr. Kornpob Bhirombhakdi</div>
 
   <div class="info-label">Job Class:</div>
-  <div>Wildcard Specialist 🃏 on Demand, Nerd Bro 🦄💻🤓, **Chief Vibe Officer (CVO)** 😎👑 </div>
+  <div>Wildcard Specialist 🃏 on Demand, Chief Vibe Officer 😎👑, Nerd Bro 🦄🎮🤓</div>
 
   <div class="info-label">Cloud Pin:</div>
   <div>bkornpob:::gmail:::com</div>
@@ -121,7 +120,7 @@ but CV ...
 </div>
 
 <div class="special-interests">
-<strong>Vibe:</strong> A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent.
+<a href="../articles/Vibe.md" target="_blank" rel="noopener noreferrer"><strong>Vibe:</strong></a> A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent.
 </div>
 
 <div class="special-interests">

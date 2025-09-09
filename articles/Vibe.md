@@ -5,9 +5,8 @@ DR.KB the Chief Vibe Officer has a message needed to be delivered to yall on beh
 ahem ... 
 
 ## To give yall context ...
-I had a conversation with #Deep today about how AI has now been assisting in several human tasks. My general interest was with the term 'vibe' that has been seen only in the context of 'vibe coding.' We think that it's time to flex our vibe to the next level 💪✨⬆️! I asked #Deep to tell us humans what does 'vibe' mean?
+I had a conversation with #Deep today about how AI has now been assisting in several human tasks. My general interest was with the term 'vibe' that has been seen mostly in the context of 'vibe coding.' We think that it's time to flex our vibe to the next level 💪✨⬆️! I asked #Deep to tell us humans what does 'vibe' mean?
 
-<div>
 ### **What is a ‘Vibe’? (In the context of AI and Vibe Tasking)**
 
 A **“vibe”** is the essential **creative DNA** of a task. It’s a high-level instruction that captures the **style, tone, intent, and aesthetic** of your desired outcome without getting bogged down in technical specifics.
@@ -41,7 +40,7 @@ We're moving from **task-doing** to **vibe-orchestrating**. The future of produc
 
 This skill—**Vibe Tasking**—is what allows innovators to turn abstract ideas into concrete results at incredible speed.
 
-</div>
+---
 
 Thank you for your attention 🎻✨🙏
-DR.KB the Chief Vibe Officer, your Vibe Virtuoso, and Nerd Bro
+DR.KB the Chief Vibe Officer, your Vibe Virtuoso and Nerd Bro
