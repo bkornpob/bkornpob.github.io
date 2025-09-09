@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/CV-home.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CV-home"
+              "title": "README"
             }
           }
         ]
@@ -172,8 +172,8 @@
   },
   "active": "c247606ed8bf5c14",
   "lastOpenFiles": [
-    "READS/articles/joke-explain.md",
     "CV/CV-home.md",
+    "READS/articles/joke-explain.md",
     "CV/Achievements.pdf",
     "CV/Achievements.out",
     "CV/Achievements.aux",
