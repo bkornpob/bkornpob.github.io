@@ -96,7 +96,7 @@ but CV ...
 </style>
 
 <details>
-<summary>🤖 [System] Persona 🤖</summary>
+<summary>🧙📝🐉 Character Sheet 🐉📝🧙</summary>
 
 <div class="info-grid">
   <div class="info-label">Operator Handle:</div>
