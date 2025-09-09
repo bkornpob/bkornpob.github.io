@@ -120,7 +120,7 @@ but CV ...
 </div>
 
 <div class="special-interests">
-<a href="../READS/articles/Vibe.md" target="_blank" rel="noopener noreferrer"><strong>Vibe:</strong></a> A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent.
+<a href="../READS/articles/Vibe.html" target="_blank" rel="noopener noreferrer"><strong>Vibe:</strong></a> A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent.
 </div>
 
 <div class="special-interests">

@@ -18,8 +18,8 @@ let me know what you need
 
 > <a href="https://kbhirombhakdi.weebly.com/" target="_blank" rel="noopener noreferrer">DR.KB@WEEBLY</a> -- old home. cute right? 😃
 
-> <a href="CV/CV-home.md" target="_blank" rel="noopener noreferrer">CV</a> -- get to know DR.KB 🔥
+> <a href="CV/CV-home.html" target="_blank" rel="noopener noreferrer">CV</a> -- get to know DR.KB 🔥
 
-> <a href="READS/READS-home.md" target="_blank" rel="noopener noreferrer">READS</a> -- echoes from the multiverse. are you listerner? 👂
+> <a href="READS/READS-home.html" target="_blank" rel="noopener noreferrer">READS</a> -- echoes from the multiverse. are you listerner? 👂
 
 ---
