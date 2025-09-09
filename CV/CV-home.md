@@ -472,7 +472,12 @@ but CV ...
 <details>
 <summary>🙋 Services 🙋</summary>
 
-<a href="./Services.tex" target="_blank" rel="noopener noreferrer">View Services.tex (opens in new tab)</a>
+<div class="info-grid">
+  <div class="info-label">Open PDF:</div>
+  <div>
+    <a href="./Services.pdf" target="_blank" rel="noopener noreferrer">🔗</a>
+  </div>
+</div>
 
 </details>
 

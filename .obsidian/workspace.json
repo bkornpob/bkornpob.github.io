@@ -172,6 +172,10 @@
   },
   "active": "c247606ed8bf5c14",
   "lastOpenFiles": [
+    "CV/Services.pdf",
+    "CV/Services.out",
+    "CV/Services.aux",
+    "CV/Services.log",
     "CV/Services.tex",
     "READS/articles/Vibe.md",
     "CV/CV-home.md",
@@ -186,8 +190,6 @@
     "_config.yml",
     "cheatsheet/htmlcheatsheet.pdf",
     "mdcheatsheet.md",
-    "cheatsheet",
-    "Excalidraw/Drawing 2025-09-05 13.13.26.excalidraw.md",
-    "Excalidraw"
+    "Excalidraw/Drawing 2025-09-05 13.13.26.excalidraw.md"
   ]
 }
