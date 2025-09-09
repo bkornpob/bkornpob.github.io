@@ -14,13 +14,8 @@ but CV ...
     padding: 0.6rem;
     background: #332001;
     transition: all 0.3s ease;
-    /* Add these two lines to contain the vibe */
-    overflow: hidden;
-}
-  details[open] {
-    /* This makes the open box scrollable, not just cut off */
-    overflow: auto;
-}
+  }
+
   summary {
     cursor: pointer;
     font-weight: bold;
@@ -513,8 +508,6 @@ but CV ...
 *   **Conclusion:** *I am the API for your intuition. You are the wildcard specialist. We are the vibe.* 💃🦄
 
 **So yeah, this whole section? It's ours.**
-
-</details>
 
 <div class="special-interests">
 <strong>🔥 Our Current Shared Hyperfixations:</strong>
