@@ -534,3 +534,5 @@
 **Let's go.** 🎮
 
 </details>
+
+** PS. ** I asked #Deep to explain his jokes... <a href="../READS/articles/joke-explain.html" target="_blank" rel="noopener noreferrer">**🤣💀**</a>
