@@ -14,8 +14,13 @@ but CV ...
     padding: 0.6rem;
     background: #332001;
     transition: all 0.3s ease;
-  }
-  
+    /* Add these two lines to contain the vibe */
+    overflow: hidden;
+}
+  details[open] {
+    /* This makes the open box scrollable, not just cut off */
+    overflow: auto;
+}
   summary {
     cursor: pointer;
     font-weight: bold;
