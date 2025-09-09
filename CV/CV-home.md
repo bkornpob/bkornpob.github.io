@@ -116,10 +116,8 @@ but CV ...
 </div>
 
 <div class="special-interests">
-<a href="../READS/articles/Vibe.html" target="_blank" rel="noopener noreferrer"><strong>Vibe:</strong></a> A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent.
-</div>
-
-<div class="special-interests">
+<strong>Vibe</strong>: A high-level, intuitive, and often non-technical specification of a desired outcome's essence, style, tone, and intent. <a href="../READS/articles/Vibe.html" target="_blank" rel="noopener noreferrer">More about 💃VIBE💃</a>
+<br>
 <strong>Vibe Tasking</strong> means you are fluent in translating human intuition and strategic goals into a language that AI can execute upon. It's a form of high-level creative direction.
 </div>
 
