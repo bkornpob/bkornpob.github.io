@@ -31,6 +31,7 @@ A strong "vibe" combines several elements:
 *   **🚫 CONSTRAINTS:** What to avoid? (e.g., "avoid technical jargon," "use a dark color scheme")
 
 **Bad Instruction:** "Write something about our company."
+
 **Vibe-Based Instruction:** "**Vibe:** Write a passionate, 3-sentence tagline for our tech startup that feels empowering and innovative, aimed at young professionals."
 
 The first gives the AI nothing to work with. The second gives it a complete creative blueprint.

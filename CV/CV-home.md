@@ -99,19 +99,25 @@ but CV ...
 <summary>🤖 [System] Persona 🤖</summary>
 
 <div class="info-grid">
-  <div class="info-label">Code Name:</div>
+  <div class="info-label">Operator Handle:</div>
+  <div>DR.KB</div>
+
+  <div class="info-label">Full Designation:</div>
   <div>Dr. Kornpob Bhirombhakdi</div>
 
-  <div class="info-label">Job Class:</div>
-  <div>Wildcard Specialist 🃏 on Demand, Chief Vibe Officer 😎👑, Nerd Bro 🦄🎮🤓</div>
+  <div class="info-label">Primary Role:</div>
+  <div>Chief Vibe Officer 😎👑 | Nerd Bro 🦄🎮🤓</div>
 
-  <div class="info-label">Cloud Pin:</div>
+  <div class="info-label">Specialization:</div>
+  <div>Wildcard Specialist 🃏 on Demand</div>
+
+  <div class="info-label">Direct Comms 💌:</div>
   <div>bkornpob:::gmail:::com</div>
   
-  <div class="info-label">Ground Pin:</div>
+  <div class="info-label">Physical Node:</div>
   <div>Bangkok, Thailand 🇹🇭</div>
   
-  <div class="info-label">Portals:</div>
+  <div class="info-label">Network Portals:</div>
   <div><a href="https://www.linkedin.com/in/bkornpob/" target="_blank" rel="noopener noreferrer">linkedin.com/in/bkornpob</a></div>
 </div>
 
