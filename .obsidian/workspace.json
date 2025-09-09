@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CV/CV-home.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CV-home"
+              "title": "README"
             }
           }
         ]
@@ -172,11 +172,11 @@
   },
   "active": "de5bcbc74f84111a",
   "lastOpenFiles": [
-    "articles/Vibe.md",
-    "articles",
     "CV/CV-home.md",
-    "README.md",
     "READS/READS-home.md",
+    "READS/articles/Vibe.md",
+    "READS/articles",
+    "README.md",
     "READS",
     "CV",
     "images",
