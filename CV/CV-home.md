@@ -239,13 +239,12 @@ but CV ...
 <details>
 <summary>💰 Pay bills near me 💰</summary>
 
-
 <div class="info-grid"> 
   <div class="info-label">9/2025 - Now</div> 
   <div class="degree-info"> 
-    <div class="degree-title">Outsource Specialist</div> 
+    <div class="degree-title">Solutions Consultant | Specialist on Demand</div> 
     <div class="institution">DR.KB</div>
-    <div class="dissertation">**Deliver high-impact solutions 💥 as an on-demand expert by channeling a unique superpower: the ability to see the "cosmic" big picture 🌌 while executing with tactical precision 🎯.** I parachute into complex challenges to drive measurable growth 📈, leveraging leadership forged in immense operations like Hubble and James Webb Space Telescopes. My role is to integrate 🤝 seamlessly into any team, fill critical gaps, and rapidly master new domains. I deploy my multi-faceted skillset — be it as an AI specialist 🧠, Scrum Master 🏃, or data analyst 📊 — to turn chaos into elegant, efficient solutions and ensure project success.</div> 
+    <div class="dissertation">**Deliver high-impact solutions 💥 as an on-demand expert by channeling a unique superpower: the ability to see the "cosmic" big picture 🌌 while executing with tactical precision 🎯.** My role is to integrate 🤝 seamlessly into your team as a business partner. I fill critical gaps, and catalyze success, providing the right expertise at the right time ⏰. I leveraged leadership forged in immense operations like Hubble and James Webb Space Telescopes 🔭.  I deploy my multi-faceted skillset, turn chaos into elegant, efficient solutions and ensure project success. AI specialist 🧠, Scrum Master 🏃, data analyst 📊, coach 📚, or event host 🎤 are examples of what I can offer. Get in touch to know more 💌.</div> 
   </div> 
 </div>
 
