@@ -112,7 +112,7 @@ but CV ...
   <div>Bangkok, Thailand 🇹🇭</div>
   
   <div class="info-label">Portals:</div>
-  <div><a href="https://www.linkedin.com/in/bkornpob/">linkedin.com/in/bkornpob</a></div>
+  <div><a href="https://www.linkedin.com/in/bkornpob/" target="_blank" rel="noopener noreferrer">linkedin.com/in/bkornpob</a></div>
 </div>
 
 <div class="special-interests">
@@ -124,11 +124,11 @@ but CV ...
 </div>
 
 <div class="special-interests">
-  <strong>Perks Unlocked:</strong> AI & Machine Learning Architecture, Data Science & Advanced Analytics, Vibe Tasking, Strategic Business Analysis, Full-Stack Research & Development, Agile/Scrum Mastery & Sprint Leadership, Technical Team Coaching & Mentorship, Complex Systems Architecture, Scientific Computing & Software Development, Academic Research & Peer Review, Cross-Domain Problem Solving, Technical Communication & Executive Briefing, Event Host & Acting 🎤!
+  <strong>Perks Unlocked:</strong> AI & Machine Learning Architecture , Data Science & Advanced Analytics, Vibe Tasking 🤖💃🎉, Strategic Business Analysis, Full-Stack Research & Development, Agile/Scrum Mastery & Sprint Leadership, Technical Team Coaching & Mentorship, Complex Systems Architecture, Scientific Computing & Software Development, Academic Research & Peer Review, Cross-Domain Problem Solving, Technical Communication & Executive Briefing, Event Host & Acting 🎤!
 </div>
 
 <div class="special-interests-2">
-  <strong>Assigning XP to:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, AI Vibing 
+  <strong>Assigning XP to:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, Vibe Advocate 
 </div>
 
 <span class="nerd-fact">#AuDHD</span>
