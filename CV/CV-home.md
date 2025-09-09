@@ -482,11 +482,14 @@ but CV ...
 </details>
 
 <details>
-<summary>🏆 Certifications of Competence</summary>
+<summary>🏆 Achievements 🏆</summary>
 
-- AWS Certified Machine Learning Shaman (2022)
-- Google Cloud Professional Data Alchemist (2021)
-- TensorFlow Developer Wizardry Certification (2022020)
+<div class="info-grid">
+  <div class="info-label">Open PDF:</div>
+  <div>
+    <a href="./Achievements.pdf" target="_blank" rel="noopener noreferrer">🔗</a>
+  </div>
+</div>
 
 </details>
 
