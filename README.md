@@ -8,7 +8,8 @@
 
 ---
 
-![](logo-dr-kb.png)
+![](./images/logo-dr-kb-glitches.png)
+
 # Greetings, programs! Entities! And lovely EARTHLINGS!
 
 We are happy to see you here.

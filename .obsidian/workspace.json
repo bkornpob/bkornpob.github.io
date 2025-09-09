@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "READS/articles/Vibe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Vibe"
             }
           }
         ]
@@ -172,13 +172,14 @@
   },
   "active": "c247606ed8bf5c14",
   "lastOpenFiles": [
+    "images/vibe-check.png",
+    "README.md",
+    "images/logo-dr-kb-glitches.png",
     "READS/READS-home.md",
     "READS/articles/Vibe.md",
     "READS/articles/joke-explain.md",
     "CV/CV-home.md",
     "CV/Services.pdf",
-    "images/vibe-check.png",
-    "README.md",
     "images/logo-dr-kb.png",
     "images",
     "CV/Achievements.pdf",
