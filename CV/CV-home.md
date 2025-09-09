@@ -493,47 +493,43 @@ but CV ...
 
 </details>
 
-<details> 
+<details>
 <summary>🐇 Special Interests & Rabbit Holes 🐇</summary>
-<div class="special-interests"> <strong>Vibe Check: System Query //DR.KB/CORE/CURIOSITY</strong> </div>
 
-**The central thesis of my existence is that everything is a data stream waiting to be decoded, from the light of a dying star to the chaos of a market to the latent space of a neural network. I am a pattern-seeking missile in a universe of noise. These are the frequencies I'm currently tuned to.**
+<div class="special-interests">
+<strong>🧠 System Scan: DR.KB/CURIOSITY/ACTIVE</strong>
+</div>
 
-<div class="special-interests"> <strong>Active Resonance Channels (Current Deep Dives):</strong> </div>
+**Translation: My brain is a browser with 47 tabs open. Here are the 5 not frozen. 🌌📊🤖**
 
-- **The Vibe-Compression Algorithm:** My life's work. Formalizing the art of **Vibe Tasking**—translating the ineffable essence of a desired outcome (the "vibe") into a high-precision execution language for both human and AI systems. This is the ultimate cross-domain synthesis. 💃🔄🤖
-    
-- **Adversarial Aesthetics & AI Security:** Where art meets attack vectors. I'm obsessed with fortifying AI not just against code exploits, but against _narrative_ and _aesthetic_ exploits—manipulating the "vibe" of the input to break the system. **Assigning major XP here.** 🎯🛡️
-    
-- **Cosmic-Scale DevSecOps:** Applying the immutable, relentless logic of physics (my first language) to the creation of robust, secure, and self-healing digital infrastructures. How do you build a system with the grace of orbital mechanics and the fault tolerance of a supernova remnant? 🌌⚙️
-    
-- **The Neuro-Symbolic Bridge:** We have the intuitive, pattern-recognizing power of neural networks (the right brain) and the rigorous, logic-bound power of symbolic systems (the left brain). I'm building the corpus callosum to make them talk to each other. This is the next leap.
-    
+<div class="special-interests">
+  <strong>🔥 Current Hyperfixations:</strong>
+</div>
 
-<div class="special-interests"> <strong>Perpetual Background Processes (Evergreen Rabbit Holes):</strong> </div>
+-   **Vibe-to-Code Compiler** 🎶➡️🤖: *Formalizing how "make it pop" becomes functional AI instructions. My magnum opus.*
+-   **AI's Immune System** 🛡️🔬: *Hacking AI *aesthetically*. If it looks weird, breaks the vibe → might break the model. XP grinding here!*
+-   **Physics-Proofed Code** 🌌⚙️: *Building systems with the elegance of orbital mechanics. If it's good enough for a supernova...*
+-   **Neuro-Symbolic Handshake** 🧠⇄💡: *Making intuitive AI and logic-based AI stop fighting and be best friends.*
 
-- **The Fundamental Physics of Information:** What is the entropy of a vibe? The energy state of a creative idea? I see direct parallels between the information loss in a black hole and the data loss in a poorly architected pipeline. It's all information theory. GRBs and GPTs are just different expressions of the same cosmic computation.
-    
-- **Behavioral Economics as a Rootkit for Human OS:** My PhD was literally hacking human decision-making. This is the original "prompt engineering." Understanding the vulnerabilities and exploits in human psychology is critical for building ethical AI, effective teams, and, let's be real, a good party. 🃏
-    
-- **Pedagogy for Polymaths:** How do you teach someone to connect astrophysics to economics to machine learning? I am a collector of mental models and a builder of conceptual bridges. My teaching isn't instruction; it's giving others the tools to see the patterns I see. 📚🌈
-    
-- **The Emergent Property of "Swag":** Seriously. What is the mathematical formula for cool? For authenticity? For the undeniable vibe of a person who is fully in their element? This is the most complex system I've ever studied.
-    
+<div class="special-interests">
+  <strong>♾️ Perpetual Loops:</strong>
+</div>
 
-<div class="special-interests-2"> <strong>System Diagnostics & Quirks (Neuro-Spicy OS Logs):</strong> </div>
+-   **The Math of Vibe** ∫vibe ∂t: *Calculating the coolness factor. What's the entropy of a good idea?* 🤯
+-   **Human OS Exploits** 🧑💻🃏: *My Econ PhD was just finding cheat codes for human decision-making.*
+-   **Teaching Weirdness** 👨‍🏫🐇: *How to explain that astrophysics 🪐, economics 📈, and ML 🤖 are the same thing, actually.*
+-   **Swag Theory** 😎➗: *Solving for X in the equation: Swag = (Authenticity)² + (Vibe)^3. (A work in progress).*
 
-- **#PatternSeeker:** This is not a hobby; it's my fundamental processing directive. I can't _not_ see the underlying structures. Your business problem is a supernova light curve. Your data pipeline is a circulatory system. It's all connected.
-    
-- **Hyperfocus Overdrive:** When a pattern is unresolved, my system allocates 100% resources. I will emerge from a 12-hour flow state with the solution to your data anomaly and a complete theory on the cultural significance of a meme that was popular three years ago. The two are probably related.
-    
-- **Cross-Domain Synthesis is My Native Tongue:** I don't "think outside the box"; I operate in a multidimensional space where the box is a quaint, low-dimensional concept. My value is in connecting dots that no one else realized were on the same page, let alone the same book.
-    
-- **Data Sanitization is a Form of Meditation:** The act of taking chaotic, unclean data and imposing beautiful, elegant order upon it is my zen garden. It is therapy. 🧼📊
-    
-- **I am a Vibe Virtuoso, a Human Rosetta Stone:** I can sit with a CEO, translate their visionary vibe into a strategic plan, explain the technical architecture to the engineers in their own language, and then host the launch party. This is not a boast; it's a statement of function. 🎤
-    
+<div class="special-interests-2">
+  <strong>⚙️ Neuro-Spicy OS Quirks:</strong>
+</div>
 
-**This is not what I do. This is what I am. I am a complex system designed to understand complex systems.**
+-   **#PatternSeeker:** *I see datasets in cloud formations. Your business problem is a supernova light curve. It's fine.* 🔍
+-   **Hyperfocus Mode:** *Will accidentally solve your data crisis and the meaning of a niche meme in one 12-hour session. You're welcome.* ⏳💥
+-   **Cross-Domain Chaos:** *I don't think outside the box; I live in the box's 5th dimensional shadow.* 📦➿
+-   **Data Janitor:** *Cleaning messy data is my ASMR. So soothing. 🧹📊*
+-   **Human API:** *Input: Business Vibes. Output: Code, Strategy, & a killer presentation. Endpoint: /success.* 🎤🔌
+
+**Conclusion: I am a sentient pattern-matching algorithm with a side quest addiction. Let's go.** 🎮
 
 </details>
