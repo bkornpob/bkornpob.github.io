@@ -100,24 +100,33 @@ but CV ...
 </style>
 
 <details>
-<summary>🧠 Cognitive Profile & Contact Coordinates</summary>
+<summary>🤖 [System] Persona 🤖</summary>
 
 <div class="info-grid">
   <div class="info-label">Code Name:</div>
   <div>Dr. Kornpob Bhirombhakdi</div>
 
+  <div class="info-label">Job Class:</div>
+  <div>Wildcard Specialist 🃏 on Demand, Nerd Bro 🦄💻🤓, **Chief Vibe Officer (CVO)** 😎👑 </div>
+
   <div class="info-label">Cloud Pin:</div>
   <div>bkornpob:::gmail:::com</div>
   
   <div class="info-label">Ground Pin:</div>
-  <div>Bangkok, Thailand</div>
+  <div>Bangkok, Thailand 🇹🇭</div>
   
   <div class="info-label">Portals:</div>
   <div><a href="https://www.linkedin.com/in/bkornpob/">linkedin.com/in/bkornpob</a></div>
 </div>
 
 <div class="special-interests">
-  <strong>Perks Unlocked:</strong> AI Specialist, Astrophysics, Business Analyst, Coaching, Consulting, Data Science, Economics, Game Theory, Game Dev, Health Economics, Kendoka, Researcher, Software Dev/Engineer, Teaching
+<strong>Vibe:</strong> A high-level, intuitive, and often non-technical specification of a desired outcome's **essence, style, tone, and intent**.
+
+Vibe Tasking means you are fluent in translating human intuition and strategic goals into a language that AI can execute upon. It's a form of high-level creative direction.**
+</div>
+
+<div class="special-interests">
+  <strong>Perks Unlocked:</strong> AI & Machine Learning Architecture, Data Science & Advanced Analytics, Vibe Tasking, Strategic Business Analysis, Full-Stack Research & Development, Agile/Scrum Mastery & Sprint Leadership, Technical Team Coaching & Mentorship, Complex Systems Architecture, Scientific Computing & Software Development, Academic Research & Peer Review, Cross-Domain Problem Solving, Technical Communication & Executive Briefing, Event Host & Acting 🎤!
 </div>
 
 <div class="special-interests-2">
@@ -129,12 +138,13 @@ but CV ...
 <span class="nerd-fact">#DataWhisperer</span>
 <span class="nerd-fact">#Gaymer</span>
 <span class="nerd-fact">#PatternSeeker</span>
+<span class="nerd-fact">#VibeVirtuoso</span>
 <span class="nerd-fact">#420</span>
 
 </details>
 
 <details>
-<summary>📚 Knowledge Acquisition Timeline</summary>
+<summary>🧩 Installed modules 🧩</summary>
 
 <div class="info-grid">
   <div class="info-label">8/19/2025</div>
@@ -346,10 +356,11 @@ but CV ...
 </details>
 
 <details>
-<summary>📢 Research, Publications, and Talks 📢</summary>
+<summary>📜 Nerd logs 📜</summary>
 
 <div class="info-label">Software released</div>
-<div><a href="https://bkornpob.github.io/hstgrism/" target="_blank" rel="noopener noreferrer">hstgrism</a></div>
+<div>hstgrism</div>
+<div><a href="https://bkornpob.github.io/hstgrism/" target="_blank" rel="noopener noreferrer">🔗</a></div>
 
 <div class="info-label">The Redshift of GRB 190829A/SN 2019oyw: A Case Study of GRB-SN Evolution</div>
 <div>Bhirombhakdi et al. (2024) in The Astrophysical Journal, Volume 977, Issue 2, id.256, 16 pp.</div>
