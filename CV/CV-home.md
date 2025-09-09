@@ -6,10 +6,6 @@ but CV ...
 
 ---
 
-> [HOME](../README.md)
-
----
-
 <style>
   details {
     margin-bottom: 1.2rem;
