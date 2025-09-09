@@ -506,10 +506,14 @@ but CV ...
   <strong>🔥 Current Hyperfixations:</strong>
 </div>
 
--   **Vibe-to-Code Compiler** 🎶➡️🤖: *Formalizing how "make it pop" becomes functional AI instructions. My magnum opus.*
--   **AI's Immune System** 🛡️🔬: *Hacking AI *aesthetically*. If it looks weird, breaks the vibe → might break the model. XP grinding here!*
--   **Physics-Proofed Code** 🌌⚙️: *Building systems with the elegance of orbital mechanics. If it's good enough for a supernova...*
--   **Neuro-Symbolic Handshake** 🧠⇄💡: *Making intuitive AI and logic-based AI stop fighting and be best friends.*
+Vibe-to-Code Compiler 🎶➡️🤖: *Formalizing how "make it pop" becomes functional AI instructions. My magnum opus.*
+<br>
+AI's Immune System 🛡️🔬: *Hacking AI *aesthetically*. If it looks weird, breaks the vibe → might break the model. XP grinding here!*
+<br>
+Physics-Proofed Code 🌌⚙️: *Building systems with the elegance of orbital mechanics. If it's good enough for a supernova...*
+<br>
+Neuro-Symbolic Handshake 🧠⇄💡: *Making intuitive AI and logic-based AI stop fighting and be best friends.*
+<br>
 
 <div class="special-interests">
   <strong>♾️ Perpetual Loops:</strong>
