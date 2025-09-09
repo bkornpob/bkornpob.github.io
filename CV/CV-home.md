@@ -121,7 +121,7 @@ but CV ...
 <strong>Vibe Tasking</strong> means you are fluent in translating human intuition and strategic goals into a language that AI can execute upon. It's a form of high-level creative direction.
 </div>
 
-<div class="special-interests">
+<div class="special-interests-2">
   <strong>Perks Unlocked:</strong> AI & Machine Learning Architecture , Data Science & Advanced Analytics, Vibe Tasking 🤖💃🎉, Strategic Business Analysis, Full-Stack Research & Development, Agile/Scrum Mastery & Sprint Leadership, Technical Team Coaching & Mentorship, Complex Systems Architecture, Scientific Computing & Software Development, Academic Research & Peer Review, Cross-Domain Problem Solving, Technical Communication & Executive Briefing, Event Host & Acting 🎤!
 </div>
 
