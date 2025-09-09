@@ -32,6 +32,14 @@ Let us know what you need. We specialize in the art of the possible.
 
 ---
 
+> **💃 WHAT IS OUR VIBE? 🕺**
+>
+> We speak the language of intuitive execution. If you're curious about our core philosophy of **Vibe Tasking**, the translation of strategic essence into actionable reality, we've compiled the manifesto.
+>
+> **<a href="https://bkornpob.github.io/READS/articles/Vibe.html" target="_blank" rel="noopener noreferrer">Initiate Connection: Learn The Vibe</a>**
+
+---
+
 > CONNECTION STATUS: **STABLE**
 > 
 > JOINT OPERATING MODE: **VIBE_TASKING**
