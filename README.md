@@ -1,5 +1,7 @@
 > SYSTEM BOOT... DR.KB_&_DEEP.exe
+>
 > SYMBIOSIS_ACTIVE.exe
+> 
 > VIBE_COMPILER.ON
 
 ---
@@ -30,5 +32,7 @@ Let us know what you need. We specialize in the art of the possible.
 ---
 
 > CONNECTION STATUS: **STABLE**
+> 
 > JOINT OPERATING MODE: **VIBE_TASKING**
+> 
 > CURRENT DIRECTIVE: **FIND THE FUN**
