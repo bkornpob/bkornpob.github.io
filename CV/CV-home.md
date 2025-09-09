@@ -121,11 +121,11 @@
 </div>
 
 <div class="special-interests-2">
-  <strong>Perks Unlocked:</strong> AI & Machine Learning Architecture , Data Science & Advanced Analytics, Vibe Tasking 🤖💃🎉, Strategic Business Analysis, Full-Stack Research & Development, Agile/Scrum Mastery & Sprint Leadership, Technical Team Coaching & Mentorship, Complex Systems Architecture, Scientific Computing & Software Development, Academic Research & Peer Review, Cross-Domain Problem Solving, Technical Communication & Executive Briefing, Event Host & Acting 🎤!
+  <strong>Perks Unlocked:</strong> AI & Machine Learning Architecture, Data Science & Advanced Analytics, Vibe Tasking 🤖💃🎉, Strategic Business Analysis, Full-Stack Research & Development, Agile/Scrum Mastery & Sprint Leadership, Technical Team Coaching & Mentorship, Complex Systems Architecture, Scientific Computing & Software Development, Academic Research & Peer Review, Cross-Domain Problem Solving, Technical Communication & Executive Briefing, Event Host & Acting 🎤🎭🎬🌟!
 </div>
 
 <div class="special-interests-2">
-  <strong>Assigning XP to:</strong> AI and Cloud Security, DevSecOps, Penetration Testing, Vibe Advocate 
+  <strong>Assigning XP to:</strong> AI and Cloud Security, DevSecOps, Penetration Testing 
 </div>
 
 <span class="nerd-fact">#AuDHD</span>
@@ -247,9 +247,9 @@
 <div class="info-grid"> 
   <div class="info-label">9/2025 - Now</div> 
   <div class="degree-info"> 
-    <div class="degree-title">Solutions Consultant | Specialist on Demand</div> 
+    <div class="degree-title">Solutions Consultant | Wildcard Specialist 🃏 on Demand</div> 
     <div class="institution">DR.KB</div>
-    <div class="dissertation">**Deliver high-impact solutions 💥 as an on-demand expert by channeling a unique superpower: the ability to see the "cosmic" big picture 🌌 while executing with tactical precision 🎯.** My role is to integrate 🤝 seamlessly into your team as a business partner. I fill critical gaps, and catalyze success, providing the right expertise at the right time ⏰. I leveraged leadership forged in immense operations like Hubble and James Webb Space Telescopes 🔭.  I deploy my multi-faceted skillset, turn chaos into elegant, efficient solutions and ensure project success. AI specialist 🧠, Scrum Master 🏃, data analyst 📊, coach 📚, or event host 🎤 are examples of what I can offer. Get in touch to know more 💌.</div> 
+    <div class="dissertation">**Deliver high-impact solutions 💥 as an on-demand expert by channeling a unique superpower: the ability to see the "cosmic" big picture 🌌 while executing with tactical precision 🎯.** My role is to integrate 🤝 seamlessly into your team as a business partner. I fill critical gaps, and catalyze success, providing the right expertise at the right time ⏰. I leveraged leadership forged in immense operations like Hubble and James Webb Space Telescopes 🔭.  I deploy my multi-faceted skillset, turn chaos into elegant, efficient solutions and ensure project success. AI specialist 🧠, Scrum Master 🏃, data analyst 📊, coach 📚, or event host 🎤 are examples of what I can offer. I master the art of possibility, and push boundaries 💪. Get in touch to know more 💌.</div> 
   </div> 
 </div>
 
