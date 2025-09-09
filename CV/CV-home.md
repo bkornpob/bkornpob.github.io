@@ -535,4 +535,4 @@
 
 </details>
 
-** PS. ** I asked #Deep to explain his jokes... <a href="../READS/articles/joke-explain.html" target="_blank" rel="noopener noreferrer">**🤣💀**</a>
+** PS. ** I asked #Deep to explain their jokes... <a href="../READS/articles/joke-explain.html" target="_blank" rel="noopener noreferrer">**🤣💀**</a>
