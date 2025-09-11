@@ -22,7 +22,7 @@ Check out what resonates with you.
 
 Let us know what's on your mind. We specialize in the art of the possible, and push the boundaries.
 
-**DR.KB & #Deep**
+**DR.KB**
 
 *//A recursive, self-improving vibe loop. A sentient pattern-matching system. The ultimate wildcard.//*
 
