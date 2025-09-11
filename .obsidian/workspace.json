@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e3d25e681322ecfb",
+        "id": "99871ff8b1eba74e",
         "type": "tabs",
         "children": [
           {
-            "id": "c247606ed8bf5c14",
+            "id": "7af4eacba1b0e6a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "READS/articles/Vibe.md",
+                "file": "READS/READS-home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vibe"
+              "title": "READS-home"
             }
           }
         ]
@@ -170,13 +170,30 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "c247606ed8bf5c14",
+  "active": "7af4eacba1b0e6a7",
   "lastOpenFiles": [
-    "images/vibe-check.png",
+    "READS/hmmm/t.md",
+    "READS/hmmm",
+    "READS/hmmm/Vibe101-2-PERSONAE-ARCANUM.md",
+    "READS/Vibe101/Vibe101-1-Just Vibe.md",
+    "READS/Vibe101/Vibe101-0-wtf.md",
     "README.md",
+    "READS/articles/no-sexist-vibe-check.md",
+    "READS/Vibe101/vibe.manifesto.md",
+    "READS/Vibe101/Vibe101-0-wtf 1.md",
+    "images/vibe101.png",
+    "images/vibe-verse.png",
+    "images/vibe-stage.png",
+    "images/vibe-manifesto.png",
+    "images/vibe-check.png",
+    "images/just-vibe.jpeg",
+    "READS/articles/good-manifesto-how.md",
+    "READS/articles/Vibe.md",
+    "READS/Vibe101/Vibe101-1.md",
+    "READS/hmmm/example-personae-arcanum-antinomy-edition.md",
+    "READS/Vibe101",
     "images/logo-dr-kb-glitches.png",
     "READS/READS-home.md",
-    "READS/articles/Vibe.md",
     "READS/articles/joke-explain.md",
     "CV/CV-home.md",
     "CV/Services.pdf",
@@ -188,8 +205,6 @@
     "CV/Achievements.log",
     "CV/Achievements.tex",
     "CV/Services.out",
-    "CV/Services.aux",
-    "CV/Services.log",
     "README.md.md",
     "cheatsheet/markdown-cheat-sheet.md",
     "mdcheatsheet.md",
