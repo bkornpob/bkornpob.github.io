@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "READS/Vibe101/vibe.manifesto.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vibe.manifesto"
+              "title": "README"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "7af4eacba1b0e6a7",
   "lastOpenFiles": [
+    "READS/Vibe101/vibe.manifesto.md",
     "READS/Vibe101/Vibe101-0-wtf.md",
     "READS/articles/Vibe.md",
     "README.md",
@@ -181,7 +182,6 @@
     "READS/hmmm/Vibe101-2-PERSONAE-ARCANUM.md",
     "READS/Vibe101/Vibe101-1-Just Vibe.md",
     "READS/articles/no-sexist-vibe-check.md",
-    "READS/Vibe101/vibe.manifesto.md",
     "READS/Vibe101/Vibe101-0-wtf 1.md",
     "images/vibe101.png",
     "images/vibe-verse.png",
