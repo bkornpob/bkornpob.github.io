@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "READS/READS-home.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "READS-home"
+              "title": "README"
             }
           }
         ]
@@ -172,6 +172,7 @@
   },
   "active": "3e0265d7c58592dc",
   "lastOpenFiles": [
+    "READS/READS-home.md",
     "READS/OG-breakfiles/001/ORM-django-password__startswith-guide.md",
     "READS/OG-breakfiles/001/ORM-django-password__startswith-summary.md",
     "READS/OG-breakfiles/ogb-home.md",
@@ -184,7 +185,6 @@
     "READS/Vibe101/vibe.manifesto.md",
     "READS/Vibe101/Vibe101-0-wtf.md",
     "READS/articles/Vibe.md",
-    "READS/READS-home.md",
     "READS/hmmm/t.md",
     "READS/hmmm",
     "READS/hmmm/Vibe101-2-PERSONAE-ARCANUM.md",
