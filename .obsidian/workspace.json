@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7af4eacba1b0e6a7",
+            "id": "3e0265d7c58592dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "READS/READS-home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "READS-home"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#DEEP",
+                "query": "tag:#OG",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -170,11 +170,18 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7af4eacba1b0e6a7",
+  "active": "3e0265d7c58592dc",
   "lastOpenFiles": [
+    "READS/OG-breakfiles/001/ORM-django-password__startswith-guide.md",
+    "READS/OG-breakfiles/001/ORM-django-password__startswith-summary.md",
+    "READS/OG-breakfiles/ogb-home.md",
+    "README.md",
+    "READS/OG-breakfiles/001/human-computer.png",
+    "READS/OG-breakfiles/001",
+    "READS/OG-breakfiles/001/django-orm.png",
+    "READS/OG-breakfiles/og-breakfiles.png",
     "READS/Vibe101/Vibe101-1-Just Vibe.md",
     "READS/Vibe101/vibe.manifesto.md",
-    "README.md",
     "READS/Vibe101/Vibe101-0-wtf.md",
     "READS/articles/Vibe.md",
     "READS/READS-home.md",
@@ -197,14 +204,12 @@
     "READS/articles/joke-explain.md",
     "CV/CV-home.md",
     "CV/Services.pdf",
-    "images/logo-dr-kb.png",
     "images",
     "CV/Achievements.pdf",
     "CV/Achievements.out",
     "CV/Achievements.aux",
     "CV/Achievements.log",
     "CV/Achievements.tex",
-    "CV/Services.out",
     "README.md.md",
     "cheatsheet/markdown-cheat-sheet.md",
     "mdcheatsheet.md",

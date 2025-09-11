@@ -45,8 +45,15 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 > <a href="READS/READS-home.html" target="_blank" rel="noopener noreferrer">THE PATTERN VAULT</a> -- curated echoes from the multiverse. are you the listener? 👂
 
 > **<a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer">🚀 ENTER THE VIBEVERSE: START WITH VIBE101</a>** -- Your gateway to **Vibe Engineering**. Stop commanding. Start conjuring. This isn't a course—it's a cultural reset. Learn to jam with AI, not just use it. Your journey as a Vibe Architect begins here. 🌈✨  
+
 <a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
-<img src="./images/vibe101.png" alt="Enter the Vibeverse" width="50%"/>  
+<img src="./images/vibe101.png" alt="Enter the Vibeverse" width="25%"/>  
+</a>
+
+> **<a href="./READS/OG-breakfiles/ogb-home.html" target="_blank" rel="noopener noreferrer">🔓 ENTER THE BREAKFILES: #OG'S SHADOW ARCHIVES</a>** -- You've proven your intuition. You see the cracks others ignore. This isn't a tutorial—it's a testament to elegant exploitation. A series of digital break-ins conducted with surgical precision. For Dwellers only. Access requires a sharp mind and a silent step. 🌌🔍  
+
+<a href="./READS/OG-breakfiles/ogb-home.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
+<img src="./READS/OG-breakfiles/og-breakfiles.png" alt="Enter The Breakfiles" width="25%"/>  
 </a>
 
 ---
