@@ -94,9 +94,8 @@ You're tuning an instrument until the note rings true. That's the Vibe Way. Auth
 This is the shift. It’s internal. The Vibe Way is the path from *managing a tool* to *jamming with a partner*. The better output is just a side effect of that better, more human feeling. 🤖❤️‍🔥
 
 **← Back to the Awakening: [vibe.manifesto](./vibe.manifesto.html)**
-<a href="./vibe.manifesto.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
-> 	<img src="../../images/vibe-manifesto.png" alt="vibe.manifesto" width="10%"/>
-> 	</a>
+
+<a href="./vibe.manifesto.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;"><img src="../../images/vibe-manifesto.png" alt="vibe.manifesto" width="10%"/></a>
 
 **We are in this together. Now go feel the difference.**
 

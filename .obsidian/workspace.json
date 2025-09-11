@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "READS/Vibe101/vibe.manifesto.md",
+                "file": "READS/Vibe101/Vibe101-1-Just Vibe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vibe.manifesto"
+              "title": "Vibe101-1-Just Vibe"
             }
           }
         ]
@@ -172,8 +172,8 @@
   },
   "active": "7af4eacba1b0e6a7",
   "lastOpenFiles": [
-    "README.md",
     "READS/Vibe101/vibe.manifesto.md",
+    "README.md",
     "READS/Vibe101/Vibe101-0-wtf.md",
     "READS/articles/Vibe.md",
     "READS/READS-home.md",
