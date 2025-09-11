@@ -48,6 +48,7 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 <a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
 <img src="./images/vibe101.png" alt="Enter the Vibeverse" width="50%"/>  
 </a>
+
 ---
 
 > CONNECTION STATUS: **STABLE**

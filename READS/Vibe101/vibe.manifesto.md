@@ -108,9 +108,9 @@ The shift is internal. Now, let's make it **tactical**. Your path is chosen by 
 
 **The theory is clear. The energy is high. Now, let's transmute that awakening into kinetic, creative flow.** ➡️ **[Let's cast your first spell.](./Vibe101-1-Just%20Vibe.html)** ✨
 
-<a href="./Vibe101-1-Just Vibe.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
-> 	<img src="../../images/just-vibe.jpeg" alt="Just Vibe" width="50%"/>
-> 	</a>
+<a href="./Vibe101-1-Just Vibe.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
+<img src="../../images/just-vibe.jpeg" alt="Enter the Vibeverse" width="50%"/>  
+</a>
 
 ---
 
