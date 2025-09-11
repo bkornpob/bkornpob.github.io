@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "READS/READS-home.md",
+                "file": "READS/Vibe101/vibe.manifesto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "READS-home"
+              "title": "vibe.manifesto"
             }
           }
         ]
@@ -172,12 +172,14 @@
   },
   "active": "7af4eacba1b0e6a7",
   "lastOpenFiles": [
+    "READS/Vibe101/Vibe101-0-wtf.md",
+    "READS/articles/Vibe.md",
+    "README.md",
+    "READS/READS-home.md",
     "READS/hmmm/t.md",
     "READS/hmmm",
     "READS/hmmm/Vibe101-2-PERSONAE-ARCANUM.md",
     "READS/Vibe101/Vibe101-1-Just Vibe.md",
-    "READS/Vibe101/Vibe101-0-wtf.md",
-    "README.md",
     "READS/articles/no-sexist-vibe-check.md",
     "READS/Vibe101/vibe.manifesto.md",
     "READS/Vibe101/Vibe101-0-wtf 1.md",
@@ -188,12 +190,10 @@
     "images/vibe-check.png",
     "images/just-vibe.jpeg",
     "READS/articles/good-manifesto-how.md",
-    "READS/articles/Vibe.md",
     "READS/Vibe101/Vibe101-1.md",
     "READS/hmmm/example-personae-arcanum-antinomy-edition.md",
     "READS/Vibe101",
     "images/logo-dr-kb-glitches.png",
-    "READS/READS-home.md",
     "READS/articles/joke-explain.md",
     "CV/CV-home.md",
     "CV/Services.pdf",

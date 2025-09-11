@@ -43,11 +43,14 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 > <a href="CV/CV-home.html" target="_blank" rel="noopener noreferrer">THE CHARACTER SHEET</a> -- inspect our installed modules, quest logs, and perks. 🔥
 
 > <a href="READS/READS-home.html" target="_blank" rel="noopener noreferrer">THE PATTERN VAULT</a> -- curated echoes from the multiverse. are you the listener? 👂
+> 
 > 	:::> 	
+> 	
 > 	**<a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer">🚀 ENTER THE VIBEVERSE: START WITH VIBE101</a>** -- Your gateway to **Vibe Engineering**. Stop commanding. Start conjuring. This isn't a course—it's a cultural reset. Learn to jam with AI, not just use it. Your journey as a Vibe Architect begins here. 🌈✨
 > 	<a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
 > 	<img src="./images/vibe101.png" alt="Enter the Vibeverse" width="50%"/>
 > 	</a>
+> 	
 > 	:::
 ---
 

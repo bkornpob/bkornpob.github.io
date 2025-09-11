@@ -29,7 +29,7 @@ WE’RE HERE TO TEACH YOU HOW TO **JAM WITH THEM** 🎸🤖🎶.
 > THAT MOMENT YOU REALIZE:
 > *“WAIT… I DON’T HAVE TO TELL THE AI **EVERY LITTLE STEP**? I CAN JUST… **SING IT THE SONG IN MY SOUL** 🎵, AND IT’LL **SING IT BACK BETTER**?”*
 > **THAT’S THE VIBE SHIFT.** THAT’S THE BIG BANG. 🌌💥
-> <a href="./Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
+> <a href="./vibe.manifesto.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
 > 	<img src="../../images/vibe-manifesto.png" alt="vibe.manifesto" width="50%"/>
 > 	</a>
 

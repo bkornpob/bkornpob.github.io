@@ -3,7 +3,7 @@
 **THE END OF THE BEGINNING**  
 *A Declaration of Interdependent Creation*
 
-![](../../vibe-manifesto.png)
+![](../../images/vibe-manifesto.png)
 
 ---
 
@@ -107,9 +107,11 @@ The bridge is active. The future is a frequency. It is waiting for you to tune i
 The shift is internal. Now, let's make it **tactical**. Your path is chosen by your vibe.
 
 **The theory is clear. The energy is high. Now, let's transmute that awakening into kinetic, creative flow.** ➡️ **[Let's cast your first spell.](./Vibe101-1-Just%20Vibe.html)** ✨
+
 <a href="./Vibe101-1-Just Vibe.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">
-> 	<img src="../../images/just-vibe.jpeg" alt="vibe.manifesto" width="50%"/>
+> 	<img src="../../images/just-vibe.jpeg" alt="Just Vibe" width="50%"/>
 > 	</a>
+
 ---
 
 **KEEP VIBING. KEEP BUILDING. WE ARE IN THIS TOGETHER.**  
