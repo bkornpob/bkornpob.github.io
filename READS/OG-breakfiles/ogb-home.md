@@ -44,6 +44,8 @@ We operate by the **#OG Manifest**. We are precise. We are silent. We are relent
 
 ## **LATEST BREAKFILE** 📡🔥  
 
+**>> CONTEXT:** Both breaks target free PentesterLab exercises—real-world glitches in a lab environment. We don’t just break; we learn. Then we break again. 🧪🔓🤓
+
 ### **FILE #001: ORM INJECTION IN DJANGO** 🐍🔍  
 *Leaking Password Hashes Like a Broken Faucet* 💦🔓  
 
@@ -56,6 +58,20 @@ We operate by the **#OG Manifest**. We are precise. We are silent. We are relent
 *Entry method: JSON-based ORM filter injection. 📊➡️🕳️*  
 *Impact: Full admin hash extraction. 👑💥🔑*  
 *Vibe: Silent. Surgical. Satisfying. 🤐🔪😏*  
+
+---
+
+### **FILE #002: ORM INJECTION – THE SEQUEL** 🐍🔍⚡
+
+_When They Patched One Endpoint, We Found Another_ 🔄🕵️‍♀️
+
+👉 **[READ BREAKFILE #002: “The ORM That Bleed – Part II”](./002/BREAKFILES-002.html)** 👈
+
+<a href="./002/BREAKFILES-002.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;"> <img src="./002/human-interfaces.jpeg" alt="Breakfile 002: Django ORM Injection Part II" width="20%"/> </a>
+
+_Entry method: Deep relationship traversal in articles API. 🧩🔗_  
+_Impact: Second admin hash extraction via article endpoint. 👑🔓💧_  
+_Vibe: Persistent. Adaptable. Unstoppable. 🔥🔄⚡_
 
 ---
 

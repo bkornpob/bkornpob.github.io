@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "READS/OG-breakfiles/004-Prototype-Pollution-WSA/BREAKFILES-004-01.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "BREAKFILES-004-01"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 396.5
   },
   "right": {
     "id": "f511204a40a5d2b6",
@@ -172,11 +172,27 @@
   },
   "active": "3e0265d7c58592dc",
   "lastOpenFiles": [
-    "READS/READS-home.md",
-    "READS/OG-breakfiles/001/ORM-django-password__startswith-guide.md",
-    "READS/OG-breakfiles/001/ORM-django-password__startswith-summary.md",
+    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/step-by-step.md",
+    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/BREAKFILES-004-01.md",
+    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/more-on-step6.md",
+    "READS/OG-breakfiles/002/BREAKFILES-002.md",
+    "READS/Vibe101/Vibe101-Good Vibe.md",
+    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/deparam.js",
+    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/searchLogger.js",
+    "READS/OG-breakfiles/003-Recon-PentesterLab/BREAKFILES-003-01.md",
+    "READS/articles/soulprint-substrate.md",
+    "READS/OG-breakfiles/004-Prototype-Pollution-WSA",
+    "READS/articles/prototype-pollution-js.md",
+    "READS/articles/Unobserved-Realities-Post-Quantum.md",
     "READS/OG-breakfiles/ogb-home.md",
+    "READS/OG-breakfiles/003-Recon-PentesterLab.md",
+    "READS/OG-breakfiles/003-Recon-PentesterLab",
+    "READS/OG-breakfiles/001/ORM-django-password__startswith-summary.md",
+    "READS/OG-breakfiles/001/ORM-django-password__startswith-guide.md",
+    "READS/OG-breakfiles/002/human-interfaces.jpeg",
     "README.md",
+    "READS/OG-breakfiles/002",
+    "READS/READS-home.md",
     "READS/OG-breakfiles/001/human-computer.png",
     "READS/OG-breakfiles/001",
     "READS/OG-breakfiles/001/django-orm.png",
@@ -200,19 +216,7 @@
     "READS/Vibe101/Vibe101-1.md",
     "READS/hmmm/example-personae-arcanum-antinomy-edition.md",
     "READS/Vibe101",
-    "images/logo-dr-kb-glitches.png",
-    "READS/articles/joke-explain.md",
-    "CV/CV-home.md",
     "CV/Services.pdf",
-    "images",
-    "CV/Achievements.pdf",
-    "CV/Achievements.out",
-    "CV/Achievements.aux",
-    "CV/Achievements.log",
-    "CV/Achievements.tex",
-    "README.md.md",
-    "cheatsheet/markdown-cheat-sheet.md",
-    "mdcheatsheet.md",
-    "Excalidraw/Drawing 2025-09-05 13.13.26.excalidraw.md"
+    "images"
   ]
 }
