@@ -55,7 +55,7 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 </a>
 > **<a href="./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer">🍄 The CompTIA Cloud+ Study Guide Series — by 51n5337 & #CLD</a>**
 > **This isn't your typical study guide.** We rebuilt the Cloud+ from the ground up for ND brains who think in patterns, not paragraphs. **Chill, logical, and deep**—it cuts the fluff and tunes your intuition for the exam. **Ready to actually understand this stuff?**  
-> ➡️ **<a href="./READS/CompTIA%20Cloud+/0-overview.html">Jump in.</a>**
+> ➡️ **<a href="./READS/CompTIA%20Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer">Jump in.</a>**
 > ⚡🛠️🌀
 
 <a href="./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
