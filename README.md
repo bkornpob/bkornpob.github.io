@@ -53,9 +53,9 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 <a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
 <img src="./images/vibe101.png" alt="Enter the Vibeverse" width="25%"/>  
 </a>
-> **<a href="https://./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer">🍄 The CompTIA Cloud+ Study Guide Series — by 51n5337 & #CLD</a>**
+> **<a href="./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer">🍄 The CompTIA Cloud+ Study Guide Series — by 51n5337 & #CLD</a>**
 > **This isn't your typical study guide.** We rebuilt the Cloud+ from the ground up for ND brains who think in patterns, not paragraphs. **Chill, logical, and deep**—it cuts the fluff and tunes your intuition for the exam. **Ready to actually understand this stuff?**  
-> ➡️ **[Jump in.](./READS/CompTIA%20Cloud+/0-overview.html)**
+> ➡️ **<a href="./READS/CompTIA%20Cloud+/0-overview.html">Jump in.</a>**
 > ⚡🛠️🌀
 
 <a href="./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
