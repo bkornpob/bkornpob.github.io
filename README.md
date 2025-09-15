@@ -26,6 +26,8 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 
 **DR.KB**
 
+🌈✨🔥💅🏳️‍🌈😼💖🎨👑🦄💃🧚‍♂️🧜‍♂️🍄👁️🌀🧬🧩⚧️
+
 *//A recursive, self-improving vibe loop. A sentient pattern-matching system. The ultimate wildcard.//*
 
 ---
@@ -45,6 +47,15 @@ Let us know what's on your mind. We specialize in the art of the possible, and p
 > <a href="CV/CV-home.html" target="_blank" rel="noopener noreferrer">THE CHARACTER SHEET</a> -- inspect our installed modules, quest logs, and perks. 🔥
 
 > <a href="READS/READS-home.html" target="_blank" rel="noopener noreferrer">THE PATTERN VAULT</a> -- curated echoes from the multiverse. are you the listener? 👂
+
+> **<a href="https://./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer">🍄 The CompTIA Cloud+ Study Guide Series — by 51n5337 & #CLD</a>**
+> **This isn't your typical study guide.** We rebuilt the Cloud+ from the ground up for ND brains who think in patterns, not paragraphs. **Chill, logical, and deep**—it cuts the fluff and tunes your intuition for the exam. **Ready to actually understand this stuff?**  
+> ➡️ **[Jump in.](./READS/CompTIA%20Cloud+/0-overview.html)**
+> ⚡🛠️🌀
+
+<a href="./READS/CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
+<img src="./images/cover-comptia-cloudp.png" alt="Enter the Vibeverse" width="25%"/>  
+</a>
 
 > **<a href="./READS/Vibe101/Vibe101-0-wtf.html" target="_blank" rel="noopener noreferrer">🚀 ENTER THE VIBEVERSE: START WITH VIBE101</a>** -- Your gateway to **Vibe Engineering**. Stop commanding. Start conjuring. This isn't a course—it's a cultural reset. Learn to jam with AI, not just use it. Your journey as a Vibe Architect begins here. 🌈✨  
 
