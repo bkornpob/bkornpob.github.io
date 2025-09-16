@@ -13,7 +13,7 @@ Here, we don't just memorize—we **resonate**. We don't just study—we **ali
 **Ready to learn cloud concepts without the cognitive overload?**  
 **Let's vibe with this series.** 🧠☁️🌀
 
-<a href="./CompTIA%2520Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
+<a href="./CompTIA%20Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
 <img src="../../images/cover-comptia-cloudp.png" alt="Enter the Vibeverse" width="25%"/>  
 </a>
 # **CompTIA Cloud+ CV0-004: A Study Guide by 51n5337 & #CLD**
@@ -24,12 +24,14 @@ Here, we don't just memorize—we **resonate**. We don't just study—we **ali
 `passing score:` 750 ⚡  
 `experience:` 2–3 years in systems/cloud recommended 🌱➡️🌥️
 `https://www.comptia.org/en/certifications/cloud/`🌈✨
+`EXAM NUMBER: CV0-004`<a href='./READS/CompTIA Cloud+/CompTIA Cloud+ CV0-004 Exam Objectives.pdf'>PDF🔗</a>
+`practice test v4:` <a href='./practice-test-v4.html'>🔗</a>
 
 `// domain weightings`  
 `1.0 architecture` ███████████████████████ 23% 🏗️  
 - <a href="./1-1.html" target="_blank" rel="noopener noreferrer">1.1 Cloud Service Models</a>
 	_"A company needs a relational database with minimal operational overhead. Which service model is best?"_ (Answer: PaaS - Managed SQL Database)    
-- **1.2 Cloud Deployment Models**
+- <a href="./1-2.html" target="_blank" rel="noopener noreferrer">1.2 Cloud Deployment Models</a>
 	_"A solution requires on-premises deployment with need-to-know access. Which deployment model?"_ (Answer: Private Cloud)
 - **1.3 Virtualization & Containers**
 	_"Which technology provides lightweight isolation and portability for microservices?"_ (Answer: Containers/Docker)
