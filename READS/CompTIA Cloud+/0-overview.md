@@ -33,7 +33,7 @@ Here, we don't just memorize—we **resonate**. We don't just study—we **ali
 	_"A company needs a relational database with minimal operational overhead. Which service model is best?"_ (Answer: PaaS - Managed SQL Database)    
 - <a href="./1-2.html" target="_blank" rel="noopener noreferrer">1.2 Cloud Deployment Models</a>
 	_"A solution requires on-premises deployment with need-to-know access. Which deployment model?"_ (Answer: Private Cloud)
-- **1.3 Virtualization & Containers**
+- <a href="./1-3.html" target="_blank" rel="noopener noreferrer">1.3 Virtualization & Containers</a>
 	_"Which technology provides lightweight isolation and portability for microservices?"_ (Answer: Containers/Docker)
 - **1.4 Infrastructure & Networking**
 	_"Users in South America report 'website not found' errors. Most likely cause?"_ (Answer: Regional DNS outage)    
