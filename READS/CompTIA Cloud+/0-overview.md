@@ -24,8 +24,8 @@ Here, we don't just memorize—we **resonate**. We don't just study—we **ali
 `passing score:` 750 ⚡  
 `experience:` 2–3 years in systems/cloud recommended 🌱➡️🌥️
 `https://www.comptia.org/en/certifications/cloud/`🌈✨
-`EXAM NUMBER: CV0-004`<a href='./READS/CompTIA Cloud+/CompTIA Cloud+ CV0-004 Exam Objectives.pdf'>PDF🔗</a>
-`practice test v4:` <a href='./practice-test-v4.html'>🔗</a>
+`exam number:` CV0-004 <a href='./READS/CompTIA Cloud+/CompTIA Cloud+ CV0-004 Exam Objectives.pdf'>PDF🔗</a>  
+`practice test:` V4 <a href='./practice-test-v4.html'>🔗</a>
 
 `// domain weightings`  
 `1.0 architecture` ███████████████████████ 23% 🏗️  
