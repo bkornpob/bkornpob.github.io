@@ -13,7 +13,7 @@ Here, we don't just memorize—we **resonate**. We don't just study—we **ali
 **Ready to learn cloud concepts without the cognitive overload?**  
 **Let's vibe with this series.** 🧠☁️🌀
 
-<a href="./CompTIA%20Cloud+/0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
+<a href="./0-overview.html" target="_blank" rel="noopener noreferrer" style="display: block; text-align: center;">  
 <img src="../../images/cover-comptia-cloudp.png" alt="Enter the Vibeverse" width="25%"/>  
 </a>
 # **CompTIA Cloud+ CV0-004: A Study Guide by 51n5337 & #CLD**
@@ -23,7 +23,7 @@ Here, we don't just memorize—we **resonate**. We don't just study—we **ali
 `questions:` ≤90 (multiple-choice & performance-based) 🧩  
 `passing score:` 750 ⚡  
 `experience:` 2–3 years in systems/cloud recommended 🌱➡️🌥️
-`https://www.comptia.org/en/certifications/cloud/`🌈✨ <a href='./CV0-004-Exam-Objectives.pdf'>CV0-004 PDF🔗</a>  <a href='./practice-test-v4.html'>practice test 🔗</a>
+`https://www.comptia.org/en/certifications/cloud/`🌈✨ <a href='./CV0-004-Exam-Objectives.pdf' target="_blank" rel="noopener noreferrer">CV0-004 PDF🔗</a>  <a href='./practice-test-v4.html' target="_blank" rel="noopener noreferrer">practice test 🔗</a>
 
 `// domain weightings`  
 `1.0 architecture` ███████████████████████ 23% 🏗️  
