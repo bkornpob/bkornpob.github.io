@@ -33,10 +33,10 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "READS/CompTIA Cloud+/CompTIA Cloud+ CV0-004 Exam Objectives.pdf"
+                "file": "READS/CompTIA Cloud+/CV0-004-Exam-Objectives.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "CompTIA Cloud+ CV0-004 Exam Objectives"
+              "title": "CV0-004-Exam-Objectives"
             }
           }
         ]
@@ -188,12 +188,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "301651ce612cdd81",
+  "active": "5f8071a097833324",
   "lastOpenFiles": [
     "README.md",
     "READS/CompTIA Cloud+/0-overview.md",
     "READS/CompTIA Cloud+/1-0.md",
-    "READS/CompTIA Cloud+/CompTIA Cloud+ CV0-004 Exam Objectives.pdf",
+    "READS/CompTIA Cloud+/CV0-004-Exam-Objectives.pdf",
     "READS/CompTIA Cloud+/tmp.md",
     "READS/CompTIA Cloud+/special-1-Karens-cry.md",
     "READS/hmmm/nerdjoke-1.md",
