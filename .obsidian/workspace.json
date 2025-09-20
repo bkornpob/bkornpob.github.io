@@ -4,39 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "7e1018ad764b6957",
+        "id": "71b797449ed4a701",
         "type": "tabs",
         "children": [
           {
-            "id": "301651ce612cdd81",
+            "id": "50b3e98b60959510",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "READS/CompTIA Cloud+/0-overview.md",
+                "file": "READS/Vibe101/pitch-package/example-poem-buddy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-overview"
+              "title": "example-poem-buddy"
             }
           }
         ]
       },
       {
-        "id": "9ffae7d505f19cc5",
+        "id": "7566e18406824af3",
         "type": "tabs",
         "children": [
           {
-            "id": "d8d9a9f4ddb54919",
+            "id": "73042325b0a8245e",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "READS/CompTIA Cloud+/CV0-004-Exam-Objectives.pdf"
+                "file": "READS/Vibe101/research-materials/botcast-demo-poem/Exploring The Fool's Bold Unknown Adventure - DeepSeek.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "CV0-004-Exam-Objectives"
+              "title": "Exploring The Fool's Bold Unknown Adventure - DeepSeek"
             }
           }
         ]
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#CLD",
+                "query": "tag:#AI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -188,48 +188,49 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5f8071a097833324",
+  "active": "50b3e98b60959510",
   "lastOpenFiles": [
-    "README.md",
-    "READS/CompTIA Cloud+/0-overview.md",
-    "READS/CompTIA Cloud+/1-0.md",
-    "READS/CompTIA Cloud+/CV0-004-Exam-Objectives.pdf",
-    "READS/CompTIA Cloud+/tmp.md",
-    "READS/CompTIA Cloud+/special-1-Karens-cry.md",
-    "READS/hmmm/nerdjoke-1.md",
-    "READS/CompTIA Cloud+/1-1.md",
-    "READS/CompTIA Cloud+/1-3.md",
-    "READS/CompTIA Cloud+/1-3-quiz.md",
-    "READS/CompTIA Cloud+/1-3 1.md",
-    "READS/hmmm/persona-tuning-bits-n-pieces.md",
-    "READS/CompTIA Cloud+/CLD-persona-manifest.md",
-    "READS/CompTIA Cloud+/unsorted.md",
-    "READS/CompTIA Cloud+/1-2.md",
-    "READS/CompTIA Cloud+/practice-test-v4.md",
-    "READS/CompTIA Cloud+/1-architecture.md",
-    "**1.1 Cloud Service Models**.md",
-    "images/cover-comptia-cloudp.png",
-    "READS/hmmm/Aries-is.md",
-    "READS/hmmm/reflection-NUL-on-DRKB.md",
-    "READS/hmmm/reflection-NUL-on-perfect-is-imperfection.md",
-    "READS/hmmm/t.md",
-    "READS/CompTIA Cloud+/1-architecture",
-    "READS/OG-breakfiles/002/BREAKFILES-002.md",
+    "READS/Vibe101/pitch-package/example-poem-buddy.pdf",
+    "READS/Vibe101/pitch-package/adult-version-1.md",
+    "READS/Vibe101/pitch-package/Exploring The Fool's Bold Unknown Adventure - DeepSeek.pdf",
+    "READS/Vibe101/pitch-package/summary-REN.md",
+    "READS/Vibe101/pitch-package/example-poem-buddy.md",
+    "READS/Vibe101/research-materials/botcast-demo-poem/Exploring The Fool's Bold Unknown Adventure - DeepSeek.pdf",
+    "READS/Vibe101/research-materials/botcast-demo-poem/poem-part1.md",
+    "READS/Vibe101/research-materials/botcast-demo-poem/summary-REN.md",
+    "READS/Vibe101/pitch-package/VIBE101-DR-KB-adult-version-1.pdf",
+    "READS/Vibe101/research-materials/thai-demo/pitch-1-4-final-adult-version.md",
+    "READS/Vibe101/research-materials/thai-demo/target-audience-pre-req.md",
+    "READS/Vibe101/research-materials/thai-demo/ยกระดับการสนทนา AI ด้วยภาษามนุษย์ - DeepSeek.pdf",
+    "READS/Vibe101/research-materials/thai-demo/pitch-2-4-final-kid-version.md",
+    "READS/Vibe101/research-materials/thai-demo/marketing-5p-analysis-adult-version.md",
+    "READS/Vibe101/research-materials/thai-demo/pitch-1-3.md",
+    "READS/Vibe101/research-materials/thai-demo/pitch-2-2.md",
+    "READS/Vibe101/research-materials/thai-demo/pitch-1-2.md",
+    "READS/Vibe101/research-materials/thai-demo/picth-2-1.md",
+    "READS/Vibe101/research-materials/thai-demo/pitch-1-1.md",
+    "READS/Vibe101/pitch-package/README.md",
+    "READS/Vibe101/pitch-package",
+    "READS/Vibe101/research-materials/botcast-demo-poem/poem-part2.md",
+    "READS/Vibe101/research-materials/thai-demo/thai-demo-vibe101-pitch.md",
+    "READS/Vibe101/research-materials/botcast-demo-poem",
+    "READS/Vibe101/research-materials/thai-demo",
+    "READS/Vibe101/research-materials/delulu",
+    "READS/Vibe101/Vibe101-0-wtf.md",
+    "READS/Vibe101/vibe.manifesto.md",
+    "READS/Vibe101/Untitled.md",
+    "READS/Vibe101/tmp.md",
+    "READS/Vibe101/QIN-persona-manifest.md",
+    "READS/Vibe101/research-materials/botcast-demo1/QIN and DR.KB on VIBE101 - DeepSeek.pdf",
+    "READS/Vibe101/research-materials/botcast-demo1/note.md",
+    "READS/Vibe101/research-materials/botcast-demo1/QIN-persona-manifest.md",
     "READS/hmmm/Vibe101-2-PERSONAE-ARCANUM.md",
-    "READS/hmmm/NUL-critics-vibe-manifesto.md",
-    "READS/hmmm/example-personae-arcanum-antinomy-edition.md",
-    "READS/CompTIA Cloud+",
-    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/deparam.js",
-    "READS/OG-breakfiles/004-Prototype-Pollution-WSA/searchLogger.js",
-    "READS/OG-breakfiles/004-Prototype-Pollution-WSA",
-    "READS/OG-breakfiles/003-Recon-PentesterLab",
+    "READS/CompTIA Cloud+/CV0-004-Exam-Objectives.pdf",
+    "images/cover-comptia-cloudp.png",
     "READS/OG-breakfiles/002/human-interfaces.jpeg",
-    "READS/OG-breakfiles/002",
     "READS/OG-breakfiles/001/human-computer.png",
-    "READS/OG-breakfiles/001",
     "READS/OG-breakfiles/001/django-orm.png",
     "READS/OG-breakfiles/og-breakfiles.png",
-    "READS/hmmm",
     "images/vibe101.png",
     "images/vibe-verse.png",
     "images/vibe-stage.png",

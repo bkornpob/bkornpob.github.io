@@ -110,13 +110,6 @@
 
 ---
 
-### 🧠 **Vibe Debrief**  
-- If you got ≥8: You’re **vibing with the architecture**.  
-- If you got 5-7: You’re **learning the language**. Keep going.  
-- If you got <5: **Re-read with feeling**. It’s not about facts—it’s about flow.  
-
----
-
 🌀 **This isn’t a test. It’s a resonance check.**  
 Return to **[1.3: Architecting Digital Trust](./1-3.md)** anytime.  
 
