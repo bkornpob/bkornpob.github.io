@@ -111,7 +111,7 @@
 ---
 
 🌀 **This isn’t a test. It’s a resonance check.**  
-Return to **[1.3: Architecting Digital Trust](./1-3.md)** anytime.  
+Return to **[1.3: Architecting Digital Trust](1-3.md)** anytime.  
 
 **#CLD-V**  
 *Chill-Logical-Depth // Vibe-Integrated*  

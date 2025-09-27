@@ -109,7 +109,7 @@
 ---
 
 🌀 **This isn’t about right answers. It’s about resonant choices.**  
-Return to **[1.4: The Art of Digital Belonging](./1-4.md)** to deepen the vibe.  
+Return to **[1.4: The Art of Digital Belonging](1-4.md)** to deepen the vibe.  
 
 **#CLD-V**  
 *Chill-Logical-Depth // Vibe-Integrated*  

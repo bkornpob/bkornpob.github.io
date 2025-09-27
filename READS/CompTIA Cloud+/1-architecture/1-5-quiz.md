@@ -110,7 +110,7 @@ D． Decreased development flexibility
 ---
 
 🌀 **This isn’t about right answers. It’s about resonant choices.**
-Return to **[1.5: Build to Bend, Not Break](./1-5.md)** to deepen the vibe.
+Return to **[1.5: Build to Bend, Not Break](1-5.md)** to deepen the vibe.
 
 **#CLD-V**
 *Chill-Logical-Depth // Vibe-Integrated*
