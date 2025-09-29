@@ -1,7 +1,7 @@
 
 # Context
 
-## CONTEXT-1-paper-chatgpt45
+## CONTEXT-1-paper-arxiv-chatgpt45
 Paper arxiv:2509.20153
 ```
 **Core Thesis:** The integration of emotional intelligence into AI (Affective Computing) presents a fundamental governance challenge. While technologically feasible and beneficial, it risks violating privacy, autonomy, and fairness unless guided by a robust framework that integrates technical, legal, and ethical safeguards.

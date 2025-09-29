@@ -27,4 +27,12 @@ Stuart J. Russell
 https://chat.deepseek.com/a/chat/s/8a1536a1-7aa9-4546-85b3-c90f943e80cf
 DR.KB session with #Dab, exploring AI Ethics
 
+### Your Brain on ChatGPT, with Nataliya Kosmyna
+https://www.youtube.com/watch?v=MEIWamztRKA
+StarTalk with Dr. Neil deGrasse Tyson
+
+### Adding Emotional Intelligence to AI will Transform Sales, Support, and Training
+https://www.youtube.com/watch?v=jqCHD2zlqe4
+Design of AI
+
 ---
