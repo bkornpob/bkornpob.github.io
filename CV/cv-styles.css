@@ -326,7 +326,7 @@
 .character-sheet-header::after {
     content: '⚔️ ✨ 🎲 ✨ ⚔️';
     position: absolute;
-    bottom: -15px;
+    bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
     background: #0d0221;
@@ -599,4 +599,845 @@
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     transition: all 0.3s ease;
+}
+
+/* Home Portal Styles */
+.home-portal {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.portal-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 15px;
+    background: rgba(0, 255, 255, 0.1);
+    border: 2px solid #00ffff;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #00ffff;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+.portal-button:hover {
+    background: rgba(0, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    transform: scale(1.05);
+}
+
+.portal-icon {
+    font-size: 1.2em;
+    animation: spin 4s linear infinite;
+}
+
+.portal-text {
+    font-size: 0.9em;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Education Section Styles */
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.edu-header h3 {
+    margin: 0;
+    color: var(--cyber-gold);
+}
+
+.edu-period {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 1px solid #ffd700;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.edu-period::before {
+    font-size: 0.9em;
+}
+
+.edu-institution {
+    color: var(--cyber-cyan);
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.dissertation {
+    font-style: italic;
+    margin: 8px 0;
+    border-left: 3px solid var(--cyber-purple);
+    padding-left: 10px;
+}
+
+.edu-gpa, .edu-honors {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.edu-badges {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.cyber-badge {
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid var(--cyber-cyan);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.7em;
+    color: var(--cyber-cyan);
+}
+
+/* Info card animations */
+.info-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 255, 255, 0.3);
+}
+
+/* Compact Education Styles */
+.compact-education {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.edu-card {
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.edu-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.edu-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.edu-details {
+    flex: 1;
+    min-width: 0; /* Prevent overflow */
+}
+
+.edu-details h3 {
+    margin: 0 0 4px 0;
+    font-size: 0.95em;
+    color: var(--cyber-gold);
+    line-height: 1.3;
+}
+
+.edu-thesis, .edu-meta {
+    margin: 0;
+    font-size: 0.85em;
+    line-height: 1.3;
+}
+
+.edu-thesis {
+    color: var(--cyber-cyan);
+    font-style: italic;
+}
+
+.edu-meta {
+    color: var(--cyber-gold);
+    font-weight: bold;
+}
+
+.edu-year {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: bold;
+    border: 1px solid #ffd700;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+/* Hover effects */
+.edu-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .edu-main {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .edu-year {
+        margin-left: auto;
+    }
+}
+
+.edu-compact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.9em;
+}
+
+.edu-degree { font-weight: bold; color: var(--cyber-gold); }
+.edu-school { color: var(--cyber-cyan); }
+.edu-thesis-compact { 
+    flex: 1; 
+    color: var(--cyber-purple);
+    font-style: italic;
+    font-size: 0.85em;
+}
+
+/* Certifications Styles */
+.compact-certs {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.cert-card {
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.cert-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.cert-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.cert-details {
+    flex: 1;
+}
+
+.cert-details h3 {
+    margin: 0 0 4px 0;
+    font-size: 0.95em;
+    color: var(--cyber-gold);
+}
+
+.cert-issuer {
+    margin: 0;
+    font-size: 0.85em;
+    color: var(--cyber-cyan);
+}
+
+.cert-courses {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.course-tag {
+    background: rgba(0, 255, 255, 0.1);
+    border: 1px solid var(--cyber-cyan);
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 0.7em;
+    color: var(--cyber-cyan);
+}
+
+.cert-year {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: bold;
+    border: 1px solid #ffd700;
+    flex-shrink: 0;
+}
+
+/* Experience Styles */
+.compact-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.exp-card {
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.exp-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.exp-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.exp-details {
+    flex: 1;
+}
+
+.exp-details h3 {
+    margin: 0 0 4px 0;
+    font-size: 0.95em;
+    color: var(--cyber-gold);
+}
+
+.exp-company {
+    margin: 0 0 6px 0;
+    font-size: 0.85em;
+    color: var(--cyber-cyan);
+    font-weight: bold;
+}
+
+.exp-desc {
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+.exp-year {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: bold;
+    border: 1px solid #ffd700;
+    flex-shrink: 0;
+}
+
+/* Research Styles */
+.compact-research {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.research-card {
+    padding: 15px;
+    transition: all 0.3s ease;
+}
+
+.research-main {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.research-icon {
+    font-size: 1.2em;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.research-details {
+    flex: 1;
+}
+
+.research-details h3 {
+    margin: 0 0 4px 0;
+    font-size: 0.9em;
+    color: var(--cyber-gold);
+}
+
+.research-title {
+    margin: 0 0 4px 0;
+    font-size: 0.85em;
+    font-style: italic;
+    color: var(--cyber-cyan);
+    line-height: 1.3;
+}
+
+.research-authors {
+    margin: 0;
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+.research-year {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    padding: 3px 8px;
+    border-radius: 10px;
+    font-size: 0.75em;
+    font-weight: bold;
+    border: 1px solid #ffd700;
+    flex-shrink: 0;
+}
+
+/* Hover effects for all cards */
+.cert-card:hover,
+.exp-card:hover,
+.research-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.2);
+}
+
+/* Timeline Experience Styles */
+.timeline-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.timeline-card {
+    padding: 20px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.timeline-card:hover {
+    border-left: 3px solid var(--cyber-cyan);
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.2);
+}
+
+.timeline-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.2);
+}
+
+.timeline-year {
+    background: linear-gradient(135deg, #ffd700, #ffed4e);
+    color: #000;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: 1px solid #ffd700;
+    flex-shrink: 0;
+}
+
+.timeline-divider {
+    color: var(--cyber-cyan);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.timeline-content {
+    flex: 1;
+}
+
+.timeline-title {
+    margin: 0 0 6px 0;
+    font-size: 1em;
+    color: var(--cyber-gold);
+    line-height: 1.3;
+}
+
+.timeline-place {
+    margin: 0 0 8px 0;
+    font-size: 0.9em;
+    color: var(--cyber-cyan);
+    font-weight: bold;
+}
+
+.timeline-detail {
+    margin: 0;
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+/* Color variants for different vibe classes */
+.vibe-gold { border-left-color: #ffd700; }
+.vibe-purple { border-left-color: #9370db; }
+.vibe-cyan { border-left-color: #00ffff; }
+.vibe-blue { border-left-color: #4169e1; }
+.vibe-green { border-left-color: #32cd32; }
+.vibe-orange { border-left-color: #ffa500; }
+.vibe-red { border-left-color: #ff4444; }
+.vibe-indigo { border-left-color: #4b0082; }
+.vibe-matrix { border-left-color: #00ff00; }
+.vibe-yellow { border-left-color: #ffff00; }
+.vibe-pink { border-left-color: #ff69b4; }
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .timeline-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    
+    .timeline-divider {
+        display: none;
+    }
+}
+
+/* Rainbow Glow Card */
+.rainbow-glow {
+    border: 2px solid transparent;
+    background: linear-gradient(45deg, 
+        rgba(255, 0, 0, 0.1), 
+        rgba(255, 165, 0, 0.1), 
+        rgba(255, 255, 0, 0.1), 
+        rgba(0, 255, 0, 0.1), 
+        rgba(0, 0, 255, 0.1), 
+        rgba(75, 0, 130, 0.1), 
+        rgba(238, 130, 238, 0.1)
+    );
+    animation: rainbow-border 3s linear infinite;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 165, 0, 0.4),
+        0 0 30px rgba(255, 255, 0, 0.3);
+}
+
+@keyframes rainbow-border {
+    0% { border-color: #ff0000; }
+    14% { border-color: #ffa500; }
+    28% { border-color: #ffff00; }
+    42% { border-color: #00ff00; }
+    57% { border-color: #0000ff; }
+    71% { border-color: #4b0082; }
+    85% { border-color: #ee82ee; }
+    100% { border-color: #ff0000; }
+}
+
+/* Rainbow Text Animation */
+.rainbow-text {
+    background: linear-gradient(45deg, 
+        #ff0000, #ffa500, #ffff00, #00ff00, 
+        #0000ff, #4b0082, #ee82ee
+    );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-text 3s ease infinite;
+}
+
+@keyframes rainbow-text {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Rainbow Divider */
+.rainbow-divider {
+    background: linear-gradient(45deg, 
+        #ff0000, #ffa500, #ffff00, #00ff00, 
+        #0000ff, #4b0082, #ee82ee
+    );
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: rainbow-text 2s ease infinite;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Cyber Rainbow Place */
+.rainbow-cyber {
+    color: #00ffff;
+    text-shadow: 
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 15px #00ffff,
+        0 0 20px #ff00ff,
+        0 0 35px #ff00ff,
+        0 0 40px #ff00ff;
+    animation: cyber-pulse 2s ease-in-out infinite;
+}
+
+@keyframes cyber-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.8; }
+}
+
+/* Matrix Rainbow Detail */
+.rainbow-matrix {
+    color: #00ff00;
+    text-shadow: 
+        0 0 5px #00ff00,
+        0 0 10px #00ff00;
+    position: relative;
+}
+
+.rainbow-matrix::before {
+    content: ">>> ";
+    color: #00ffff;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+/* Hover effects */
+.rainbow-glow:hover {
+    animation-duration: 1s;
+    box-shadow: 
+        0 0 20px rgba(255, 0, 0, 0.7),
+        0 0 40px rgba(255, 165, 0, 0.6),
+        0 0 60px rgba(255, 255, 0, 0.5),
+        0 0 80px rgba(0, 255, 0, 0.4);
+    transform: translateY(-5px) scale(1.02);
+}
+
+/* Quest Log Styles */
+.quest-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.quest-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0, 255, 255, 0.3);
+}
+
+.quest-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0, 255, 255, 0.3);
+}
+
+.quest-icon {
+    font-size: 1.5em;
+}
+
+.quest-header h3 {
+    margin: 0;
+    color: var(--cyber-gold);
+    font-size: 1.1em;
+}
+
+.quest-content p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+}
+
+/* Quest Objectives */
+.quest-objectives {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.objective-tag {
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid var(--cyber-cyan);
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    color: var(--cyber-cyan);
+}
+
+/* Skill Trees */
+.skill-tree {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tree-branch {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border-left: 3px solid;
+}
+
+.tree-branch h4 {
+    margin: 0 0 5px 0;
+    font-size: 0.9em;
+}
+
+.tree-branch p {
+    margin: 0;
+    font-size: 0.85em;
+    color: #ccc;
+}
+
+/* Party Roles */
+.party-roles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.role-tag {
+    background: rgba(65, 105, 225, 0.2);
+    border: 1px solid #4169e1;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+    color: #4169e1;
+}
+
+/* Buffs Grid */
+.buffs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.buff-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    background: rgba(0, 255, 255, 0.1);
+    border-radius: 8px;
+}
+
+.buff-icon {
+    font-size: 1.2em;
+}
+
+.buff-name {
+    font-size: 0.85em;
+    color: var(--cyber-cyan);
+}
+
+/* Progress Metrics */
+.progress-metrics {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.metric {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.metric-label {
+    font-size: 0.85em;
+    color: #ccc;
+}
+
+.metric-value {
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+/* Objectives List */
+.objectives-list {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.objectives-list li {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Color variants for quest cards */
+.vibe-matrix .tree-branch:nth-child(1) { border-left-color: #9370db; }
+.vibe-matrix .tree-branch:nth-child(2) { border-left-color: #00ffff; }
+.vibe-matrix .tree-branch:nth-child(3) { border-left-color: #32cd32; }
+.vibe-matrix .tree-branch:nth-child(4) { border-left-color: #ffa500; }
+
+/* Bio Keywords */
+.bio-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 12px;
+}
+
+.keyword-tag {
+    background: rgba(0, 255, 0, 0.1);
+    border: 1px solid #00ff00;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    color: #00ff00;
+    animation: matrix-flicker 3s infinite;
+}
+
+@keyframes matrix-flicker {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.7; }
+}
+
+.keyword-tag:nth-child(2) {
+    background: rgba(0, 255, 255, 0.1);
+    border-color: #00ffff;
+    color: #00ffff;
+    animation-delay: 0.5s;
+}
+
+.keyword-tag:nth-child(3) {
+    background: rgba(147, 112, 219, 0.1);
+    border-color: #9370db;
+    color: #9370db;
+    animation-delay: 1s;
+}
+
+.keyword-tag:nth-child(4) {
+    background: rgba(255, 215, 0, 0.1);
+    border-color: #ffd700;
+    color: #ffd700;
+    animation-delay: 1.5s;
+}
+
+.keyword-tag:nth-child(5) {
+    background: rgba(255, 165, 0, 0.1);
+    border-color: #ffa500;
+    color: #ffa500;
+    animation-delay: 2s;
+}
+
+.keyword-tag:nth-child(6) {
+    background: rgba(255, 0, 255, 0.1);
+    border-color: #ff00ff;
+    color: #ff00ff;
+    animation-delay: 2.5s;
 }
