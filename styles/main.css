@@ -1,3 +1,14 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, 'Lucida Console', monospace;
+}
+
 /* Two Column Layout */
 .two-column-layout {
   display: flex;
