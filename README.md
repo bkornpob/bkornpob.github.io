@@ -3,7 +3,7 @@
 <div class="two-column-layout">
   <div class="column-left">
     <a href="./" style="display: block; text-align: center;">  
-      <img src="./images/logo-dr-kb-glitches.png" alt="Enter the Vibeverse" width="100%"/>  
+      <img src="./images/logo-dr-kb-glitches.png" alt="Enter the Vibeverse" width="40%"/>  
     </a>
   </div>
   
