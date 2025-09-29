@@ -13,7 +13,7 @@
 }
 
 .column-right {
-  flex: 2;
+  flex: 3;
 }
 
 /* Rainbow Header */
@@ -25,13 +25,13 @@
     background-clip: text;
     animation: rainbowFlow 4s ease-in-out infinite;
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: left;
     font-family: 'Courier New', monospace;
     margin: 0;
 }
 
-/* Cyber Glow Text */
+/* Original Cyber Glow */
 .cyber-glow {
     background: linear-gradient(90deg, #ff0080, #ff8c00, #ff8c00, #ff0080);
     background-size: 200% 100%;
@@ -41,6 +41,96 @@
     animation: cyberGlow 3s ease-in-out infinite;
     font-weight: bold;
     font-size: 1.2em;
+}
+
+/* Purple Cyber */
+.cyber-glow-purple {
+    background: linear-gradient(90deg, #9d4dff, #c77dff, #c77dff, #9d4dff);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Cyan Cyber */
+.cyber-glow-cyan {
+    background: linear-gradient(90deg, #00ffcc, #00ffff, #00ffff, #00ffcc);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Matrix Green */
+.cyber-glow-matrix {
+    background: linear-gradient(90deg, #00ff00, #00cc00, #00cc00, #00ff00);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Electric Blue */
+.cyber-glow-blue {
+    background: linear-gradient(90deg, #3787ff, #00aaff, #00aaff, #3787ff);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Hot Pink */
+.cyber-glow-pink {
+    background: linear-gradient(90deg, #ff0080, #ff00ff, #ff00ff, #ff0080);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Golden */
+.cyber-glow-gold {
+    background: linear-gradient(90deg, #ffcc00, #ffea00, #ffea00, #ffcc00);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Ice Cold */
+.cyber-glow-ice {
+    background: linear-gradient(90deg, #00ffff, #99ffff, #99ffff, #00ffff);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Fire */
+.cyber-glow-fire {
+    background: linear-gradient(90deg, #ff3300, #ff8c00, #ff8c00, #ff3300);
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 3s ease-in-out infinite;
+}
+
+/* Rainbow Lite */
+.cyber-glow-rainbow {
+    background: linear-gradient(90deg, #ff0080, #ff8c00, #ffea00, #4de94c, #3787ff, #9d4dff);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: cyberGlow 4s ease-in-out infinite;
 }
 
 /* Animations */
@@ -81,3 +171,151 @@ body {
     text-align: center;
   }
 }
+
+/* Cyber Card Styles - FIXED */
+.cyber-card {
+  background: #0d0221;
+  color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #ff0080;
+  box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+  margin: 20px 0;
+}
+
+.cyber-card h3 {
+  color: #ff0080;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+/* Rainbow 7 Colors */
+.vibe-purple {
+  background: #1a0033;
+  color: #e6ccff;
+  border-color: #9d4dff;
+  box-shadow: 0 0 20px rgba(157, 77, 255, 0.3);
+}
+.vibe-purple h3 { color: #9d4dff; }
+
+.vibe-indigo {
+  background: #0d0221;
+  color: #b388ff;
+  border-color: #651fff;
+  box-shadow: 0 0 20px rgba(101, 31, 255, 0.3);
+}
+.vibe-indigo h3 { color: #651fff; }
+
+.vibe-blue {
+  background: #001a33;
+  color: #99ccff;
+  border-color: #3787ff;
+  box-shadow: 0 0 20px rgba(55, 135, 255, 0.3);
+}
+.vibe-blue h3 { color: #3787ff; }
+
+.vibe-green {
+  background: #003311;
+  color: #99ffcc;
+  border-color: #00cc66;
+  box-shadow: 0 0 20px rgba(0, 204, 102, 0.3);
+}
+.vibe-green h3 { color: #00cc66; }
+
+.vibe-yellow {
+  background: #332200;
+  color: #ffff99;
+  border-color: #ffea00;
+  box-shadow: 0 0 20px rgba(255, 234, 0, 0.3);
+}
+.vibe-yellow h3 { color: #ffea00; }
+
+.vibe-orange {
+  background: #331100;
+  color: #ffcc99;
+  border-color: #ff8c00;
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.3);
+}
+.vibe-orange h3 { color: #ff8c00; }
+
+.vibe-red {
+  background: #330000;
+  color: #ff9999;
+  border-color: #ff0033;
+  box-shadow: 0 0 20px rgba(255, 0, 51, 0.3);
+}
+.vibe-red h3 { color: #ff0033; }
+
+/* Extra Cosmic Colors */
+.vibe-hotpink {
+  background: #33001a;
+  color: #ff99e6;
+  border-color: #ff0080;
+  box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+}
+.vibe-hotpink h3 { color: #ff0080; }
+
+.vibe-cyan {
+  background: #003333;
+  color: #99ffff;
+  border-color: #00ffff;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+.vibe-cyan h3 { color: #00ffff; }
+
+.vibe-mint {
+  background: #003322;
+  color: #99ffdd;
+  border-color: #00ffaa;
+  box-shadow: 0 0 20px rgba(0, 255, 170, 0.3);
+}
+.vibe-mint h3 { color: #00ffaa; }
+
+.vibe-seabreeze {
+  background: #002233;
+  color: #99eeff;
+  border-color: #00aaff;
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+}
+.vibe-seabreeze h3 { color: #00aaff; }
+
+.vibe-golden {
+  background: #332200;
+  color: #ffdd99;
+  border-color: #ffcc00;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+}
+.vibe-golden h3 { color: #ffcc00; }
+
+.vibe-obsidian {
+  background: #000000;
+  color: #cccccc;
+  border-color: #666666;
+  box-shadow: 0 0 20px rgba(102, 102, 102, 0.3);
+}
+.vibe-obsidian h3 { color: #ffffff; }
+
+.vibe-onyx {
+  background: #0a0a0a;
+  color: #aaaaaa;
+  border-color: #333333;
+  box-shadow: 0 0 20px rgba(51, 51, 51, 0.3);
+}
+.vibe-onyx h3 { color: #dddddd; }
+
+/* Cyber Specials */
+.vibe-matrix {
+  background: #001100;
+  color: #00ff00;
+  border-color: #00ff00;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+.vibe-matrix h3 { color: #00ff00; }
+
+.vibe-neon {
+  background: #000033;
+  color: #ff00ff;
+  border-color: #ff00ff;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
+}
+.vibe-neon h3 { color: #ff00ff; }
