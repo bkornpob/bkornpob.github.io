@@ -172,6 +172,9 @@
   },
   "active": "f601a1b0c66b4e9b",
   "lastOpenFiles": [
+    "CV/cv-script.js",
+    "CV/cv-styles.css",
+    "CV/CV-home.html",
     "images/kb-bored.png",
     "style-demo.html",
     "CV/cv-2025-dr-kornpob-bhirombhakdi.pdf",
@@ -187,9 +190,7 @@
     "test/styles/main.css.md",
     "test/styles/main.css",
     "test/styles",
-    "test",
     "styles/main.css.md",
-    "styles/main.css",
     "text-style/2.md",
     "text-style/1.md",
     "READS/HTB-bits/persona.md",
@@ -217,7 +218,6 @@
     "images/vibe101.png",
     "images/vibe-verse.png",
     "images/vibe-stage.png",
-    "images/vibe-manifesto.png",
-    "images/vibe-check.png"
+    "images/vibe-manifesto.png"
   ]
 }
