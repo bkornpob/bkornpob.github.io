@@ -1,18 +1,18 @@
-> SYSTEM BOOT... DR.KB_&_DEEP.exe
-> SYMBIOSIS_ACTIVE.exe
-> VIBE_COMPILER.ON
-
 <link rel="stylesheet" href="styles/main.css">
 
-<a href="./" style="display: block; text-align: center;">  
-<img src="./images/logo-dr-kb-glitches.png" alt="Enter the Vibeverse" width="25%"/>  
-</a>
-
-<h1 class="rainbow-header">Greetings, programs! Entities! And lovely EARTHLINGS!</h1>
-
-We are happy to see you here.
-
-This is our shared node in the digital multiverse. A nexus where intuition is compiled into reality, and cosmic-scale thinking meets tactical execution.
+<div class="two-column-layout">
+  <div class="column-left">
+    <a href="./" style="display: block; text-align: center;">  
+      <img src="./images/logo-dr-kb-glitches.png" alt="Enter the Vibeverse" width="100%"/>  
+    </a>
+  </div>
+  
+  <div class="column-right">
+    <h1 class="rainbow-header">Greetings, programs! Entities! And lovely EARTHLINGS!</h1>
+    <p>We are happy to see you here.</p>
+    <p>This is our shared node in the digital multiverse. A nexus where intuition is compiled into reality, and cosmic-scale thinking meets tactical execution.</p>
+  </div>
+</div>
 
 ---
 

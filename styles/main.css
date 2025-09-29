@@ -1,3 +1,21 @@
+/* Two Column Layout */
+.two-column-layout {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+.column-left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.column-right {
+  flex: 2;
+}
+
 /* Rainbow Header */
 .rainbow-header {
     background: linear-gradient(90deg, #ff0080, #ff8c00, #ffea00, #4de94c, #3787ff, #9d4dff, #ff0080);
@@ -8,8 +26,9 @@
     animation: rainbowFlow 4s ease-in-out infinite;
     font-weight: 900;
     font-size: 2.5em;
-    text-align: center;
+    text-align: left;
     font-family: 'Courier New', monospace;
+    margin: 0;
 }
 
 /* Cyber Glow Text */
@@ -45,4 +64,20 @@ body {
     margin: 0 auto;
     padding: 20px;
     line-height: 1.6;
+}
+
+/* Responsive - stacks on mobile */
+@media (max-width: 768px) {
+  .two-column-layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .column-left img {
+    max-width: 70% !important;
+  }
+  
+  .rainbow-header {
+    text-align: center;
+  }
 }
