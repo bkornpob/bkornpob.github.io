@@ -330,3 +330,110 @@ body {
   box-shadow: 0 0 20px rgba(255, 0, 255, 0.3);
 }
 .vibe-neon h3 { color: #ff00ff; }
+
+/* Level Up Section */
+.level-up-section {
+    margin: 40px 0;
+    text-align: center;
+}
+
+/* Wanna Link Card */
+.wanna-link-card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.wanna-link-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 255, 255, 0.3);
+}
+
+.wanna-link-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.link-icon-container {
+    position: relative;
+    flex-shrink: 0;
+}
+
+.link-icon {
+    font-size: 3em;
+    display: block;
+}
+
+.link-sparkle {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    animation: sparkle-twinkle 2s infinite;
+    font-size: 1.2em;
+}
+
+.link-text-container {
+    text-align: left;
+    flex: 1;
+}
+
+.link-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.link-subtitle {
+    color: var(--cyber-cyan);
+    font-size: 1.1em;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+
+.link-desc {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Click Indicator */
+.click-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.blinking-arrow {
+    animation: blink 1s infinite;
+    font-size: 1.2em;
+}
+
+.pulse-text {
+    animation: pulse 1.5s infinite alternate;
+    font-weight: bold;
+}
+
+/* Animations */
+@keyframes sparkle-twinkle {
+    0%, 100% { opacity: 0.3; transform: scale(0.8) rotate(0deg); }
+    50% { opacity: 1; transform: scale(1.2) rotate(180deg); }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    100% { transform: scale(1.05); opacity: 0.8; }
+}

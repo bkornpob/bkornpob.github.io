@@ -35,4 +35,8 @@ StarTalk with Dr. Neil deGrasse Tyson
 https://www.youtube.com/watch?v=jqCHD2zlqe4
 Design of AI
 
+# Breaking Into a Career in AI Governance & Ethics?
+https://www.youtube.com/watch?v=sgcEcYoYRrA
+
+
 ---
