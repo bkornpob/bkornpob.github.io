@@ -1316,128 +1316,130 @@
     color: #4169e1;
 }
 
-/* Buffs Grid */
-.buffs-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 12px;
+/* Vibe Virtuoso - RAINBOW GLITTER EDITION */
+.buffs-grid .buff-item.neon-rainbow-special {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border: 2px solid transparent;
+    animation: rainbow-border 2s linear infinite;
+    box-shadow: 
+        0 0 10px rgba(255, 0, 0, 0.5),
+        0 0 20px rgba(255, 165, 0, 0.4),
+        0 0 30px rgba(255, 255, 0, 0.3);
+    position: relative;
+    overflow: hidden;
 }
 
-.buff-item {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px;
-    background: rgba(0, 255, 255, 0.1);
-    border-radius: 8px;
-}
-
-.buff-icon {
-    font-size: 1.2em;
-}
-
-.buff-name {
-    font-size: 0.85em;
-    color: var(--cyber-cyan);
-}
-
-/* Progress Metrics */
-.progress-metrics {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-.metric {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.metric-label {
-    font-size: 0.85em;
-    color: #ccc;
-}
-
-.metric-value {
-    font-size: 0.85em;
+/* RAINBOW GLITTER TEXT - MULTIPLE EFFECTS */
+.buffs-grid .buff-item.neon-rainbow-special .buff-name {
+    background: linear-gradient(45deg, 
+        #ff0000, #ffa500, #ffff00, #00ff00, 
+        #0000ff, #4b0082, #ee82ee, #ff0000
+    ) !important;
+    background-size: 400% 400% !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    animation: 
+        rainbow-text 1.5s linear infinite,
+        text-flicker 0.3s ease-in-out infinite;
     font-weight: bold;
+    position: relative;
+    text-shadow: 
+        0 0 5px rgba(255, 255, 255, 0.8),
+        0 0 10px rgba(255, 0, 0, 0.6),
+        0 0 15px rgba(0, 255, 255, 0.4),
+        0 0 20px rgba(255, 0, 255, 0.3);
 }
 
-/* Objectives List */
-.objectives-list {
-    margin: 0;
-    padding-left: 20px;
+/* GLITTER SPARKLE OVERLAY */
+.buffs-grid .buff-item.neon-rainbow-special .buff-name::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(45deg, 
+        transparent 30%, 
+        rgba(255, 255, 255, 0.8) 50%, 
+        transparent 70%
+    );
+    animation: sparkle-drift 2s linear infinite;
+    transform: rotate(45deg);
+    pointer-events: none;
 }
 
-.objectives-list li {
-    margin-bottom: 8px;
-    font-size: 0.9em;
-    line-height: 1.4;
+/* ANIMATIONS */
+@keyframes rainbow-border {
+    0% { border-color: #ff0000; }
+    14% { border-color: #ffa500; }
+    28% { border-color: #ffff00; }
+    42% { border-color: #00ff00; }
+    57% { border-color: #0000ff; }
+    71% { border-color: #4b0082; }
+    85% { border-color: #ee82ee; }
+    100% { border-color: #ff0000; }
 }
 
-/* Color variants for quest cards */
-.vibe-matrix .tree-branch:nth-child(1) { border-left-color: #9370db; }
-.vibe-matrix .tree-branch:nth-child(2) { border-left-color: #00ffff; }
-.vibe-matrix .tree-branch:nth-child(3) { border-left-color: #32cd32; }
-.vibe-matrix .tree-branch:nth-child(4) { border-left-color: #ffa500; }
-
-/* Bio Keywords */
-.bio-keywords {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 12px;
+@keyframes rainbow-text {
+    0% { 
+        background-position: 0% 50%;
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(255, 0, 0, 0.6),
+            0 0 15px rgba(0, 255, 255, 0.4);
+    }
+    25% { 
+        background-position: 50% 50%;
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(255, 165, 0, 0.6),
+            0 0 15px rgba(0, 255, 0, 0.4);
+    }
+    50% { 
+        background-position: 100% 50%;
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(0, 255, 0, 0.6),
+            0 0 15px rgba(0, 0, 255, 0.4);
+    }
+    75% { 
+        background-position: 50% 50%;
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(75, 0, 130, 0.6),
+            0 0 15px rgba(238, 130, 238, 0.4);
+    }
+    100% { 
+        background-position: 0% 50%;
+        text-shadow: 
+            0 0 5px rgba(255, 255, 255, 0.8),
+            0 0 10px rgba(255, 0, 0, 0.6),
+            0 0 15px rgba(0, 255, 255, 0.4);
+    }
 }
 
-.keyword-tag {
-    background: rgba(0, 255, 0, 0.1);
-    border: 1px solid #00ff00;
-    padding: 3px 8px;
-    border-radius: 12px;
-    font-size: 0.75em;
-    color: #00ff00;
-    animation: matrix-flicker 3s infinite;
-}
-
-@keyframes matrix-flicker {
+@keyframes text-flicker {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.7; }
+    50% { opacity: 0.9; }
 }
 
-.keyword-tag:nth-child(2) {
-    background: rgba(0, 255, 255, 0.1);
-    border-color: #00ffff;
-    color: #00ffff;
-    animation-delay: 0.5s;
+@keyframes sparkle-drift {
+    0% { transform: rotate(45deg) translateX(-100%) translateY(-100%); }
+    100% { transform: rotate(45deg) translateX(100%) translateY(100%); }
 }
 
-.keyword-tag:nth-child(3) {
-    background: rgba(147, 112, 219, 0.1);
-    border-color: #9370db;
-    color: #9370db;
-    animation-delay: 1s;
+/* HOVER EFFECTS */
+.buffs-grid .buff-item.neon-rainbow-special:hover {
+    animation-duration: 0.8s;
+    transform: scale(1.05);
+    box-shadow: 
+        0 0 20px rgba(255, 0, 0, 0.7),
+        0 0 40px rgba(255, 165, 0, 0.6),
+        0 0 60px rgba(0, 255, 0, 0.5),
+        0 0 80px rgba(0, 0, 255, 0.4) !important;
 }
 
-.keyword-tag:nth-child(4) {
-    background: rgba(255, 215, 0, 0.1);
-    border-color: #ffd700;
-    color: #ffd700;
-    animation-delay: 1.5s;
-}
-
-.keyword-tag:nth-child(5) {
-    background: rgba(255, 165, 0, 0.1);
-    border-color: #ffa500;
-    color: #ffa500;
-    animation-delay: 2s;
-}
-
-.keyword-tag:nth-child(6) {
-    background: rgba(255, 0, 255, 0.1);
-    border-color: #ff00ff;
-    color: #ff00ff;
-    animation-delay: 2.5s;
+.buffs-grid .buff-item.neon-rainbow-special:hover .buff-name {
+    animation-duration: 0.5s, 0.2s;
 }

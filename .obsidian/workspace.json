@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "VOX-manifest.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "VOX-manifest"
             }
           }
         ]
@@ -166,12 +166,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "bases:Create new base": false
     }
   },
   "active": "f601a1b0c66b4e9b",
   "lastOpenFiles": [
+    "READS/OG-breakfiles/OG-manifest-v2-0.md",
+    "READS/Vibe101/QIN-persona-manifest.md",
+    "VOX-manifest.md",
+    "ai-ethics/KotV-manifest.md",
+    "backup/README 1.md",
+    "README.md",
     "CV/cv-sections/summary.html",
     "CV/cv-sections/certifications",
     "CV/cv-sections/certifications.html",
@@ -183,9 +188,6 @@
     "CV/CV-home.html",
     "images/kb-bored.png",
     "style-demo.html",
-    "CV/cv-2025-dr-kornpob-bhirombhakdi.pdf",
-    "backup/README 1.md",
-    "README.md",
     "test/website-content.md",
     "test/VAULT-README.md",
     "test/README.md.md",
@@ -206,9 +208,6 @@
     "ai-ethics/draft-6tips-vibeweaving/1-main.md",
     "ai-ethics/7-1-VIBE-research-design.md",
     "ai-ethics/10-1-topic-crunching.md",
-    "ai-ethics/6-2-summary-DRKBversion.md",
-    "ai-ethics/KotV-manifest.md",
-    "ai-ethics/resources.md",
     "Untitled.canvas",
     "READS/OG-breakfiles/og-breakfiles.png",
     "images/cover-comptia-cloudp.png",
