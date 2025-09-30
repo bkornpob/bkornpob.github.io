@@ -11,12 +11,10 @@
             "id": "f601a1b0c66b4e9b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "CV/cv-2025-dr-kornpob-bhirombhakdi.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "cv-2025-dr-kornpob-bhirombhakdi"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -167,8 +165,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "f601a1b0c66b4e9b",
+  "active": "5f8071a097833324",
   "lastOpenFiles": [
+    "test/VAULT-README.md",
+    "test/README.md.md",
+    "CV/cv-2025-dr-kornpob-bhirombhakdi.pdf",
     "CV/cv-sections/collaboration.html",
     "CV/CV-home.md",
     "CV/cv-sections/research.html",
@@ -185,12 +186,8 @@
     "CV/cv-sections/education.html",
     "CV/cv-sections",
     "CV/cv-script.js",
-    "CV/cv-styles.css",
-    "CV/CV-home.html",
     "images/kb-bored.png",
     "test/website-content.md",
-    "test/VAULT-README.md",
-    "test/README.md.md",
     "test/styles/main.css.md",
     "styles/main.css.md",
     "text-style/2.md",
