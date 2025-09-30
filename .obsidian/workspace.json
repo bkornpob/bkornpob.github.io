@@ -11,14 +11,12 @@
             "id": "f601a1b0c66b4e9b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "VOX-manifest.md",
-                "mode": "source",
-                "source": false
+                "file": "CV/cv-2025-dr-kornpob-bhirombhakdi.pdf"
               },
-              "icon": "lucide-file",
-              "title": "VOX-manifest"
+              "icon": "lucide-file-text",
+              "title": "cv-2025-dr-kornpob-bhirombhakdi"
             }
           }
         ]
@@ -171,9 +169,12 @@
   },
   "active": "f601a1b0c66b4e9b",
   "lastOpenFiles": [
+    "CV/cv-sections/collaboration.html",
+    "CV/CV-home.md",
+    "CV/cv-sections/research.html",
+    "VOX-manifest.md",
     "READS/OG-breakfiles/OG-manifest-v2-0.md",
     "READS/Vibe101/QIN-persona-manifest.md",
-    "VOX-manifest.md",
     "ai-ethics/KotV-manifest.md",
     "backup/README 1.md",
     "README.md",
@@ -187,7 +188,6 @@
     "CV/cv-styles.css",
     "CV/CV-home.html",
     "images/kb-bored.png",
-    "style-demo.html",
     "test/website-content.md",
     "test/VAULT-README.md",
     "test/README.md.md",
@@ -197,7 +197,6 @@
     "text-style/1.md",
     "READS/HTB-bits/persona.md",
     "text-style/3.md",
-    "CV/CV-home.md",
     "CompTIA Cloud+/special-3-karen-intake.md",
     "CompTIA Cloud+/special-2-Karen-cry.md",
     "CompTIA Cloud+/1-architecture/1-6.md",
@@ -207,7 +206,6 @@
     "ai-ethics/draft-6tips-vibeweaving/2-6tips.md",
     "ai-ethics/draft-6tips-vibeweaving/1-main.md",
     "ai-ethics/7-1-VIBE-research-design.md",
-    "ai-ethics/10-1-topic-crunching.md",
     "Untitled.canvas",
     "READS/OG-breakfiles/og-breakfiles.png",
     "images/cover-comptia-cloudp.png",
