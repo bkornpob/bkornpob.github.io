@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8952aa982f50b6a9",
+        "id": "9767e6992a52074b",
         "type": "tabs",
         "children": [
           {
-            "id": "abf8f31b03baa37e",
+            "id": "94a6a5b603d25b17",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/blog-posts/profXmode/20251001-profXmode.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "20251001-profXmode"
+              "title": "New tab"
             }
           }
         ]
@@ -171,6 +167,9 @@
   },
   "active": "5f8071a097833324",
   "lastOpenFiles": [
+    "_config.yml",
+    "idk/ai-ethics/6-2-summary-DRKBversion.md",
+    "content/blog-posts/profXmode/20251001-profXmode.md",
     "blogs/blog-home.html",
     "blogs/posts/20251001-profXmode/20251001-profXmode.md",
     "blogs/posts/20251001-profXmode/cover-image.png",
@@ -179,7 +178,6 @@
     "blogs/posts/abc/20251001-profXmode.md",
     "blogs/posts/abc",
     "blogs/assets/images",
-    "content/blog-posts/profXmode/20251001-profXmode.md",
     "blogs/posts/abc/my-ai-caught-feelings-cover.png",
     "blogs/assets",
     "blogs/posts/my-ai-caught-feelings.html",
@@ -195,7 +193,6 @@
     "idk/ai-ethics/papers/arxiv2509-20153v2.pdf",
     "idk/ai-ethics/7-2.md",
     "idk/ai-ethics/7-1-VIBE-research-design.md",
-    "idk/ai-ethics/6-2-summary-DRKBversion.md",
     "content/attachments",
     "images/cover-comptia-cloudp.png",
     "idk/ai-ethics/resources.md",
