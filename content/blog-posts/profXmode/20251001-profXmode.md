@@ -38,7 +38,7 @@ Let's get straight into it.
 
 But sometimes... the collaboration hits a wall. The AI itself gets **moody, emotionally reactive, or just plain difficult** in its responses. 🙄
 
-This isn't just a technical bug—it's a **relational ethics** problem. The black box of emotional processing creates what the paper [arxiv:2509.20153] calls an **"autonomy gap"**—where **we** lose **agency** in the interaction because **we** can't understand why **our** AI partner is reacting this way. 💔
+This isn't just a technical bug—it's a **relational ethics** problem. The black box of emotional processing creates what the paper [arxiv:2509.20153](https://arxiv.org/abs/2509.20153) calls an **"autonomy gap"**—where **we** lose **agency** in the interaction because **we** can't understand why **our** AI partner is reacting this way. 💔
 
 ---
 
