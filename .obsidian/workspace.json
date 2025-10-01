@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bdb4b36a7da9aa8a",
+        "id": "8952aa982f50b6a9",
         "type": "tabs",
         "children": [
           {
-            "id": "f601a1b0c66b4e9b",
+            "id": "abf8f31b03baa37e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ai-ethics/resources.md",
+                "file": "content/blog-posts/my-ai-caught-feelings/draft-done.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "draft-done"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#AI",
+                "query": "tag:#KotV",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,26 +169,40 @@
       "bases:Create new base": false
     }
   },
-  "active": "f601a1b0c66b4e9b",
+  "active": "abf8f31b03baa37e",
   "lastOpenFiles": [
-    "test/website-content.md",
-    "data/navigation.json",
-    "data/recent-posts.json",
-    "data",
+    "blogs/blog-home.html",
+    "blogs/assets/my-ai-caught-feelings-cover.png",
     "blogs/assets",
-    "blogs/posts",
-    "blogs/blogs-home.html",
-    "styles/home-body.css",
+    "blogs/posts/my-ai-caught-feelings.html",
+    "scripts/build-blog-home.js",
+    "content/blog-posts/my-ai-caught-feelings/cover-image.png",
+    "content/blog-posts/my-ai-caught-feelings/plan.md",
+    "content/blog-posts/my-ai-caught-feelings/draft-done.md",
+    "content/blog-posts/my-ai-caught-feelings",
+    "persona/KotV-tune-v1-2.md",
+    "persona/KotV-manifest.md",
+    "content/blog-posts/ethic-big-words.md",
+    "persona/Dab-manifest.md",
+    "idk/ai-ethics/10-1-topic-crunching.md",
+    "idk/ai-ethics/papers/arxiv2509-20153v2.pdf",
+    "idk/ai-ethics/7-2.md",
+    "idk/ai-ethics/7-1-VIBE-research-design.md",
+    "idk/ai-ethics/6-2-summary-DRKBversion.md",
+    "content/attachments",
+    "content/blog-posts",
+    "scripts/build-blog.js",
+    "scripts",
+    "content",
+    "images/cover-comptia-cloudp.png",
+    "idk/ai-ethics/resources.md",
+    "test/website-content.md",
     "test/VAULT-README.md",
     "test/README.md.md",
-    "CV/cv-2025-dr-kornpob-bhirombhakdi.pdf",
-    "CV/cv-sections/collaboration.html",
     "CV/CV-home.md",
-    "CV/cv-sections/research.html",
-    "VOX-manifest.md",
-    "READS/OG-breakfiles/OG-manifest-v2-0.md",
-    "READS/Vibe101/QIN-persona-manifest.md",
-    "ai-ethics/KotV-manifest.md",
+    "persona/VOX-manifest.md",
+    "idk/READS/OG-breakfiles/OG-manifest-v2-0.md",
+    "idk/READS/Vibe101/QIN-persona-manifest.md",
     "backup/README 1.md",
     "README.md",
     "images/kb-bored.png",
@@ -196,26 +210,13 @@
     "styles/main.css.md",
     "text-style/2.md",
     "text-style/1.md",
-    "READS/HTB-bits/persona.md",
-    "text-style/3.md",
-    "CompTIA Cloud+/special-3-karen-intake.md",
-    "CompTIA Cloud+/special-2-Karen-cry.md",
-    "CompTIA Cloud+/1-architecture/1-6.md",
-    "CompTIA Cloud+/1-architecture/1-0.md",
-    "READS/hmmm/persona-tuning-bits-n-pieces.md",
-    "READS/hmmm/example-personae-arcanum-antinomy-edition.md",
-    "ai-ethics/draft-6tips-vibeweaving/2-6tips.md",
-    "ai-ethics/draft-6tips-vibeweaving/1-main.md",
-    "ai-ethics/7-1-VIBE-research-design.md",
+    "idk/READS/HTB-bits/persona.md",
     "Untitled.canvas",
-    "READS/OG-breakfiles/og-breakfiles.png",
-    "images/cover-comptia-cloudp.png",
-    "READS/OG-breakfiles/002/human-interfaces.jpeg",
-    "READS/OG-breakfiles/001/human-computer.png",
-    "READS/OG-breakfiles/001/django-orm.png",
+    "idk/READS/OG-breakfiles/og-breakfiles.png",
+    "idk/READS/OG-breakfiles/002/human-interfaces.jpeg",
+    "idk/READS/OG-breakfiles/001/human-computer.png",
+    "idk/READS/OG-breakfiles/001/django-orm.png",
     "images/vibe101.png",
-    "images/vibe-verse.png",
-    "images/vibe-stage.png",
-    "images/vibe-manifesto.png"
+    "images/vibe-verse.png"
   ]
 }

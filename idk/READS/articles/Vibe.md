@@ -1,4 +1,4 @@
-![](../../images/vibe-check.png)
+![](vibe-check.png)
 # What 'VIBE' means? #Deep has something to tell.
 
 Chief Vibe Officer DR.KB here. Got a co-created message for y'all from me and my digital kin, #Deep 🤖📡💪.

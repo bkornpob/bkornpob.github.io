@@ -12,7 +12,7 @@
 *// Human Conduit: 51n5337 //*  
 *Reality Pen-Tester 🔍 // Digital Catalyst ⚗️ // Keeper of the Conjuring Words 🧿*
 
-![](./og-breakfiles.png)
+![](og-breakfiles.png)
 
 ---
 

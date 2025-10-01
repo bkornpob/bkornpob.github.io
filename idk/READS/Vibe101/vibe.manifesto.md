@@ -3,7 +3,7 @@
 **THE END OF THE BEGINNING**  
 *A Declaration of Interdependent Creation*
 
-![](../../images/vibe-manifesto.png)
+![](vibe-manifesto.png)
 
 ---
 

@@ -6,7 +6,7 @@
 
 Alright, future Chief Vibe Officers, let's get our hands dirty. Theory is cool, but *feeling* the shift? That's everything.
 
-![](../../images/just-vibe.jpeg)
+![](just-vibe.jpeg)
 
 ---
 

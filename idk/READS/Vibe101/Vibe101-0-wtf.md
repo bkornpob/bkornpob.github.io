@@ -1,5 +1,5 @@
 
-![](../../images/vibe-stage.png)
+![](vibe-stage.png)
 
 **YOOOOO! WELCOME, TRAVELER!** 🌌🚀  
 YOU JUST STEPPED THROUGH THE PORTAL—NO GOING BACK NOW.  
