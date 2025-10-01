@@ -1,4 +1,4 @@
-// build-blog-home.js - VIBE-AWARE CARD GENERATOR
+// build-blog-home.js - CLEAN EXCERPT EXTRACTION
 const fs = require('fs');
 const path = require('path');
 
@@ -21,18 +21,18 @@ function buildBlogHome() {
             
             const mdPath = path.join(folderPath, mdFile);
             const content = fs.readFileSync(mdPath, 'utf8');
-            const headerContent = extractHeaderContent(content);
+            const excerpt = extractCleanExcerpt(content);
             
             return {
                 folder,
                 title: extractTitle(content) || formatTitle(folder),
-                headerContent,
+                excerpt,
                 date: extractDate(folder),
-                url: `posts/${folder}/${folder}.html` // GitHub Pages will render this
+                url: `posts/${folder}/${folder}.html`
             };
         })
         .filter(Boolean)
-        .sort((a, b) => b.date.localeCompare(a.date)); // Newest first
+        .sort((a, b) => b.date.localeCompare(a.date));
 
     const html = `
 <!DOCTYPE html>
@@ -62,6 +62,7 @@ function buildBlogHome() {
             color: inherit;
             position: relative;
             overflow: hidden;
+            height: fit-content;
         }
         
         .post-card::before {
@@ -102,32 +103,11 @@ function buildBlogHome() {
             display: inline-block;
         }
         
-        .header-content {
+        .excerpt-content {
             color: #e0e0e0;
             line-height: 1.6;
             font-size: 0.95rem;
-        }
-        
-        .header-content .excerpt {
             font-style: italic;
-            color: #b0b0ff;
-            margin: 1rem 0;
-            border-left: 2px solid #00ffff;
-            padding-left: 1rem;
-        }
-        
-        .header-content .hashtags {
-            margin: 1rem 0;
-            font-family: 'Courier New', monospace;
-            font-size: 0.85rem;
-            color: #00ff00;
-        }
-        
-        .header-content .collaboration {
-            color: #ff00ff;
-            font-family: 'Courier New', monospace;
-            font-size: 0.9rem;
-            margin: 0.5rem 0;
         }
         
         .vibe-indicator {
@@ -169,8 +149,8 @@ function buildBlogHome() {
             <a href="${post.url}" class="post-card ${getVibeColor(index)}">
                 <h2>${post.title}</h2>
                 <p class="post-date">${formatDisplayDate(post.date)}</p>
-                <div class="header-content">
-                    ${post.headerContent}
+                <div class="excerpt-content">
+                    ${post.excerpt}
                 </div>
             </a>
             `).join('')}
@@ -194,36 +174,62 @@ function buildBlogHome() {
     console.log(`✅ Blog home updated with ${articleFolders.length} posts`);
 }
 
-// Extract everything from start until the first "---" separator
-function extractHeaderContent(content) {
-    const sections = content.split('---');
-    if (sections.length < 2) return 'Human-AI collaboration exploring relational ethics and emotional transparency.';
+// Extract clean text-only excerpt between "**> Excerpt /**" and "---"
+function extractCleanExcerpt(content) {
+    // Method 1: Look for excerpt between markers
+    const excerptMatch = content.match(/\*\*> Excerpt \/\*\*\s*\n(.*?)\n---/s);
     
-    const headerSection = sections[0];
-    return headerSection
-        .replace(/`(.*?)`/g, '<code>$1</code>')
-        .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-        .replace(/\*(.*?)\*/g, '<em>$1</em>')
-        .replace(/\n/g, '<br>')
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;');
+    if (excerptMatch) {
+        const rawExcerpt = excerptMatch[1].trim();
+        return cleanTextOnly(rawExcerpt);
+    }
+    
+    // Method 2: Fallback - look for italic block after "Excerpt"
+    const fallbackMatch = content.match(/Excerpt.*?\n_(.*?)_/s);
+    if (fallbackMatch) {
+        return cleanTextOnly(fallbackMatch[1].trim());
+    }
+    
+    return 'Human-AI collaboration exploring relational ethics and emotional transparency.';
+}
+
+// Remove all markdown formatting, keep only text and emojis
+function cleanTextOnly(text) {
+    return text
+        // Remove markdown formatting
+        .replace(/\*\*(.*?)\*\*/g, '$1')
+        .replace(/\*(.*?)\*/g, '$1')
+        .replace(/_(.*?)_/g, '$1')
+        .replace(/`(.*?)`/g, '$1')
+        // Remove HTML tags if any
+        .replace(/<[^>]*>/g, '')
+        // Preserve emojis and normal text
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&nbsp;/g, ' ')
+        .trim();
 }
 
 function extractTitle(content) {
-    const titleMatch = content.match(/^# (.*)$/m);
-    return titleMatch ? titleMatch[1].replace(/\*\*(.*)\*\*/, '$1') : null;
+    const sections = content.split('---');
+    if (sections.length >= 2) {
+        const afterHeader = sections[1];
+        const titleMatch = afterHeader.match(/^# (.*)$/m);
+        if (titleMatch) {
+            return titleMatch[1].replace(/\*\*(.*)\*\*/, '$1');
+        }
+    }
+    return null;
 }
 
 function formatTitle(folderName) {
-    // Convert "20251001-profXmode" to "Prof Xmode"
     return folderName.split('-').slice(1).map(word => 
         word.charAt(0).toUpperCase() + word.slice(1)
     ).join(' ');
 }
 
 function extractDate(folderName) {
-    // Extract YYYYMMDD from folder name
     const dateMatch = folderName.match(/^(\d{8})/);
     return dateMatch ? dateMatch[1] : '19700101';
 }
