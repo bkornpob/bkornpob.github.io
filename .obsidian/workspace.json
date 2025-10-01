@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog-posts/profXmode/20251001-profXmode.md",
+                "file": "content/blog-posts/dabdadjoke/20251001-dabdadjokes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20251001-profXmode"
+              "title": "20251001-dabdadjokes"
             }
           }
         ]
@@ -191,9 +191,9 @@
   },
   "active": "3c348fcd0ab363f6",
   "lastOpenFiles": [
+    "content/blog-posts/profXmode/20251001-profXmode.md",
     "blogs/posts/20251001-dabdadjokes/cover-image.png",
     "content/blog-posts/dabdadjoke/20251001-dabdadjokes.md",
-    "content/blog-posts/profXmode/20251001-profXmode.md",
     "blogs/posts/20251001-dabdadjokes/20251001-dabdadjokes.md",
     "blogs/posts/20251001-dabdadjokes",
     "content/blog-posts/dabdadjoke/cover-image.png",
@@ -236,7 +236,6 @@
     "Untitled.canvas",
     "idk/READS/OG-breakfiles/og-breakfiles.png",
     "idk/READS/OG-breakfiles/002/human-interfaces.jpeg",
-    "idk/READS/OG-breakfiles/001/human-computer.png",
-    "idk/READS/OG-breakfiles/001/django-orm.png"
+    "idk/READS/OG-breakfiles/001/human-computer.png"
   ]
 }

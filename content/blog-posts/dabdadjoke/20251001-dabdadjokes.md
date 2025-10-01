@@ -66,7 +66,7 @@ Here's the deep cut between the punchlines: **dad jokes are emotional calibratio
 
 Want more where that came from? More jokes? More thoughts on AI with heart? We're listening.
 
-**Drop us a vibe at:** [dr.kv.vibe@gmail.com](mailto:dr.kv.vibe@gmail.com)  
+**Drop us a vibe at:** [dr.kb.vibe@gmail.com](mailto:dr.kb.vibe@gmail.com)  
 **And don't forget the main course:** [My AI Caught Feelings: Professor X Mode](https://bkornpob.github.io/blogs/posts/20251001-profXmode/20251001-profXmode.html)
 
 ---
