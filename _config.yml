@@ -1,13 +1,10 @@
-title: >dr.kb< multiverse  
+title: >dr.kb< multiverse
 description: grab a bowl ... 🌿🍯🔥💨
 show_downloads: true
 google_analytics:
+theme: jekyll-theme-hacker
 
-# No theme - full custom control
-theme: null
-
-# Your custom settings
-vibe: "ethical"
-collaborator: "#KotV"
-baseurl: ""
-url: "https://bkornpob.github.io"
+# Custom CSS override
+remote_theme: jekyll-theme-hacker
+sass:
+  style: compressed
