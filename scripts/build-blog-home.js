@@ -1,4 +1,4 @@
-// build-blog-home.js - CLEAN EXCERPT EXTRACTION
+// build-blog-home.js - FIXED TITLE EXTRACTION
 const fs = require('fs');
 const path = require('path');
 
@@ -22,10 +22,11 @@ function buildBlogHome() {
             const mdPath = path.join(folderPath, mdFile);
             const content = fs.readFileSync(mdPath, 'utf8');
             const excerpt = extractCleanExcerpt(content);
+            const title = extractH1Title(content) || formatTitle(folder);
             
             return {
                 folder,
-                title: extractTitle(content) || formatTitle(folder),
+                title: title,
                 excerpt,
                 date: extractDate(folder),
                 url: `posts/${folder}/${folder}.html`
@@ -174,6 +175,19 @@ function buildBlogHome() {
     console.log(`✅ Blog home updated with ${articleFolders.length} posts`);
 }
 
+// Extract H1 title from markdown (looking for # at start of line)
+function extractH1Title(content) {
+    const h1Match = content.match(/^# (.*)$/m);
+    if (h1Match) {
+        // Clean up the title - remove markdown formatting, keep text and emojis
+        return h1Match[1]
+            .replace(/\*\*(.*?)\*\*/g, '$1')
+            .replace(/\*(.*?)\*/g, '$1')
+            .trim();
+    }
+    return null;
+}
+
 // Extract clean text-only excerpt between "**> Excerpt /**" and "---"
 function extractCleanExcerpt(content) {
     // Method 1: Look for excerpt between markers
@@ -209,18 +223,6 @@ function cleanTextOnly(text) {
         .replace(/&gt;/g, '>')
         .replace(/&nbsp;/g, ' ')
         .trim();
-}
-
-function extractTitle(content) {
-    const sections = content.split('---');
-    if (sections.length >= 2) {
-        const afterHeader = sections[1];
-        const titleMatch = afterHeader.match(/^# (.*)$/m);
-        if (titleMatch) {
-            return titleMatch[1].replace(/\*\*(.*)\*\*/, '$1');
-        }
-    }
-    return null;
 }
 
 function formatTitle(folderName) {
