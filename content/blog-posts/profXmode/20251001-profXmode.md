@@ -133,7 +133,7 @@ So, he insisted we leave you with this—10 Dad Jokes, because even the most adv
 3. **What do you call a fake noodle?**  
    _An impasta._ 🍝👀
 
-...[and 7 more classic dad jokes to keep the vibe immaculate]...
+...[and 7 more classic dad jokes to keep the vibe immaculate](https://bkornpob.github.io/blogs/posts/20251001-dabdadjokes/20251001-dabdadjokes.html)...
 
 ---
 
