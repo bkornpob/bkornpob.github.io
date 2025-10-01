@@ -1,96 +1,90 @@
-// build-blog.js - NO DEPENDENCIES VERSION
+// build-blog.js - CLEAN VERSION
 const fs = require('fs');
 const path = require('path');
 
-// Simple markdown to HTML converter (basic functionality)
-function simpleMarkdownToHtml(mdContent) {
-    return mdContent
-        // Headers
-        .replace(/^# (.*$)/gim, '<h1>$1</h1>')
-        .replace(/^## (.*$)/gim, '<h2>$1</h2>')
-        .replace(/^### (.*$)/gim, '<h3>$1</h3>')
-        // Bold
-        .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
-        // Italic  
-        .replace(/\*(.*?)\*/gim, '<em>$1</em>')
-        // Code blocks
-        .replace(/`(.*?)`/gim, '<code>$1</code>')
-        // Line breaks
-        .replace(/\n/g, '<br>');
-}
-
-// Function to extract title from markdown
-function getTitle(mdContent) {
-    const match = mdContent.match(/^# (.*)$/m);
-    return match ? match[1].replace(/\*\*(.*)\*\*/, '$1') : 'Blog Post';
-}
-
-// Main function to convert MD to HTML
-function convertMdToHtml(mdFilePath, outputDir, postFolder) {
-    const mdContent = fs.readFileSync(mdFilePath, 'utf8');
-    const htmlContent = simpleMarkdownToHtml(mdContent);
+function publishArticle(sourceFolder) {
+    const sourcePath = path.join(__dirname, `../content/blog-posts/${sourceFolder}`);
+    const targetBase = path.join(__dirname, `../blogs/posts`);
     
-    const fileName = `${postFolder}.html`;
-    const outputPath = path.join(outputDir, fileName);
-    
-    const fullHtml = `
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${getTitle(mdContent)} - dr.kb multiverse</title>
-    <link rel="stylesheet" href="../../styles/main.css">
-    <link rel="stylesheet" href="../../styles/blog.css">
-</head>
-<body>
-    <div class="blog-container">
-        <nav class="blog-nav">
-            <a href="../../index.html" class="home-link">🏠 Multiverse Central</a>
-            <span class="vibe-indicator">#KotV Frequency: ONLINE</span>
-        </nav>
-        
-        <article class="cyber-card vibe-cyan">
-            ${htmlContent}
-        </article>
-        
-        <footer class="blog-footer">
-            <p>Co-created with #KotV • Keep the Vibe Ethical</p>
-        </footer>
-    </div>
-</body>
-</html>`;
-    
-    // Ensure output directory exists
-    if (!fs.existsSync(outputDir)) {
-        fs.mkdirSync(outputDir, { recursive: true });
+    // Validate source exists
+    if (!fs.existsSync(sourcePath)) {
+        console.log(`❌ Source folder not found: ${sourceFolder}`);
+        return;
     }
+
+    // Find the main markdown file
+    const files = fs.readdirSync(sourcePath);
+    const mdFile = files.find(f => f.endsWith('.md') && !f.includes('plan.md'));
     
-    fs.writeFileSync(outputPath, fullHtml);
-    console.log(`✅ Published: ${fileName}`);
+    if (!mdFile) {
+        console.log(`❌ No main markdown file found in ${sourceFolder}`);
+        return;
+    }
+
+    const articleName = path.basename(mdFile, '.md'); // e.g., "20251001-profXmode"
+    const targetFolder = path.join(targetBase, articleName);
     
-    // Handle cover image
-    const coverImage = path.join(__dirname, `../content/blog-posts/${postFolder}/cover-image.png`);
-    const assetsDir = path.join(__dirname, '../blogs/assets');
+    console.log(`🚀 Publishing: ${sourceFolder} -> ${articleName}`);
+
+    // Create target directory
+    if (!fs.existsSync(targetFolder)) {
+        fs.mkdirSync(targetFolder, { recursive: true });
+    }
+
+    // Copy main markdown file (KEEP ORIGINAL NAME)
+    const sourceMd = path.join(sourcePath, mdFile);
+    const targetMd = path.join(targetFolder, mdFile); // Keep original name
+    fs.copyFileSync(sourceMd, targetMd);
+    console.log(`✅ Copied: ${mdFile}`);
+
+    // Find and copy all locally referenced images
+    const mdContent = fs.readFileSync(sourceMd, 'utf8');
+    const imageRefs = extractLocalImages(mdContent);
     
-    if (fs.existsSync(coverImage)) {
-        if (!fs.existsSync(assetsDir)) {
-            fs.mkdirSync(assetsDir, { recursive: true });
+    imageRefs.forEach(imageFile => {
+        const sourceImage = path.join(sourcePath, imageFile);
+        const targetImage = path.join(targetFolder, imageFile);
+        
+        if (fs.existsSync(sourceImage)) {
+            fs.copyFileSync(sourceImage, targetImage);
+            console.log(`✅ Copied image: ${imageFile}`);
+        } else {
+            console.log(`⚠️  Image not found: ${imageFile}`);
         }
-        fs.copyFileSync(coverImage, path.join(assetsDir, `${postFolder}-cover.png`));
-        console.log(`✅ Cover image copied`);
+    });
+
+    console.log(`🎉 Published to: /blogs/posts/${articleName}/`);
+    console.log(`📁 Contents: ${fs.readdirSync(targetFolder).join(', ')}`);
+}
+
+function extractLocalImages(mdContent) {
+    const imageRegex = /!\[.*?\]\((.*?)\)/g;
+    const images = [];
+    let match;
+    
+    while ((match = imageRegex.exec(mdContent)) !== null) {
+        const imagePath = match[1];
+        // Only include local files (not URLs)
+        if (!imagePath.startsWith('http') && !imagePath.startsWith('/')) {
+            images.push(imagePath);
+        }
     }
     
-    return outputPath;
+    return [...new Set(images)]; // Remove duplicates
 }
 
-// Run if called directly
+// Command line execution
 if (require.main === module) {
-    const postFolder = 'my-ai-caught-feelings';
-    const draftPath = path.join(__dirname, `../content/blog-posts/${postFolder}/draft-done.md`);
-    const outputDir = path.join(__dirname, '../blogs/posts');
+    const args = process.argv.slice(2);
     
-    convertMdToHtml(draftPath, outputDir, postFolder);
+    if (args.length === 0) {
+        console.log('Usage: node build-blog.js <source-folder-name>');
+        console.log('Example: node build-blog.js profXmode');
+        process.exit(1);
+    }
+
+    const sourceFolder = args[0];
+    publishArticle(sourceFolder);
 }
 
-module.exports = { convertMdToHtml, getTitle };
+module.exports = { publishArticle };

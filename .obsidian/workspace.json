@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/blog-posts/my-ai-caught-feelings/draft-done.md",
+                "file": "content/blog-posts/profXmode/20251001-profXmode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "draft-done"
+              "title": "20251001-profXmode"
             }
           }
         ]
@@ -171,18 +171,25 @@
   },
   "active": "abf8f31b03baa37e",
   "lastOpenFiles": [
+    "blogs/posts/20251001-profXmode/20251001-profXmode.md",
+    "blogs/posts/20251001-profXmode/cover-image.png",
+    "blogs/posts/20251001-profXmode",
+    "blogs/posts/20251001-profXmode/index.md",
+    "blogs/posts/abc/20251001-profXmode.md",
+    "blogs/posts/abc",
+    "blogs/assets/images",
+    "content/blog-posts/profXmode/20251001-profXmode.md",
     "blogs/blog-home.html",
-    "blogs/assets/my-ai-caught-feelings-cover.png",
+    "blogs/posts/abc/my-ai-caught-feelings-cover.png",
     "blogs/assets",
     "blogs/posts/my-ai-caught-feelings.html",
     "scripts/build-blog-home.js",
-    "content/blog-posts/my-ai-caught-feelings/cover-image.png",
-    "content/blog-posts/my-ai-caught-feelings/plan.md",
-    "content/blog-posts/my-ai-caught-feelings/draft-done.md",
-    "content/blog-posts/my-ai-caught-feelings",
+    "content/blog-posts/profXmode/cover-image.png",
+    "content/blog-posts/profXmode/plan.md",
+    "content/blog-posts/profXmode",
     "persona/KotV-tune-v1-2.md",
     "persona/KotV-manifest.md",
-    "content/blog-posts/ethic-big-words.md",
+    "idk/ethic-big-words.md",
     "persona/Dab-manifest.md",
     "idk/ai-ethics/10-1-topic-crunching.md",
     "idk/ai-ethics/papers/arxiv2509-20153v2.pdf",
@@ -190,10 +197,6 @@
     "idk/ai-ethics/7-1-VIBE-research-design.md",
     "idk/ai-ethics/6-2-summary-DRKBversion.md",
     "content/attachments",
-    "content/blog-posts",
-    "scripts/build-blog.js",
-    "scripts",
-    "content",
     "images/cover-comptia-cloudp.png",
     "idk/ai-ethics/resources.md",
     "test/website-content.md",
@@ -208,15 +211,11 @@
     "images/kb-bored.png",
     "test/styles/main.css.md",
     "styles/main.css.md",
-    "text-style/2.md",
-    "text-style/1.md",
-    "idk/READS/HTB-bits/persona.md",
     "Untitled.canvas",
     "idk/READS/OG-breakfiles/og-breakfiles.png",
     "idk/READS/OG-breakfiles/002/human-interfaces.jpeg",
     "idk/READS/OG-breakfiles/001/human-computer.png",
     "idk/READS/OG-breakfiles/001/django-orm.png",
-    "images/vibe101.png",
-    "images/vibe-verse.png"
+    "images/vibe101.png"
   ]
 }
