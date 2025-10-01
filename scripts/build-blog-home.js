@@ -1,4 +1,4 @@
-// build-blog-home.js - FIXED TITLE EXTRACTION
+// build-blog-home.js - WITH COVER IMAGES
 const fs = require('fs');
 const path = require('path');
 
@@ -16,6 +16,7 @@ function buildBlogHome() {
             const folderPath = path.join(postsDir, folder);
             const files = fs.readdirSync(folderPath);
             const mdFile = files.find(f => f.endsWith('.md') && f.startsWith(folder));
+            const hasCoverImage = fs.existsSync(path.join(folderPath, 'cover-image.png'));
             
             if (!mdFile) return null;
             
@@ -29,7 +30,8 @@ function buildBlogHome() {
                 title: title,
                 excerpt,
                 date: extractDate(folder),
-                url: `posts/${folder}/${folder}.html`
+                url: `posts/${folder}/${folder}.html`,
+                hasCoverImage: hasCoverImage
             };
         })
         .filter(Boolean)
@@ -56,7 +58,7 @@ function buildBlogHome() {
             background: linear-gradient(135deg, #0f0f23, #1a1a2e);
             border: 1px solid;
             border-radius: 12px;
-            padding: 1.8rem;
+            padding: 0;
             transition: all 0.3s ease;
             text-decoration: none;
             display: block;
@@ -74,6 +76,7 @@ function buildBlogHome() {
             right: 0;
             height: 3px;
             background: linear-gradient(90deg, #00ffff, #ff00ff, #00ff00);
+            z-index: 2;
         }
         
         .post-card:hover {
@@ -85,6 +88,22 @@ function buildBlogHome() {
         .post-card.vibe-cyan { border-color: #00ffff; }
         .post-card.vibe-magenta { border-color: #ff00ff; }
         .post-card.vibe-green { border-color: #00ff00; }
+        
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-bottom: 1px solid;
+            display: block;
+        }
+        
+        .vibe-cyan .card-image { border-bottom-color: #00ffff; }
+        .vibe-magenta .card-image { border-bottom-color: #ff00ff; }
+        .vibe-green .card-image { border-bottom-color: #00ff00; }
+        
+        .card-content {
+            padding: 1.5rem;
+        }
         
         .post-card h2 {
             color: #00ffff;
@@ -110,6 +129,23 @@ function buildBlogHome() {
             font-size: 0.95rem;
             font-style: italic;
         }
+        
+        .no-image-placeholder {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid;
+            color: #666;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9rem;
+        }
+        
+        .vibe-cyan .no-image-placeholder { border-bottom-color: #00ffff; }
+        .vibe-magenta .no-image-placeholder { border-bottom-color: #ff00ff; }
+        .vibe-green .no-image-placeholder { border-bottom-color: #00ff00; }
         
         .vibe-indicator {
             font-family: 'Courier New', monospace;
@@ -148,10 +184,16 @@ function buildBlogHome() {
         <div class="posts-grid">
             ${articleFolders.map((post, index) => `
             <a href="${post.url}" class="post-card ${getVibeColor(index)}">
-                <h2>${post.title}</h2>
-                <p class="post-date">${formatDisplayDate(post.date)}</p>
-                <div class="excerpt-content">
-                    ${post.excerpt}
+                ${post.hasCoverImage ? 
+                  `<img src="posts/${post.folder}/cover-image.png" alt="${post.title}" class="card-image">` :
+                  `<div class="no-image-placeholder">🌌 Cover Art Pending</div>`
+                }
+                <div class="card-content">
+                    <h2>${post.title}</h2>
+                    <p class="post-date">${formatDisplayDate(post.date)}</p>
+                    <div class="excerpt-content">
+                        ${post.excerpt}
+                    </div>
                 </div>
             </a>
             `).join('')}
@@ -173,6 +215,7 @@ function buildBlogHome() {
 
     fs.writeFileSync(outputPath, html);
     console.log(`✅ Blog home updated with ${articleFolders.length} posts`);
+    console.log(`🖼️  ${articleFolders.filter(post => post.hasCoverImage).length} posts have cover images`);
 }
 
 // Extract H1 title from markdown (looking for # at start of line)
