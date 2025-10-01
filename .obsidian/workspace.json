@@ -13,6 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "content/blog-posts/dabdadjoke/20251001-dabdadjokes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20251001-dabdadjokes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1059191d35d83272",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3c348fcd0ab363f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "content/blog-posts/profXmode/20251001-profXmode.md",
                 "mode": "source",
                 "source": false
@@ -169,12 +189,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "94a6a5b603d25b17",
+  "active": "3c348fcd0ab363f6",
   "lastOpenFiles": [
+    "blogs/posts/20251001-dabdadjokes/cover-image.png",
+    "content/blog-posts/dabdadjoke/20251001-dabdadjokes.md",
+    "content/blog-posts/profXmode/20251001-profXmode.md",
+    "blogs/posts/20251001-dabdadjokes/20251001-dabdadjokes.md",
+    "blogs/posts/20251001-dabdadjokes",
+    "content/blog-posts/dabdadjoke/cover-image.png",
+    "content/blog-posts/dab-dadjoke/20251001-dabdadjokes.md",
+    "content/blog-posts/dabdadjoke",
+    "content/dab-dadjoke-ethics.md",
+    "content/blog-posts/dab-dadjoke",
+    "content/blog-posts/profXmode/plan.md",
     "idk/ai-ethics/papers/arxiv2509-20153v2.pdf",
     "_config.yml",
     "idk/ai-ethics/6-2-summary-DRKBversion.md",
-    "content/blog-posts/profXmode/20251001-profXmode.md",
     "blogs/blog-home.html",
     "blogs/posts/20251001-profXmode/20251001-profXmode.md",
     "blogs/posts/20251001-profXmode/cover-image.png",
@@ -185,11 +215,7 @@
     "blogs/assets/images",
     "blogs/posts/abc/my-ai-caught-feelings-cover.png",
     "blogs/assets",
-    "blogs/posts/my-ai-caught-feelings.html",
-    "scripts/build-blog-home.js",
     "content/blog-posts/profXmode/cover-image.png",
-    "content/blog-posts/profXmode/plan.md",
-    "content/blog-posts/profXmode",
     "persona/KotV-tune-v1-2.md",
     "persona/KotV-manifest.md",
     "idk/ethic-big-words.md",
@@ -197,7 +223,6 @@
     "idk/ai-ethics/10-1-topic-crunching.md",
     "idk/ai-ethics/7-2.md",
     "idk/ai-ethics/7-1-VIBE-research-design.md",
-    "content/attachments",
     "images/cover-comptia-cloudp.png",
     "idk/ai-ethics/resources.md",
     "test/website-content.md",
@@ -207,16 +232,11 @@
     "persona/VOX-manifest.md",
     "idk/READS/OG-breakfiles/OG-manifest-v2-0.md",
     "idk/READS/Vibe101/QIN-persona-manifest.md",
-    "backup/README 1.md",
-    "README.md",
     "images/kb-bored.png",
-    "test/styles/main.css.md",
-    "styles/main.css.md",
     "Untitled.canvas",
     "idk/READS/OG-breakfiles/og-breakfiles.png",
     "idk/READS/OG-breakfiles/002/human-interfaces.jpeg",
     "idk/READS/OG-breakfiles/001/human-computer.png",
-    "idk/READS/OG-breakfiles/001/django-orm.png",
-    "images/vibe101.png"
+    "idk/READS/OG-breakfiles/001/django-orm.png"
   ]
 }
