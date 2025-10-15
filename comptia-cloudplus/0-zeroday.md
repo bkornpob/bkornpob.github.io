@@ -10,8 +10,7 @@ brief: study guide. a journey. zero-day.
 51n5337 here. with #CLD.
 
 want to checkout CompTIA Cloud+ Certification?
-as oct-2025, we follow version CV0-004.
-here ![](./assets/CV0-004-Exam-Objectives.pdf)
+as oct-2025, we follow version [CV0-004](./assets/CV0-004-Exam-Objectives.pdf).
 also, practice questions are [here](./assets/practice-questions-v4.pdf).
 
 ---
@@ -48,7 +47,10 @@ i need help. my business is currently down. i want it back running asap, at leas
 
 [1.0 Cloud Architecture](./vocabs/1-architecture-vocabs.md)
 [2.0 Deployment](./vocabs/2-deployment.md)
-[3.0 Operations](./vocabs/3-operations.md) (coming)
+[3.0 Operations](./vocabs/3-operations.md) drafting
+4
+5
+[6.0 Troubleshooting](./vocabs/6-troubleshooting.md)
 
 ---
 
@@ -56,8 +58,17 @@ i need help. my business is currently down. i want it back running asap, at leas
 
 [karen casefiles: {GCP, live dashboard, demand forecast}](./karen-casefiles/gcp-demandforecast.md)
 [hybrid cloud deployment strategy: {mmorpg, update, hybrid strategy}](../mmorpg/deployment-hybrid-mmorpg.md)
+[techstack-fullstack](./more-reads/tech-stack-full-stack.md)
+[VxLAN + SDN](./troubleshooting/vxlan-sdn.md)
+[troubleshooting toolkits and war stories](./troubleshooting/toolkits-and-warstories.md)
 
 practice questions:
 - [config cloud](./mmorpg/configcloud-practiceexam.md)
 - [provisioning requirement](./mmorpg/practice-provisioning.md) (working)
+
+about database:
+- [db-vs-storage](./more-reads/db-vs-storage.md)
+- [db-version-specialty-concept](./more-reads/db-version-specialty-concept.md)
+- [db-name-specialty](./more-reads/db-name-specialty.md)
+- [row-vs-column-datastructure](./more-reads/row-vs-column-datastructure.md)
 

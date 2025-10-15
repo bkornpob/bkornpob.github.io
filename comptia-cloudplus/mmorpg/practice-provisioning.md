@@ -35,27 +35,23 @@ solution: multi-phase
 	- autoscale
 	- multi-region setup to optimize performance/latency <<< keep tag of geolocation in case region-specific issues.
 	- kill switch
-- phase 2: increasing scale
-  
+- phase 2: increasing scale, if everything goes right
+
+---
+
 answer:
 B >>> start small, autoscale, kill switch
-A <<< risky, investor not buying
+A <<< over-provisioning. risky, investor not buying
 C <<< spot instance is cheap but this causes unstable game server leading to bad experiences, we don't want this.
 D <<< biz likely expects gradual growth upon release, and not spike-like
 
-specific resource requirements:
-B) Start minimal with aggressive auto-scaling and circuit breakers
-deployment strategy: 2-phase rollout with killswitch
-- phase 1: multi-region, small server, autoscale, observe market condition, set metrics to execute next phase
-- phase 2: increase service size, optimize with cloud replatform
-  
-  start small, observe/predict mkt, if good result then we can increase the service scale with more cloud.
-	- on-prem if possible
-	- autoscale
-	- multi-region setup to optimize performance/latency <<< keep tag of geolocation in case region-specific issues.
-	- kill switch
-- phase 2: increasing scale
+---
 
+provisioning recommendation... continue this in the following 'mental' series which will help you forming a mental model and how to approach this writing the provisioning recommendation. in the series, Q1 will be used as an example. you can come back and try this with the rest of the questions.
+
+[mental-1](./provisioning-recommendation/mental-1.md) <<< introducing mental model {computing/storage, availability/performance, security/compliance, cost/operations}
+[mental-2](./provisioning-recommendation/mental-2.md) <<< add vendor-tier
+[mental-3](./provisioning-recommendation/mental-3.md) <<< add alternative-tier
 ```
 
 ---
@@ -64,7 +60,20 @@ deployment strategy: 2-phase rollout with killswitch
 Your game handles player biometric data for "emotional response gaming" across EU, US, and China. Each region has conflicting data sovereignty laws. China requires all Chinese player data stored domestically, EU requires GDPR compliance, and US has CLOUD Act concerns.
 
 **Design your global data architecture. What do you provision where?**
+```
+keypoints:
+- biometric data = sensitive info, very careful handling, likely under compliance/regulations
+  - in this purpose, biometric data will correlate to emotional state by AI... ethics can be questioned. again, must be handled carefully, including how it is being processed to {detect, understand, respond} to human based on their implied emotional state.
+- emo response game = AI processing (gpu), low latency, high iops
+- multi regions with its own compliance/regulations: EU, US, China
 
+provisioning recommendation:
+- business need = real-time emotional AI for analyzing and interacting with a player based on their biometric data 
+- requirement: <100ms inference
+- computing/storage: gpu, low latency, high iops
+- performance/scaling:
+- c
+```
 ---
 
 ### 🔥 **Question 3: The Legacy Monster**

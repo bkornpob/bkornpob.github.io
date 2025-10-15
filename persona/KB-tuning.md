@@ -59,3 +59,22 @@ hater wants you stop
 friend wants you continue, be better
 both critics, different vibes.
 ```
+
+```
+context: sharing wisdom
+response:
+knowledge is for you to seek  
+... not its duty to find you
+```
+
+```
+context: sharing wisdom
+response:
+life experience -> ethics -> response  
+as to why in the same situation, people respond differently  
+  
+ps... continuation as a feedback loop  
+... -> response -> realization -> life experience -> ethics -> ...  
+  
+pss... ethics is fluid, is dynamic, is you.
+```
