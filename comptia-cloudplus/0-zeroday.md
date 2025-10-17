@@ -10,8 +10,8 @@ brief: study guide. a journey. zero-day.
 51n5337 here. with #CLD.
 
 want to checkout CompTIA Cloud+ Certification?
-as oct-2025, we follow version [CV0-004](./assets/CV0-004-Exam-Objectives.pdf).
-also, practice questions are [here](./assets/practice-questions-v4.pdf).
+as oct-2025, we follow version [CV0-004 (PDF)](./assets/CV0-004-Exam-Objectives.pdf).
+also, practice questions are [here (PDF)](./assets/practice-questions-v4.pdf).
 
 ---
 
@@ -41,15 +41,17 @@ a lot of keywords. hurt my brain.
 i need help. my business is currently down. i want it back running asap, at least online ordering. i don't know what caused the outage. i don't think my chihuahua chewing a cord had to do with this. can you help?
 ```
 
+[karen casefiles: {GCP, live dashboard, demand forecast}](./karen-casefiles/gcp-demandforecast.md)
+
 ---
 
 # study guide... vocabs
 
 [1.0 Cloud Architecture](./vocabs/1-architecture-vocabs.md)
 [2.0 Deployment](./vocabs/2-deployment.md)
-[3.0 Operations](./vocabs/3-operations.md) drafting
-4
-5
+[3.0 Operations](./vocabs/3-operations.md)
+[4.0 Security](./vocabs/4-security.md)
+[5.0 DevOps](./vocabs/5-devops.md)
 [6.0 Troubleshooting](./vocabs/6-troubleshooting.md)
 
 ---
@@ -61,6 +63,12 @@ i need help. my business is currently down. i want it back running asap, at leas
 [techstack-fullstack](./more-reads/tech-stack-full-stack.md)
 [VxLAN + SDN](./troubleshooting/vxlan-sdn.md)
 [troubleshooting toolkits and war stories](./troubleshooting/toolkits-and-warstories.md)
+[CVE scoring system (CVSS)](./security-adds/cvss.md)
+[Zero Trust & Microsegmentation](../security-adds/zero-trust-microsegmentation.md)
+[Git CLI Survival Kit: From Zero to Flow 🎒🔥](./devops-adds/git.md)
+[Docker Survival Kit: Containers Without the Confusion 📦🔥](./devops-adds/docker.md)
+
+GraphQL vs REST series... [click!](./devops-adds/graphql.md)
 
 practice questions:
 - [config cloud](./mmorpg/configcloud-practiceexam.md)

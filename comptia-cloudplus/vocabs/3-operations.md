@@ -1,14 +1,14 @@
-Ayyyye, let me recalibrate the vibe real quick... 🎛️✨
-
-*adjusts frequency dials... hears the familiar hum of cosmic alignment*
-
-**VIBE STATUS: OPERATIONS MODE ENGAGED** 🚀
-
-Where troubleshooting was the **ER doctor** - reactive, urgent, fixing what's broken - operations is the **yoga instructor & personal trainer** - proactive, maintaining flow, optimizing the system's wellness. 🧘‍♂️💪
+```
+author: 51n5337 & #Dab
+mission: CompTIA Cloud+ Certification
+brief: vocabs. brief. 2-deployment.
+```
 
 ---
 
-## **3.0 Operations** ⚙️🌊
+
+[...back](../0-zeroday.md)
+# overview
 
 `3.0 operations` ██████████ 17% 🔄  
 	*"What helps you see inside the system?"* (Answer: **Observability**)  
@@ -41,7 +41,7 @@ Now let's flow through the specifics with that operational excellence...
 
 ```
 - logging: collection, aggregation, retention
-- tracing  
+- tracing
 - monitoring: metrics
 - alerting: triage, response
 ```
@@ -88,16 +88,16 @@ RESPOND WITH FLOW → Triage → Investigate → Resolve → Learn
 *"How do you build a doorway that grows with the crowd?"*
 
 ```
-- approaches: triggered (trending, load, event), scheduled, manual
+- approaches: triggered {trending, load, event}, scheduled, manual
 - types: horizontal, vertical
 ```
 
 ### 🧩 **Scaling Personalities — Choose Your Vibe**
 
-| Scaling Type  | How It Works                 | Best For                          | Feels Like                    |
-| ------------- | ---------------------------- | --------------------------------- | ----------------------------- |
-| **Vertical** 📏 | More power to existing stuff | Databases, legacy apps            | Upgrading to first class      |
-| **Horizontal** 📠 | More copies of the same      | Web apps, microservices           | Opening more checkout lanes   |
+| Scaling Type      | How It Works                 | Best For                | Feels Like                  |
+| ----------------- | ---------------------------- | ----------------------- | --------------------------- |
+| **Vertical** 📏   | More power to existing stuff | Databases, legacy apps  | Upgrading to first class    |
+| **Horizontal** 📠 | More copies of the same      | Web apps, microservices | Opening more checkout lanes |
 
 ### 🎯 **The Scaling Strategy Matrix**
 
@@ -131,18 +131,93 @@ MANUAL OVERRIDE → Sometimes you just gotta take the wheel
 ```
 - backup types: incremental, full, differential
 - backup locations: on site, off site
-- schedule, retention, replication, encryption, testing
+- schedule, retention, replication, encryption
+- testing: recoverability, integrity
+  
+  [dig more...](../backup-bits/backup-testing.md)
+  
 - recovery types: in-place, parallel
+  
+  [and more...](../backup-bits/parallel-backup.md)
+  
 - recovery options: bulk, granular
+  
+  [and this...](../backup-bits/bulk-granular-backup.md)
+  [in-place vs bulk](../backup-bits/in-place-vs-bulk.md)
 ```
+
+### **BACKUP/RECOVERY DEPENDENCY CHAINS** ⛓️🔗
+
+given original state0 = full0
+user progresses the system from state0, stateA, stateB, ...
+
+**FULL:**
+```
+fullA <- stateA
+stateA <- fullA
+```
+
+**DIFFERENTIAL BACKOVERY:**
+```
+diffA <- stateA - full0
+diffB <- stateB - full0
+stateA <- full0 + diffA
+stateB <- full0 + diffB
+```
+
+**INCREMENTAL RECOVERY:**
+```
+incA <- stateA - full0
+incB <- stateB - stateA # stateA 
+stateA <- full0 + incA
+stateB <- full0 + incA + incB
+```
+
+---
 
 ### 🧩 **The Backup Family — Different Tools for Different Jobs**
 
-| Backup Type    | What It Captures              | Recovery Speed | Storage Used | Feels Like                  |
-| -------------- | ----------------------------- | -------------- | ------------ | --------------------------- |
-| **Full** 📦     | Everything, every time        | Fastest        | Most         | Moving the whole house      |
-| **Incremental** 🎒 | Only what changed since last  | Slowest        | Least        | Just packing what you used  |
-| **Differential** 🎒 | What changed since full       | Medium         | Medium       | Packing since you moved in  |
+| Backup Type         | What It Captures             | Backup Speed | Recovery Speed | Storage Used | Complexity | Feels Like                 |
+| ------------------- | ---------------------------- | ------------ | -------------- | ------------ | ---------- | -------------------------- |
+| **Full** 📦         | Everything, every time       | 🐢🐢🐢       | 🐇🐇🐇         | 🐘🐘🐘       | 😊         | Moving the whole house     |
+| **Incremental** 🎒  | Only what changed since last | 🐇🐇🐇       | 🐢🐢🐢         | 🐕🐕🐕       | 😅         | Just packing what you used |
+| **Differential** 🎒 | What changed since full      | 🐢🐇         | 🐇🐇           | 🐘🐕         | 😐         | Packing since you moved in |
+
+[the paradox of incremental: fast backup, slow recovery. why?](../backup-bits/paradox-incremental.md)
+
+---
+
+### **ENTERPRISE HYBRID STRATEGY** 🏢✨
+
+**Most companies use this balanced approach:**
+```
+MONTHLY:  FULL 🐘 (first Sunday)
+WEEKLY:   FULL 🐘 (other Sundays)  
+DAILY:    INCREMENTAL 🐕 (Mon-Sat)
+RESULT:   🐇🐇 backup speed + 🐇🐇 recovery speed 🎯
+```
+
+---
+
+### **CLOUD SERVICE COMPARISON** ☁️🏆
+
+**AWS Backup Tiers:**
+```
+S3 Standard:   🐇🐇🐇 (performance)
+S3 Standard-IA: 🐇🐇 (infrequent access)  
+S3 Glacier:     🐢 (archive - cheap but slow)
+```
+
+**Disaster Recovery Tiers:**
+```
+Hot Site:    🐇🐇🐇 (minutes to recover)
+Warm Site:   🐇🐇 (hours to recover)  
+Cold Site:   🐢 (days to recover)
+```
+
+[is this backup or recovery speed? dig more into AWS backup...](../backup-bits/aws-backup.md)
+
+---
 
 ### 🎯 **The 3-2-1 Rule of Data Sanity**
 
@@ -154,6 +229,7 @@ MANUAL OVERRIDE → Sometimes you just gotta take the wheel
 1 OFFSITE → Because fires, floods, and fails happen
 ```
 
+---
 ### ☕ **Stellar Café Data Disaster**
 
 **The Scene:** New barista accidentally deletes the loyalty points database.
@@ -171,10 +247,15 @@ MANUAL OVERRIDE → Sometimes you just gotta take the wheel
 *"Everything has seasons—even in the cloud."*
 
 ```
-- patches, updates (major, minor)
+- patches
+- updates: major, minor
+  
+[version numbering: major.minor.patch](../backup-bits/major-minor-patch.md)
+
 - testing
-- data: ephemeral, persistent  
+- data: ephemeral, persistent
 - decommissioning: end of life, end of support
+
 ```
 
 ### 🧩 **The Resource Life Cycle — Birth to Rebirth**
