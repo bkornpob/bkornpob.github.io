@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comptia-cloudplus/vocabs/4-security.md",
+                "file": "comptia-cloudplus/mmorpg/practice-provisioning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4-security"
+              "title": "practice-provisioning"
             }
           }
         ]
@@ -171,10 +171,14 @@
   },
   "active": "8a9e9a25a7fb0db9",
   "lastOpenFiles": [
+    "comptia-cloudplus/0-zeroday.md",
+    "comptia-cloudplus/provisioning-recommendation/mental-3.md",
+    "comptia-cloudplus/karen-casefiles/gcp-demandforecast.md",
+    "comptia-cloudplus/vocabs/1-architecture-vocabs.md",
+    "comptia-cloudplus/vocabs/4-security.md",
     "comptia-cloudplus/assets/cover-comptia-cloudp.png",
     "comptia-cloudplus/assets/CV0-004-Exam-Objectives.pdf",
     "comptia-cloudplus/devops-adds/rpc.md",
-    "comptia-cloudplus/0-zeroday.md",
     "comptia-cloudplus/vocabs/6-troubleshooting.md",
     "comptia-cloudplus/vocabs/5-devops.md",
     "comptia-cloudplus/assets/practice-questions-v4.pdf",
@@ -188,7 +192,6 @@
     "comptia-cloudplus/devops-adds/rest-vs-graphql.md",
     "idk/qi-men.md",
     "comptia-cloudplus/devops-adds",
-    "comptia-cloudplus/vocabs/4-security.md",
     "comptia-cloudplus/security-adds/zero-trust-microsegmentation.md",
     "comptia-cloudplus/security-adds/cvss.md",
     "comptia-cloudplus/backup-bits/major-minor-patch.md",
@@ -198,8 +201,6 @@
     "comptia-cloudplus/backup-bits/incremental-recovery.md",
     "comptia-cloudplus/backup-bits/in-place-vs-bulk.md",
     "comptia-cloudplus/backup-bits/bulk-granular-backup.md",
-    "comptia-cloudplus/backup-bits/backup-testing.md",
-    "comptia-cloudplus/backup-bits/aws-backup.md",
     "comptia-cloudplus/security-adds",
     "vocabs",
     "comptia-cloudplus/backup-bits",

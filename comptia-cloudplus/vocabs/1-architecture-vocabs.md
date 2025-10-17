@@ -59,7 +59,7 @@ brief: vocabs. brief. 1-architecture.
 | 👤/☁️ 🤹 | **Shared**             | You manage logic/config (e.g., VPC setup), they manage physical.    |
 
 ### karen casefile
-[{GCP, live dashboard, demand forecast}](./karen-casefiles/gcp-demandforecast.md)
+[{GCP, live dashboard, demand forecast}](../karen-casefiles/gcp-demandforecast.md)
 
 ---
 
