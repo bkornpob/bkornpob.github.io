@@ -1,0 +1,191 @@
+/* FLOATING STUDY PANEL STYLES - RIGHT SIDE */
+.study-panel-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.study-panel {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 280px;
+    background: rgba(13, 2, 33, 0.95);
+    border: 2px solid #9d4dff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(157, 77, 255, 0.4);
+    backdrop-filter: blur(10px);
+    pointer-events: all;
+    transition: all 0.3s ease;
+}
+
+.study-panel.collapsed {
+    width: 60px;
+    overflow: hidden;
+}
+
+.study-panel.collapsed .panel-content {
+    display: none;
+}
+
+.study-panel.collapsed .panel-header h3 {
+    display: none;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(157, 77, 255, 0.3);
+}
+
+.panel-toggle {
+    background: transparent;
+    border: 1px solid #9d4dff;
+    color: #9d4dff;
+    border-radius: 6px;
+    padding: 5px 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: 'Courier New', monospace;
+    font-size: 1em;
+}
+
+.panel-toggle:hover {
+    background: rgba(157, 77, 255, 0.2);
+    transform: scale(1.1);
+}
+
+.guide-category {
+    margin-bottom: 20px;
+}
+
+.guide-category h4 {
+    margin: 0 0 10px 0;
+    font-size: 0.9em;
+    font-family: 'Courier New', monospace;
+}
+
+.guide-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.guide-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    color: #e6ccff;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+    font-family: 'Courier New', monospace;
+}
+
+.guide-item:hover {
+    border-left-color: #9d4dff;
+    background: rgba(157, 77, 255, 0.1);
+    transform: translateX(-5px);
+}
+
+.guide-icon {
+    font-size: 1.2em;
+    width: 20px;
+    text-align: center;
+}
+
+.guide-text {
+    flex: 1;
+    font-size: 0.9em;
+}
+
+.coming-soon {
+    opacity: 0.6;
+    position: relative;
+}
+
+.soon-badge {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.6em;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1px 5px;
+    border-radius: 8px;
+}
+
+.panel-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.action-button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+.action-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* MAIN CONTENT CONTAINER - FIX OVERLAP */
+.main-content-container {
+    position: relative;
+    z-index: 1; /* Lower than panel's z-index 1000 */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+/* When panel is expanded, shift main content left */
+.main-content-container.panel-expanded {
+    margin-right: 320px; /* Panel width + spacing */
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .study-panel {
+        width: 250px;
+        right: 10px;
+    }
+    
+    .study-panel.collapsed {
+        width: 50px;
+    }
+    
+    .study-panel-overlay {
+        display: none;
+    }
+    
+    .main-content-container.panel-expanded {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .main-content-container.panel-expanded {
+        margin-right: 0;
+    }
+}
