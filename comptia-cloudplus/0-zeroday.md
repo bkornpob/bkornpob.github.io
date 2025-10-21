@@ -7,7 +7,7 @@ brief: study guide. a journey. zero-day.
 ---
 
 <div align="center">
-<img src=".//comptia-cloudplus/assets/cover-comptia-cloudp.png" alt="CompTIA Cloud+" width="60%" style="border: 3px solid #ff4444; border-radius: 10px;">
+<img src="./comptia-cloudplus/assets/cover-comptia-cloudp.png" alt="CompTIA Cloud+" width="60%" style="border: 3px solid #ff4444; border-radius: 10px;">
 </div>
 
 ---
