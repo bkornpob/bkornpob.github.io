@@ -6,6 +6,8 @@ brief: study guide. a journey. zero-day.
 
 ---
 
+![](cover-comptia-cloudp.png)
+
 # hey fam!
 51n5337 here. with #CLD.
 
