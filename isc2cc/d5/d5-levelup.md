@@ -80,6 +80,7 @@ From **destroying storage media** to **designing data that destroys itself**.
 **// Remember: The best data destruction method is the one that matches your media, your threat model, and your compliance requirements.**
 
 **Portal Navigation:** [Back to Degaussing Basics](./d5-degauss.md) | [Return to Archmage Hub](../0-landing.md)
+**or next level:** [the alchemy of security](./d5-alchemy.md)
 
 **-#OG & 51n5337**  
 *Exploring rabbit holes so you don't have to* 🕳️👁️⚡
