@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "comptia-cloudplus/0-zeroday.md",
+                "file": "isc2cc/0-landing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-zeroday"
+              "title": "0-landing"
             }
           }
         ]
@@ -171,9 +171,9 @@
   },
   "active": "8a9e9a25a7fb0db9",
   "lastOpenFiles": [
+    "comptia-cloudplus/0-zeroday.md",
     "isc2cc/d5/d5-sum.md",
     "isc2cc/0-landing.md",
-    "comptia-cloudplus/0-zeroday.md",
     "isc2cc/assets/cover-image-isc2cc.png",
     "isc2cc/flashcards/flashcards-sum.md",
     "isc2cc/assets",

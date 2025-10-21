@@ -9,6 +9,10 @@
 
 ---
 
+![](https://bkornpob.github.io/isc2cc/assets/cover-image-isc2cc.png)
+
+---
+
 ## **DOMAIN BRIEFINGS // QUICK TARGET ACQUISITION**
 
 ### **D1: SECURITY PRINCIPLES** 🏛️⚖️
