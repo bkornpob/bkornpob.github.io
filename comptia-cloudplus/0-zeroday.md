@@ -73,6 +73,7 @@ GraphQL vs REST series... [click!](./devops-adds/graphql.md)
 practice questions:
 - [config cloud](./mmorpg/configcloud-practiceexam.md)
 - [provisioning requirement](./mmorpg/practice-provisioning.md) (working)
+- quiz-set: [1](./quiz-adds/quiz-set1.md) [2](./quiz-adds/quiz-set2.md)
 
 about database:
 - [db-vs-storage](./more-reads/db-vs-storage.md)
