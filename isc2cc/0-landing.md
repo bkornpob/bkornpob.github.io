@@ -130,11 +130,9 @@ key topics include
 - hashing/encryption
 - password security awareness
 ```
-[more...](isc2cc/d5/d5-sum.md)
+[more...](./d5/d5-sum.md)
 
 ---
-
-
 ### add: javasip, flashcards
 tbd...
 ## **OPERATIONAL PARAMETERS** ⚡🎯

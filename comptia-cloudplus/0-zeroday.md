@@ -6,8 +6,11 @@ brief: study guide. a journey. zero-day.
 
 ---
 
-![](cover-comptia-cloudp.png)
+<div align="center">
+<img src=".//comptia-cloudplus/assets/cover-comptia-cloudp.png" alt="CompTIA Cloud+" width="60%" style="border: 3px solid #ff4444; border-radius: 10px;">
+</div>
 
+---
 # hey fam!
 51n5337 here. with #CLD.
 
