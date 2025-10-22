@@ -169,8 +169,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "f22ceadba8310399",
+  "active": "8a9e9a25a7fb0db9",
   "lastOpenFiles": [
+    "index.html",
+    "index1.html",
+    "scripts/panel-toggle.js",
     "styles/main2.css",
     "index2.html",
     "styles/banner-article.css",
@@ -198,16 +201,13 @@
     "isc2cc/d5/d5-divination.md",
     "isc2cc/d5",
     "isc2cc/d3/d3-sum.md",
-    "isc2cc/d4",
     "isc2cc/d3/d3-sup.md",
     "qimen/binary-ethics-vs-christianity.md",
     "qimen/civilization-cyle.md",
     "content/blog-posts/binary-ethics-vs-christian.md",
-    "qimen",
     "Untitled.md",
     "isc2cc/d2/d2-sup.md",
     "isc2cc/d2/d2-sum.md",
-    "isc2cc/d3",
     "comptia-cloudplus/assets/cover-comptia-cloudp.png"
   ]
 }
