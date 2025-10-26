@@ -13,6 +13,8 @@
 
 ---
 
+[...back](https://bkornpob.github.io)
+
 ## **DOMAIN BRIEFINGS // QUICK TARGET ACQUISITION**
 
 ### **D1: SECURITY PRINCIPLES** 🏛️⚖️
@@ -138,7 +140,17 @@ key topics include
 
 ---
 ### add: javasip, flashcards
-tbd...
+[click!](javasip.md)
+
+### survival guide
+[click!](./surv-guide/surv-guide.md)
+
+### glossary
+[click!](./etc/glossary.md)
+
+### flashcards
+[click!](./flashcards/flashcards.md)
+
 ## **OPERATIONAL PARAMETERS** ⚡🎯
 
 `>> TRANSMISSION_FREQUENCY:` Neurodivergent-friendly  
@@ -154,3 +166,13 @@ tbd...
 `>> AWAITING_NEXT_DIRECTIVE._THE_GATE_IS_OPEN.` 🔓🌌
 
 **// This isn't just study material. This is a cognitive toolkit for the next generation of security professionals.**
+
+[...back](https://bkornpob.github.io)
+
+> [technical-logical-access-control](./etc/technical-logical-access-control.md)
+> [wlan-zenmap-mantrap](./etc/wlan-zenmap-mantrap.md)
+> [risk-x](./etc/risk-x.md)
+> [encapsulation-encryption](./etc/encapsulation-encryption.md)
+> [egress/ingress monitoring](./etc/egress-ingress-monitoring.md)
+> [dlp](./etc/dlp.md)
+

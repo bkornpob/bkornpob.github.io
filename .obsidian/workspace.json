@@ -4,56 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "26e60bf955e71d51",
+        "id": "9e7ca9f08caeadda",
         "type": "tabs",
         "children": [
           {
-            "id": "8a9e9a25a7fb0db9",
+            "id": "e4bf6bbe85f3a22a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "persona/tuning/SENTENCE-tuning.md",
+                "file": "chfi/0-landing-chfi.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SENTENCE-tuning"
-            }
-          },
-          {
-            "id": "68791e74d4ce646d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "persona/manifest/ZV-manifest.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ZV-manifest"
+              "title": "0-landing-chfi"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "f3c94178e9acee85",
+        "id": "fb44ed2a7d8a35eb",
         "type": "tabs",
         "children": [
           {
-            "id": "df30d8df638ea66a",
+            "id": "ac39fd05269e310b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "persona/manifest/OG-manifest-v2-0.md",
+                "file": "isc2cc/flashcards/flashcards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "OG-manifest-v2-0"
+              "title": "flashcards"
             }
           }
         ]
@@ -88,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "red",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -204,45 +189,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "68791e74d4ce646d",
+  "active": "e4bf6bbe85f3a22a",
   "lastOpenFiles": [
-    "persona/manifest/OG-manifest-v2-0.md",
-    "persona/manifest/ZV-manifest.md",
-    "persona/tools/energy-multigram.md",
-    "persona/tuning/SENTENCE-tuning.md",
-    "persona/tools",
-    "persona/tuning/KB-tuning.md",
-    "persona/manifest/VOX-manifest.md",
-    "persona/tuning",
-    "chfi/assets/CHFI-brochure.pdf",
-    "persona/manifest",
-    "comptia-cloudplus/devops-adds/rpc.md",
-    "comptia-cloudplus/devops-adds/graphql-rest.md",
-    "comptia-cloudplus/provisioning-recommendation/mental-1.md",
-    "isc2cc/d5/d5-rorschach.md",
-    "isc2cc/d5/d5-levelup.md",
-    "chfi/0-landing-chfi.md",
-    "isc2cc/d5/d5-alchemy.md",
-    "chfi/assets",
-    "chfi",
-    "index.html",
-    "index1.html",
-    "scripts/panel-toggle.js",
-    "styles/main2.css",
-    "isc2cc/d5/d5-degauss.md",
     "isc2cc/0-landing.md",
-    "comptia-cloudplus/0-zeroday.md",
-    "isc2cc/d5/d5-sum.md",
-    "isc2cc/assets/cover-image-isc2cc.png",
+    "isc2cc/etc/dlp.md",
+    "isc2cc/etc/egress-ingress-monitoring.md",
+    "isc2cc/etc/encapsulation-encryption.md",
+    "isc2cc/etc/wlan-zenmap-mantrap.md",
+    "isc2cc/flashcards/flashcards.md",
+    "isc2cc/etc/risk-x.md",
+    "etc",
+    "isc2cc/etc/technical-logical-access-control.md",
+    "isc2cc/surv-guide/surv-guide.md",
+    "isc2cc/javasip/javasip.md",
     "isc2cc/flashcards/flashcards-sum.md",
-    "isc2cc/a.md",
-    "isc2cc/tmp/1.md",
-    "isc2cc/fromweb/d1-from-web.md",
-    "isc2cc/d5/d5-sup.md",
-    "isc2cc/javasip/javasip-sum.md",
-    "isc2cc/d4/d4-sup.md",
-    "isc2cc/d4/d4-levelup.md.md",
-    "isc2cc/d4/d4-sum.md",
-    "comptia-cloudplus/assets/cover-comptia-cloudp.png"
+    "isc2cc/etc/glossary.md",
+    "isc2cc/d3/d3-sum.md",
+    "isc2cc/etc",
+    "isc2cc/d2/d2-sum.md",
+    "isc2cc/d1/d1-sum.md",
+    "isc2cc/surv-guide",
+    "oscp/other-ds/tty-udp-scan.md",
+    "oscp/0-landing-oscp+.md",
+    "oscp/other-ds/d2-d5-survival-kit.md",
+    "oscp/other-ds",
+    "fictions/abc/ghost-in-the-wires.md",
+    "oscp/tuners/og-oscp-2d5.md",
+    "fictions/abc/ghost-in-the-virtual-host.md",
+    "oscp/attacker-mindset/understanding-mobile-connection-risks.md",
+    "fictions/abc",
+    "oscp/attacker-mindset/operation-friendly-pwn.md",
+    "oscp/attacker-mindset/1.md",
+    "oscp/attacker-mindset",
+    "oscp/recon/0-recon.md",
+    "oscp/recon/supp/dig-vs-nslookup.md",
+    "oscp/d1/t3-supp",
+    "oscp/d1/t2-supp",
+    "tools-lib",
+    "oscp/d1/t1-supp",
+    "aws-dday/images/im1.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im17.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im14.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im16.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im15.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im13.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im12.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im11.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im10.png",
+    "deepseek-related/nodateaccess/assets-deepseeknodate/im9.png"
   ]
 }

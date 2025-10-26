@@ -79,4 +79,4 @@ If your data is a **secret recipe** 🍳:
 **// If you don’t classify it, you can’t protect it. If you don’t log it, you can’t audit it. If you don’t encrypt it, you don’t own it.**
 
 [...back](../0-landing.md)  
-[next...](../javasip/javasip-sum.md)
+[next...](javasip.md)
