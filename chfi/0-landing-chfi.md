@@ -70,13 +70,13 @@ The framework bridges three worlds:
 We're building this investigation in real-time, following the evidence where it leads 🔍🧩. The structure will evolve, but here's our initial crime scene layout:
 
 ```
-[Forensic Foundation](./modules/1-investigation-foundations.md) 🧠⚙️  
+[Forensic Foundation] 🧠⚙️  
 *The mindset and methodology before we touch the evidence*
 
-[Operating System Autopsies](./modules/2-os-forensics.md) 💻🔪  
+[Operating System Autopsies] 💻🔪  
 *Windows, Linux, Mac - where the digital bodies are buried*
 
-[Network Forensics & Malware Analysis](./modules/3-network-malware.md) 🌐🦠  
+[Network Forensics & Malware Analysis] 🌐🦠  
 *Reading the crime scene while the attack is still active*
 
 [Modern Landscape Investigations](./modules/4-specialized-forensics.md) ☁️📱  
@@ -233,14 +233,55 @@ _Validation absolute. Evidence uncompromised._ 👑🔍⚖️
 **[The AWS dday Autopsy](../aws-dday/0-landing-aswdday.md)** 🌐🕵️‍♂️  
 *Our real-world case study - forensic analysis of the Oct 2025 AWS outage that ghosted the internet*
 
-**[Module 1 Deep Dive](https://./modules/1-investigation-foundations.md)** 🧠⚙️  
-_First principles of forensic thinking—before we touch a single disk_
+*m1-2: cyberforensics today overview, investigation process*
+> [6-step forensic heartbeat](./modules/6steps/6steps-0.md)
+> [chain of custody](./modules/chainofcustody/coc.md)
+> [ff beyond the checklist](./modules/ff-beyond/ff-beyond.md)
+> [operating system autopsies](./modules/sys-op-autopsy/sys-op-autopsy.md)
+> [data-taxonomy](./modules/etc/data-taxonomy.md)
+> [identification-phase](./modules/etc/identification-phase.md)
+> [networkforensics-malwareanalysis](./modules/etc/networkforensics-malwareanalysis.md)
+> [ediscover-computerforensics](./modules/etc/ediscover-computerforensics.md)
+> [criminal-civil-law](./modules/etc/criminal-civil-law.md)
+> [12(+3)-step-bestpractice](./modules/etc/12-step-bestpractice.md)
+> [forensicreadiness-businesscontinuity](./modules/etc/forensic-readiness.md)
+> [managing clients](./modules/etc/managing-clients.md)
+> [cyberforensics resources](./modules/etc/cyberforensics-org.md)
+> [cyberforensics legal issues](./modules/etc/cyberforensics-legalissues.md)
+> [iso standards](./modules/etc/iso-standards.md)
+> [legal compliance](./modules/etc/legal-compliance.md)
+> [investigation workflow {doc, photo, search/seizure, preserve, acquisition, analysis}](./modules/etc/7steps-investigationphase.md)
+> [dealing with powered-on computers](./modules/etc/dealing-with-poweron.md)
+> [bit-for-bit](./modules/etc/bit-for-bit.md)
+> [data analysis](./modules/etc/data-analysis.md)
+> [case analysis](./modules/etc/case-analysis.md)
+> [post investigation](./modules/etc/post-investigation.md)
+> [post investigation {reporting, testifying}](./modules/etc/post-investigation.md)
+> [report template](./modules/etc/report-template.md)
+> [dataviz reportgen tools](./modules/etc/dataviz-reportgen-tools.md)
 
-**[Forensic Lab Setup](https://./casefiles/0-lab-environment.md)** 🛠️💻  
-_Building your digital crime scene investigation workstation_
+*m3: hard disk and file system*
+> [m3](./modules/m3/m3.md)
+> [ssd-wearleveling-garbagecollection](./modules/m3/ssd-wearleveling-garbagecollection.md)
+> [fat-exfat](./modules/m3/fat-exfat.md)
+> [booting](./modules/m3/booting.md)
+> [efs-encryption](./modules/m3/efs-encryption.md)
+> [fat-ntfs-ext4-apfs](./modules/m3/fat-ntfs-ext4-apfs.md)
+> [pubkcy-cert](./modules/m3/pubkcy-cert.md)
+> [dpapi-protection](./modules/m3/dpapi-protection.md)
+> [cert-vs-pass-recovery](./modules/m3/cert-vs-pass-recovery.md)
+> [somethingyouknow](./modules/m3/somethingyouknow.md)
+> [cluster-storage](./modules/m3/cluster-storage.md)
+> [dlp](./modules/m3/dlp.md)
+> [carvingtools](./modules/m3/carvingtools.md)
+> [raid-nas-san](./modules/m3/raid-nas-san.md)
+> [ncsaslides](./modules/m3/m3-ncsaslides.md)
 
-**[The Legal Framework](https://./modules/1b-legal-foundations.md)** 📜⚖️  
-_Chain of custody, evidence admissibility, and courtroom readiness_
+*m4: data acquisition/dupe*
+> [m4-ncsa](./modules/m4/m4-ncsa.md)
 
-**[Toolkit Inventory](https://./tools/0-forensic-toolkit.md)** 🧰🔧  
-_Essential software and scripts for digital evidence acquisition_
+*m5: anti-forensics*
+> [m5-ncsa](./modules/m5/m5-ncsa.md)
+
+> [port-i-should-know](./modules/port-i-should-know/port-i-should-know.md)
+

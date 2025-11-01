@@ -147,20 +147,3 @@ The AWS dday wasn't a malicious hack, but the **forensic methodology is identica
 **This is the essence of digital forensics.** Now let's take these instincts and build the formal framework.
 
 ---
-
-### **CHFI STUDY PORTALS // OPENING THE INVESTIGATOR'S TOOLKIT** 🛠️📚
-
-**[The Forensic Foundation](./chfi-foundations.md)** 🧱⚖️  
-*First principles: Chain of custody, evidence admissibility, and the legal framework. Building the bedrock before we touch a hard drive.*
-
-**[Operating System Autopsies](./chfi-os-forensics.md)** 💻🔪  
-*Windows, Linux, Mac—where the digital bodies are buried. File systems, memory analysis, and artifact hunting.*
-
-**[Network Forensics & Live Analysis](./chfi-network-forensics.md)** 🌐📡  
-*Reading the crime scene while the attack is still active. PCAP analysis, log correlation, and threat hunting.*
-
-**[The AWS dday: Applied Forensics](./aws-dday-forensics.md)** ☁️🔍  
-*Re-analyzing this incident through our new CHFI lens. What would a formal investigation look like?*
-
-**[Anti-Forensics & Countermeasures](./chfi-anti-forensics.md)** 🎭🛡️  
-*How attackers hide their tracks—and how we find them anyway. Encryption, data destruction, and artifact wiping.*

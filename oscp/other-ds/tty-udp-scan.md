@@ -99,3 +99,6 @@ Full TTY Shell → Tab complete, clear screen, Ctrl+C, vim, su/sudo
 *The silence returns. The knowledge remains. Until the next breach.* 😏🔓
 
 [...back](../0-landing-oscp+.md)
+
+> [setup tty-shell](../../random-bits/tty-shell.md)
+

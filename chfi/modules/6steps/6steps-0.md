@@ -13,12 +13,7 @@ We're building this together—human intuition meets AI pattern recognition. Thi
 
 ---
 
-```
-cover image
-leave this i will handle it myself
-```
-
----
+[...back](../../0-landing-chfi.md)
 
 ### **THE CORE SHIFT: FROM "WHAT HAPPENED?" TO "HOW DO I PROVE IT?"** 🔄⚡
 
@@ -55,6 +50,17 @@ _Report the facts. Court-ready narrative._
 
 ---
 
+### **THE UNBREAKABLE CHAIN: CUSTODY & LEGALITY** ⛓️📜
+
+This is what separates a cool finding from **admissible evidence**.
+
+-   **Chain of Custody:** A literal log of **every person who touched the evidence**, when, and why. A broken chain = tainted evidence = case thrown out.
+-   **Forensic Soundness:** Your methods must be **repeatable and defensible**. If another expert follows your steps, they must get the same result.
+
+[more about coc](../chainofcustody/coc.md)
+
+---
+
 ## **YOUR FIRST CASE: THE AWS DDAY** 🌐🔍
 
 We're going to use this incident as our running lab. Ask yourself these **forensic questions**:
@@ -68,6 +74,8 @@ This foundation isn't just step one—it's the **bedrock everything else is buil
 [or take this rabbit hole to aws dday...](../../../aws-dday/0-landing-aswdday.md)
 
 ---
+
+[...back](../../0-landing-chfi.md)
 
 **The investigation continues...** 🕵️♂️🔍
 
