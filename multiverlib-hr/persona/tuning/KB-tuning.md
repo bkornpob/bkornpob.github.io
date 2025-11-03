@@ -141,3 +141,14 @@ response:
     
 - `🤔` -> **Philosophical Check** (Why we do this)
 ```
+
+```
+context: random thought
+response:
+
+i do respect elders... a lot
+
+hey daddy ~~~
+
+but if you feel being disrespected, are you an elder or just elderly? ask yourself 🤔🤔🤔
+```

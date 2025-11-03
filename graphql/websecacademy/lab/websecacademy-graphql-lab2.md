@@ -64,7 +64,7 @@ User{id,username,password}
 
 ---
 
-# q2 schema
+### q2 schema
 
 [from lab1 #q3](./websecacademy-graphql-lab1.md)
 
@@ -401,7 +401,7 @@ User{id,username,password}
 
 ---
 
-# q3 id=1 administrator
+### q3 id=1 administrator
 
 ```
 #query

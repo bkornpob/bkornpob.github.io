@@ -1,9 +1,12 @@
+
+[...back](https://bkornpob.github.io)
 # quicklook
 
 `query{__typename}`
 `{"query": "query { __schema { types { name fields { name description } } } }"}`	
 `{ "query": "query{__schema<newline>{queryType{name}}}" }`
 `GET /graphql?query=query%7B__schema%0A%7BqueryType%7Bname%7D%7D%7D`
+`mutation{deleteOrganizationUser(input:{id:3}){user{id username}}}`
 ```
 - `/graphql`
 - `/api`
@@ -32,6 +35,13 @@ query {
 > Suggestions are a feature of the Apollo GraphQL platform in which the server can suggest query amendments in error messages. These are generally used where a query is slightly incorrect but still recognizable (for example, `There is no entry for 'productInfo'. Did you mean 'productInformation' instead?`).
 > Clairvoyance is a tool that uses suggestions to automatically recover all or part of a GraphQL schema, even when introspection is disabled. This makes it significantly less time consuming to piece together information from suggestion responses.
 > Try a GET request, or a POST request with a content-type of `x-www-form-urlencoded`.
+> graphql alias can reduce number of queries, evading rate-limit detection [see alias script explain](./og-1.md)
+```
+{
+  "query": "mutation LoginAttempts { attempt1:login(input:{username:\"carlos\",password:\"123456\"}) { token success } attempt2:login(input:{username:\"carlos\",password:\"password\"}) { token success } attempt3:login(input:{username:\"carlos\",password:\"12345678\"}) { token success } }",
+  "operationName": "LoginAttempts"
+}
+```
 
 
 ---
@@ -328,3 +338,156 @@ The user management functions for this lab are powered by a hidden GraphQL endpo
 To solve the lab, find the hidden endpoint and delete `carlos`.
 
 [websecacademy-graphql-lab3](lab/websecacademy-graphql-lab3.md)
+
+---
+
+## Bypassing rate limiting using aliases
+
+Ordinarily, GraphQL objects can't contain multiple properties with the same name. Aliases enable you to bypass this restriction by explicitly naming the properties you want the API to return. You can use aliases to return multiple instances of the same type of object in one request.
+
+#### More information
+
+For more information on GraphQL aliases, see Aliases.
+
+While aliases are intended to limit the number of API calls you need to make, they can also be used to brute force a GraphQL endpoint.
+
+Many endpoints will have some sort of rate limiter in place to prevent brute force attacks. Some rate limiters work based on the number of HTTP requests received rather than the number of operations performed on the endpoint. Because aliases effectively enable you to send multiple queries in a single HTTP message, they can bypass this restriction.
+
+---
+
+## Bypassing rate limiting using aliases - Continued
+
+The simplified example below shows a series of aliased queries checking whether store discount codes are valid. This operation could potentially bypass rate limiting as it is a single HTTP request, even though it could potentially be used to check a vast number of discount codes at once.
+
+`#Request with aliased queries query isValidDiscount($code: Int) { isvalidDiscount(code:$code){ valid } isValidDiscount2:isValidDiscount(code:$code){ valid } isValidDiscount3:isValidDiscount(code:$code){ valid } }`
+
+---
+
+## Lab: Bypassing GraphQL brute force protections
+
+PRACTITIONER
+
+LABNot solved
+
+The user login mechanism for this lab is powered by a GraphQL API. The API endpoint has a rate limiter that returns an error if it receives too many requests from the same origin in a short space of time.
+
+To solve the lab, brute force the login mechanism to sign in as `carlos`. Use the list of authentication lab passwords as your password source.
+
+Learn more about Working with GraphQL in Burp Suite.
+
+#### Tip
+
+This lab requires you to craft a large request that uses aliases to send multiple login attempts at the same time. As this request could be time-consuming to create manually, we recommend you use a script to build the request.
+
+The below example JavaScript builds a list of aliases corresponding to our list of authentication lab passwords and copies the request to your clipboard. To run this script:
+
+1. Open the lab in Burp's browser.
+2. Right-click the page and select **Inspect**.
+3. Select the **Console** tab.
+4. Paste the script and press Enter.
+
+You can then use the generated aliases when crafting your request in Repeater.
+
+``copy(`123456,password,12345678,qwerty,123456789,12345,1234,111111,1234567,dragon,123123,baseball,abc123,football,monkey,letmein,shadow,master,666666,qwertyuiop,123321,mustang,1234567890,michael,654321,superman,1qaz2wsx,7777777,121212,000000,qazwsx,123qwe,killer,trustno1,jordan,jennifer,zxcvbnm,asdfgh,hunter,buster,soccer,harley,batman,andrew,tigger,sunshine,iloveyou,2000,charlie,robert,thomas,hockey,ranger,daniel,starwars,klaster,112233,george,computer,michelle,jessica,pepper,1111,zxcvbn,555555,11111111,131313,freedom,777777,pass,maggie,159753,aaaaaa,ginger,princess,joshua,cheese,amanda,summer,love,ashley,nicole,chelsea,biteme,matthew,access,yankees,987654321,dallas,austin,thunder,taylor,matrix,mobilemail,mom,monitor,monitoring,montana,moon,moscow`.split(',').map((element,index)=>` bruteforce$index:login(input:{password: "$password", username: "carlos"}) { token success } `.replaceAll('$index',index).replaceAll('$password',element)).join('\n'));console.log("The query has been copied to your clipboard.");``
+
+[script explain](og-1.md)
+[lab4](./lab/websecacademy-graphql-lab4.md)
+
+---
+
+## GraphQL CSRF
+
+Cross-site request forgery (CSRF) vulnerabilities enable an attacker to induce users to perform actions that they do not intend to perform. This is done by creating a malicious website that forges a cross-domain request to the vulnerable application.
+
+#### More information
+
+For more information on CSRF vulnerabilities in general, see the CSRF academy topic.
+
+GraphQL can be used as a vector for CSRF attacks, whereby an attacker creates an exploit that causes a victim's browser to send a malicious query as the victim user.
+
+---
+
+## How do CSRF over GraphQL vulnerabilities arise?
+
+CSRF vulnerabilities can arise where a GraphQL endpoint does not validate the content type of the requests sent to it and no CSRF tokens are implemented.
+
+POST requests that use a content type of `application/json` are secure against forgery as long as the content type is validated. In this case, an attacker wouldn't be able to make the victim's browser send this request even if the victim were to visit a malicious site.
+
+However, alternative methods such as GET, or any request that has a content type of `x-www-form-urlencoded`, can be sent by a browser and so may leave users vulnerable to attack if the endpoint accepts these requests. Where this is the case, attackers may be able to craft exploits to send malicious requests to the API.
+
+The steps to construct a CSRF attack and deliver an exploit are the same for GraphQL-based CSRF vulnerabilities as they are for "regular" CSRF vulnerabilities. For more information on this process, see How to construct a CSRF attack.
+
+---
+
+## Lab: Performing CSRF exploits over GraphQL
+
+PRACTITIONER
+
+LABNot solved
+
+The user management functions for this lab are powered by a GraphQL endpoint. The endpoint accepts requests with a content-type of `x-www-form-urlencoded` and is therefore vulnerable to cross-site request forgery (CSRF) attacks.
+
+To solve the lab, craft some HTML that uses a CSRF attack to change the viewer's email address, then upload it to your exploit server.
+
+You can log in to your own account using the following credentials: `wiener:peter`.
+
+Learn more about Working with GraphQL in Burp Suite.
+
+[lab5](./lab/websecacademy-graphql-lab5.md)
+
+---
+
+## Preventing GraphQL attacks
+
+To prevent many common GraphQL attacks, take the following steps when you deploy your API to production:
+
+- If your API is not intended for use by the general public, disable introspection on it. This makes it harder for an attacker to gain information about how the API works, and reduces the risk of unwanted information disclosure.
+    
+    For information on how to disable introspection in the Apollo GraphQL platform, see this blog post.
+    
+- If your API is intended for use by the general public then you will likely need to leave introspection enabled. However, you should review the API's schema to make sure that it does not expose unintended fields to the public.
+    
+- Make sure that suggestions are disabled. This prevents attackers from being able to use Clairvoyance or similar tools to glean information about the underlying schema.
+    
+    You cannot disable suggestions directly in Apollo. See this GitHub thread for a workaround.
+    
+- Make sure that your API's schema does not expose any private user fields, such as email addresses or user IDs.
+
+---
+
+## Preventing GraphQL brute force attacks
+
+It is sometimes possible to bypass standard rate limiting when using GraphQL APIs. For an example of this, see the Bypassing rate limiting using aliases section.
+
+With this in mind, there are design steps that you can take to defend your API against brute force attacks. This generally involves restricting the complexity of queries accepted by the API, and reducing the opportunity for attackers to execute denial-of-service (DoS) attacks.
+
+To defend against brute force attacks:
+
+- Limit the query depth of your API's queries. The term "query depth" refers to the number of levels of nesting within a query. Heavily-nested queries can have significant performance implications, and can potentially provide an opportunity for DoS attacks if they are accepted. By limiting the query depth your API accepts, you can reduce the chances of this happening.
+    
+- Configure operation limits. Operation limits enable you to configure the maximum number of unique fields, aliases, and root fields that your API can accept.
+    
+- Configure the maximum amount of bytes a query can contain.
+    
+- Consider implementing cost analysis on your API. Cost analysis is a process whereby a library application identifies the resource cost associated with running queries as they are received. If a query would be too computationally complex to run, the API drops it.
+    
+
+#### More information
+
+For information on how to implement these features in Apollo, see this blog post.
+
+---
+
+## Preventing CSRF over GraphQL
+
+To defend against GraphQL CSRF vulnerabilities specifically, make sure of the following when designing your API:
+
+- Your API only accepts queries over JSON-encoded POST.
+    
+- The API validates that content provided matches the supplied content type.
+    
+- The API has a secure CSRF token mechanism.
+
+---
+
+[...back](https://bkornpob.github.io)
