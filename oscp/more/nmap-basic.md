@@ -1,5 +1,5 @@
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)
 
 # 1 nmap -vv- A -O
 
@@ -457,4 +457,4 @@ CVSS: 8.5 (High)
 
 ---
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)

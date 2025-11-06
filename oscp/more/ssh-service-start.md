@@ -1,5 +1,5 @@
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)
 
 # 1 service ssh start / systemctl start ssh
 
@@ -384,4 +384,4 @@ Reduced attack surface
 
 ---
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)

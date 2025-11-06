@@ -181,4 +181,4 @@ i can see now that approaching target as the last thing in an operation, after p
 
 ---
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)

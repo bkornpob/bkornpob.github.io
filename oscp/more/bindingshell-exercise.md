@@ -1,5 +1,5 @@
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)
 
 # 1
 
@@ -226,4 +226,4 @@ try this upload/download with reverse shell
 
 ---
 
-[...back](../1-trainingnote.md)
+[...back](../ncsa-training/notes/1-trainingnote-d1.md)

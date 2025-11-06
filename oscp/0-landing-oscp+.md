@@ -131,6 +131,9 @@ We built this using the **Authoritative References** from OffSec:
 
 ## NEXT RABBIT HOLES 🕳️🐇
 
+> [**training notes with NCSA**](./ncsa-training/0-landing-ncsaoscp.md)
+> [**MOOC list modules**](./list-modules-mooc/list.md)
+
 > [PEN-200 extracted info...](./notes/note-1-PEN-200.md)
 > [OSCP+ auth ref...](./notes/note-6-authoritativereferences.md)
 > [report guide...](./assets/report-guide.pdf)
