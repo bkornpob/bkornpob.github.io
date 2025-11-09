@@ -4,41 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "6ea96e48cc0638bc",
+        "id": "5a7a57be60a822cf",
         "type": "tabs",
         "children": [
           {
-            "id": "88e4869c3576fc91",
+            "id": "544815287626d393",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oscp/ncsa-training/0-landing-ncsaoscp.md",
+                "file": "wsa/cors/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0-landing-ncsaoscp"
+              "title": "note"
             }
           }
         ]
       },
       {
-        "id": "3624474a596afc32",
+        "id": "74ab4eb059c084bd",
         "type": "tabs",
         "children": [
           {
-            "id": "fa8171b046ca613a",
+            "id": "03db1d7d015aa290",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "oscp/ncsa-training/mooc-labs/6-reverseshell-nonetcat.md",
+                "file": "wsa/cors/note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6-reverseshell-nonetcat"
+              "title": "note"
             }
           }
         ]
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pentesterlab",
+                "query": "pushState",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,44 +189,44 @@
       "bases:Create new base": false
     }
   },
-  "active": "88e4869c3576fc91",
+  "active": "03db1d7d015aa290",
   "lastOpenFiles": [
-    "oscp/ncsa-training/mooc-labs/7-snmp-login.md",
-    "oscp/ncsa-training/0-landing-ncsaoscp.md",
+    "wsa/cors/labs/lab1-header-Origin-tamper.md",
+    "wsa/cors/note.md",
+    "wsa/cors/supp/fetch-vs-xml.md",
+    "wsa/server-side-vuln/note.md",
+    "csrf/wsa/lab/referer-manipulation.md",
+    "csrf/wsa/lab/oauth-lax.md",
+    "csrf/wsa/lab/SameSite-bypass.md",
+    "csrf/wsa/lab/websocket-csrf.md",
+    "wsa/cors/supp",
+    "csrf/wsa/note-1.md",
+    "wsa/cors/labs",
+    "wsa/cors",
+    "wsa/server-side-vuln",
+    "wsa",
+    "csrf/wsa/lab/assets/websocket-chat.js.md",
+    "csrf/wsa/lab/assets",
+    "csrf/wsa/rbv-vs-sop.md",
+    "csrf/wsa/duo-csrfkey-value.md",
+    "oscp/recon/supp/why-many-protocols.md",
+    "ncsaoscp-posttest.md",
+    "kali-problem/incoming-cannot-reach/1.md",
+    "oscp/ncsa-training/mooc-labs/8-redis.md",
+    "kali-problem/incoming-cannot-reach",
+    "kali-problem",
     "oscp/ncsa-training/mooc-labs/6-reverseshell-nonetcat.md",
-    "oscp/ncsa-training/mooc-labs/supp/linux-file-assets.md",
-    "oscp/ncsa-training/mooc-labs/5-portforward-ssh.md",
-    "oscp/ncsa-training/notes/3-trainingnote-d3.md",
-    "oscp/ncsa-training/slides/slides-d3.pdf",
-    "oscp/ncsa-training/mooc-labs/4-sshkey-tampering.md",
-    "oscp/ncsa-training/mooc-labs/supp/filepermission-code.md",
-    "oscp/ncsa-training/mooc-labs/tool1.md",
-    "oscp/ncsa-training/mooc-labs/ajpshooter-vs-ajpy.md",
-    "oscp/ncsa-training/mooc-labs/tool2.md",
-    "oscp/ncsa-training/mooc-labs/3-supervalentine-githubdork.md",
-    "oscp/ncsa-training/mooc-labs/2-samba-rce-cve-2017-7494.md",
-    "oscp/ncsa-training/mooc-labs/assets/supervalentine-sample-website.md",
-    "oscp/ncsa-training/mooc-labs/supp/file-descriptor-redirection.md",
-    "oscp/ncsa-training/mooc-labs/1-vulnass-writeup.md",
-    "oscp/ncsa-training/mooc-notes/priv-escalate.md",
-    "oscp/ncsa-training/mooc-labs/supp/that-403-secret.md",
-    "oscp/ncsa-training/mooc-labs/supp",
-    "oscp/ncsa-training/mooc-labs/assets/ajpShooter-drkb.py",
-    "oscp/ncsa-training/mooc-labs/assets",
-    "oscp/ncsa-training/slides/slides-d2.pdf",
-    "oscp/ncsa-training/mooc-notes/attack-wan2dmz.md",
-    "oscp/ncsa-training/mooc-labs",
-    "about-ipaddress/1.md",
+    "oscp/ncsa-training/0-landing-ncsaoscp.md",
+    "pentesterlab/github-dork-tools/gitleaks.md",
     "oscp/0-landing-oscp+.md",
-    "oscp/list-modules-mooc/list.md",
-    "oscp/ncsa-training/notes/1-trainingnote-d1.md",
-    "about-ipaddress",
-    "oscp/more/binding-vs-reverse.md",
-    "oscp/more/reverseshell-bashtcp.md",
-    "oscp/ncsa-training/slides/slides-d1.pdf",
-    "oscp/ncsa-training/mooc-notes/tunneling-pivoting-portforwarding.md",
-    "mooc-notes",
-    "oscp/ncsa-training/mooc-notes",
+    "pentesterlab/github-dork-tools",
+    "pentesterlab",
+    "graphql/websecacademy/lab/websecacademy-graphql-lab2.md",
+    "oscp/ncsa-training/notes/3-trainingnote-d3.md",
+    "oscp/ncsa-training/mooc-labs/7-snmp-login.md",
+    "graphql/websecacademy/lab/websecacademy-graphql-lab1.md",
+    "graphql/websecacademy/note-1.md",
+    "comptia-cloudplus/devops-adds/graphql.md",
     "Pasted image 20251030232616.png",
     "Pasted image 20251030232622.png",
     "racecondition-websecurityacademy/ims/Pasted image 20251101010636.png",

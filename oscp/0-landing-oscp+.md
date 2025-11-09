@@ -146,5 +146,6 @@ We built this using the **Authoritative References** from OffSec:
 > [nmap](./recon/supp/nmap.md)
 > [ping](./recon/supp/ping.md)
 > [dig-vs-nslookup](./recon/supp/dig-vs-nslookup.md)
+> [gitdork tools](../pentesterlab/github-dork-tools/gitleaks.md)
 
 *Ready to dive deep? The vulnerabilities await.* 😏🔓

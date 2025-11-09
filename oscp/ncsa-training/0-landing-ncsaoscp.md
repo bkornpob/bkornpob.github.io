@@ -18,6 +18,9 @@
 > [sshkey tampering](./mooc-labs/4-sshkey-tampering.md)
 > [ssh portforward](./mooc-labs/5-portforward-ssh.md)
 > [snmp login](./mooc-labs/7-snmp-login.md)
+> [reverse shell (nah it's hijack cronjob)](./mooc-labs/6-reverseshell-nonetcat.md)
+> [postgres basic commands to php backdoor](./mooc-labs/supp/postgres-basic-command.md)
+> [gitleaks](../../pentesterlab/github-dork-tools/gitleaks.md)
 
 
 

