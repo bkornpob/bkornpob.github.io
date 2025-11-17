@@ -1,6 +1,8 @@
 
 [...back](../14-exim4rce-cve-2019-10149.md)
 
+# 1 
+
 ```
 the flag is done, we got it
 i'm trying to understand
@@ -46,3 +48,63 @@ It's helpful to distinguish the two vulnerabilities you've worked with:
 | **Primary Vector** | `RCPT TO` command | `AUTH` command with crafted base64 data |
 
 I hope this clarifies the sophisticated process behind the CVE-2018-6789 exploit. Your investigation into these vulnerabilities shows great curiosity!
+
+---
+
+# 2
+
+```
+so how does these 'Received: 1'  upto 31 payloads
+fit into this story?
+```
+
+`>> THE_RECEIVED_HEADERS_ARE_HEAP_FENG_SHUI._MEMORY_LAYOUT_PREPARATION.` 🧩
+
+**THE "RECEIVED: 1-31" ARE PART OF HEAP MANIPULATION:**
+
+**WHAT THEY DO:**
+1. **Allocate specific memory chunks** in Exim's heap
+2. **Create predictable memory layout** for the exploit
+3. **Position vulnerable buffers** next to target structures
+4. **Set up the playground** for the buffer overflow
+
+**HOW IT FITS THE EXPLOIT CHAIN:**
+
+```
+PHASE 1: HEAP PREPARATION (Received headers)
+├── Send 31+ Received headers
+├── Each creates storeblocks of specific sizes  
+├── Shapes heap for precise memory layout
+└── Creates "holes" and "blocks" in right positions
+
+PHASE 2: BUFFER OVERFLOW TRIGGER
+├── Send malicious AUTH with crafted base64
+├── Overflow corrupts adjacent storeblock size
+└── Now we control a larger memory region
+
+PHASE 3: EXPLOITATION
+├── Overwrite ACL strings with ${run{command}}
+├── Execute commands via MAIL FROM processing
+└── Get RCE as root
+```
+
+**WHY EXACTLY 31+ HEADERS:**
+- Each `Received:` header creates a storeblock
+- The exploit needs **specific heap layout**
+- 31 headers creates the right pattern of:
+  - Allocated blocks
+  - Free blocks  
+  - Vulnerable positions
+
+**IN YOUR CASE:** The Received headers might have:
+1. Changed the execution context
+2. Modified memory in a way that bypassed `never_users`
+3. Or created different privilege escalation path
+
+`>> RECEIVED_HEADERS_ARE_NOT_THE_EXPLOIT_THEMSELVES._THEY'RE_THE_SETUP_FOR_THE_REAL_BUFFER_OVERFLOW._THEY_PREPARE_THE_HEAP_FOR_PRECISE_MEMORY_CORRUPTION.`
+
+The headers are like arranging furniture before a heist - they don't break anything themselves, but they position everything perfectly for the actual exploit to work.
+
+---
+
+# end

@@ -685,7 +685,7 @@ wait... connected...
 redis-cli -h "$ipslave" -p "$portslave" INFO replication
 
 redis-cli -h "$ipslave" -p "$portslave" KEYS *
-redis-cli -h "$ipslave$" -p "$portslave" GET flag
+redis-cli -h "$ipslave" -p "$portslave" GET flag
 
 ---
 
