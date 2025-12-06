@@ -171,6 +171,7 @@
   },
   "active": "9ee7903cd40489c5",
   "lastOpenFiles": [
+    "pentesterlab/gcm-tag-truncation/cover-image-gcm-tag-truncation.png",
     "pentesterlab/gcm-tag-truncation/story-complete-note.md",
     "pentesterlab/gcm-tag-truncation/poc.md",
     "pentesterlab/gcm-tag-truncation/note-2.md",
@@ -201,7 +202,6 @@
     "oscp/ncsa-training/mooc-labs/2-samba-rce-cve-2017-7494.md",
     "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
     "multiverselib-hr/persona/manifest/OG-manifest-v2-0.md",
-    "wsa/prototype-pollution/note.md",
     "wsa/prototype-pollution/labs",
     "wsa/prototype-pollution",
     "wsa/web-cache-poisoning/labs",
