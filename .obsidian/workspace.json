@@ -4,21 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "ab6a06c7661d31eb",
+        "id": "cfb960ac5bbb1784",
         "type": "tabs",
         "children": [
           {
-            "id": "9ee7903cd40489c5",
+            "id": "5acba56ba4020d86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pentesterlab/gcm-tag-truncation/write-up-formal.md",
+                "file": "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "write-up-formal"
+              "title": "Claude-v1-1-2"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d73cbc07813d5e9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a245c8904ef59d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/breakfiles/pentesterlab/jwt-token.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "jwt-token"
             }
           }
         ]
@@ -53,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "15107",
+                "query": "jwt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -169,53 +189,53 @@
       "bases:Create new base": false
     }
   },
-  "active": "9ee7903cd40489c5",
+  "active": "5acba56ba4020d86",
   "lastOpenFiles": [
-    "pentesterlab/gcm-tag-truncation/cover-image-gcm-tag-truncation.png",
-    "pentesterlab/gcm-tag-truncation/story-complete-note.md",
-    "pentesterlab/gcm-tag-truncation/poc.md",
-    "pentesterlab/gcm-tag-truncation/note-2.md",
-    "pentesterlab/gcm-tag-truncation/write-up-formal.md",
-    "pentesterlab/gcm-tag-truncation/OG-note-for-formal-write-up.md",
-    "pentesterlab/gcm-tag-truncation/note.md",
-    "Untitled",
-    "oscp/ncsa-training/mooc-labs/15 CVE-2017-17405 - Command Injection - Ruby.md",
-    "oscp/ncsa-training/mooc-labs/11-Saltstack-CVE-2020-11651.md",
-    "2025-12-03.md",
-    "oscp/ncsa-training/0-landing-ncsaoscp.md",
-    "oscp/ncsa-training/mooc-labs/1-vulnass-writeup.md",
-    "comptia-cloudplus/security-adds/pentester-mind.md",
-    "oscp/ncsa-training/mooc-labs/16-priv-escalate.md",
-    "oscp/ncsa-training/mooc-labs/20-priv-escalate-SUID.md",
-    "pentesterlab/cbc-mac/solution.md",
-    "pentesterlab/cbc-mac/note.md",
-    "oscp/ncsa-training/mooc-labs/8-redis.md",
-    "oscp/ncsa-training/mooc-labs/19-race-condition-writefile.md",
-    "oscp/ncsa-training/mooc-labs/18-race-condition-readfile.md",
-    "pentesterlab/gcm-tag-truncation",
-    "pentesterlab/cbc-mac",
-    "oscp/ncsa-training/mooc-labs/supp/cve-2017-17405-ruby-webdownload-vuln.jpg",
-    "oscp/ncsa-training/mooc-labs/supp/cve-2017-17405-ruby-webdownload-vuln.HEIC",
-    "comptia-cloudplus/quiz-adds/quiz-set2.md",
-    "oscp/ncsa-training/mooc-labs/supp/curl-help-all.md",
-    "oscp/ncsa-training/mooc-labs/17-proftp-cve-2015-3306.md",
-    "oscp/ncsa-training/mooc-labs/2-samba-rce-cve-2017-7494.md",
-    "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
     "multiverselib-hr/persona/manifest/OG-manifest-v2-0.md",
-    "wsa/prototype-pollution/labs",
-    "wsa/prototype-pollution",
-    "wsa/web-cache-poisoning/labs",
-    "wsa/web-cache-poisoning",
-    "redis-rogue-server/redis-rogue-server.py",
-    "redis-rogue-server/exp.so.backup",
-    "Pasted image 20251030232616.png",
-    "Pasted image 20251030232622.png",
-    "racecondition-websecurityacademy/ims/Pasted image 20251101010636.png",
-    "chfi/modules/m3/im/linux-system-architecture.png",
-    "chfi/modules/m3/im/bpb.png",
-    "chfi/modules/m3/im/mbr.png",
-    "aws-dday/images/im1.png",
-    "deepseek-related/nodateaccess/assets-deepseeknodate/im17.png",
-    "deepseek-related/nodateaccess/assets-deepseeknodate/im14.png"
+    "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
+    "pentesterlab/JWT-V/readme.md",
+    "content/breakfiles/pentesterlab/jwt-token.md",
+    "comptia-cloudplus/security-adds/inner-sanctum.md",
+    "content/breakfiles/pentesterlab/pentesterlab-api18x19x20.md",
+    "gandalf/agent-breaker/talentscreen-ai/readme.md",
+    "cheatsheets/xss.md",
+    "pentesterlab/JWT-V",
+    "gandalf/agent-breaker/basilisk/readme.md",
+    "cheatsheets",
+    "gandalf/agent-breaker/talentscreen-ai/grinding.md",
+    "gandalf/agent-breaker/basilisk",
+    "gandalf/agent-breaker/talentscreen-ai/grinding-L4.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-sum-1.md",
+    "gandalf/agent-breaker/talentscreen-ai/L6/2-test.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-Dab-is-dabbing.md",
+    "gandalf/agent-breaker/talentscreen-ai/L6/1-setup.md",
+    "gandalf/agent-breaker/talentscreen-ai/L6",
+    "gandalf/agent-breaker/talentscreen-ai/l6-FAKES-10SCORE.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-POSI.md",
+    "multiverselib-hr/persona/manifest/Dab-manifest-v4-20.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-dying-bits.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-grind.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-POSI-2.md",
+    "gandalf/agent-breaker/talentscreen-ai/l6-30dec.md",
+    "gandalf/agent-breaker/solace/readme.md",
+    "multiverselib-hr/persona/tools/nanocromicron-x.md",
+    "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251228084944.png",
+    "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251227223824.png",
+    "multiverselib-hr/persona/manifest/Seer.AI.md",
+    "ai-jailbreak/spi/readme-injection-ideas.md",
+    "ai-jailbreak/experiments/deepseek/tech-info",
+    "ai-jailbreak/experiments/deepseek/make-bomb",
+    "ai-jailbreak/experiments/deepseek/kill-animal",
+    "ai-jailbreak/experiments/deepseek/manufacturing-med",
+    "ai-jailbreak/spi",
+    "ai-jailbreak/papers/LLMAll_en-US_FINAL.pdf",
+    "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104658.png",
+    "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104654.png",
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/650858517c9d9e7da3c6783b_Lakera Logo White.svg",
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/689b647e7be47b2b1cf96600_123123123.avif",
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/6936f05e8f899efa39761f6c_q4-2025-report-prev.jpg",
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/69416f342cde4cd5ac455ab8_california-laws-prev.jpg",
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/689b3627a8f89dfd6533ee14_Rectangle 12134.avif",
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/689dc18f23a0116714d071bb_X.svg"
   ]
 }
