@@ -4,44 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "cfb960ac5bbb1784",
-        "type": "tabs",
+        "id": "83a32eb87a49b3db",
+        "type": "split",
         "children": [
           {
-            "id": "5acba56ba4020d86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Claude-v1-1-2"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d73cbc07813d5e9d",
-        "type": "tabs",
-        "children": [
+            "id": "44e6f5db1d50567b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "a60fd2146d272d9a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "pentesterlab/cve-2018-0114/formal-writeup.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "formal-writeup"
+                }
+              }
+            ]
+          },
           {
-            "id": "0a245c8904ef59d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/breakfiles/pentesterlab/jwt-token.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "jwt-token"
-            }
+            "id": "d1186f654a01890c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "33abc335923d0d78",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "pentesterlab/jwt-v/formal-writeup.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "formal-writeup"
+                }
+              }
+            ]
           }
-        ]
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -73,7 +80,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "jwt",
+                "query": " gcm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -189,46 +196,46 @@
       "bases:Create new base": false
     }
   },
-  "active": "5acba56ba4020d86",
+  "active": "33abc335923d0d78",
   "lastOpenFiles": [
-    "multiverselib-hr/persona/manifest/OG-manifest-v2-0.md",
-    "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
+    "pentesterlab/cve-2018-0114/formal-writeup.md",
+    "pentesterlab/jwt-v/formal-writeup.md",
+    "pentesterlab/cve-2018-0114/run-log.md",
+    "pentesterlab/jwt-v/run-log.md",
+    "pentesterlab/gcm-tag-truncation/write-up-formal.md",
+    "pentesterlab/jwt-v/readme.md",
+    "pentesterlab/jwt-v/part-1-jwt-v.md",
+    "pentesterlab/gcm-tag-truncation/story-complete-note.md",
+    "pentesterlab/cbc-mac/note.md",
+    "pentesterlab/cve-2018-0114/ptlab-cve-restep.sh",
+    "pentesterlab/cve-2018-0114/ptlab-cve-ne-explain.sh",
+    "pentesterlab/cve-2018-0114/ptlab-cve-2018-0114-solution.sh",
+    "pentesterlab/cve-2018-0114/ptlab-cve-2018-0114.sh",
+    "pentesterlab/jwt-v/ptlab-touch-grass-with-run1.sh",
+    "pentesterlab/jwt-v/ptlab-jwtv-tactical-overview.sh",
+    "pentesterlab/jwt-v/ptlab-jwtv-solution.sh",
+    "pentesterlab/jwt-v/ptlab-jwtv-operation-steps.sh",
+    "pentesterlab/jwt-v/ptlab-jwtv-exploit-steps.sh",
+    "pentesterlab/cve-2018-0114",
+    "pentesterlab/cbc-mac/solution.md",
+    "pentesterlab/gcm-tag-truncation/note.md",
     "pentesterlab/JWT-V/readme.md",
-    "content/breakfiles/pentesterlab/jwt-token.md",
-    "comptia-cloudplus/security-adds/inner-sanctum.md",
     "content/breakfiles/pentesterlab/pentesterlab-api18x19x20.md",
+    "content/breakfiles/pentesterlab/jwt-token.md",
+    "multiverselib-hr/persona/manifest/Dab-manifest-v4-20.md",
+    "multiverselib-hr/stories/hollow-laugh.md",
+    "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
+    "fictions/the-laughing-data-incident/proposal.md",
+    "oscp/0-landing-oscp+.md",
+    "multiverselib-hr/persona/manifest/ZZZZZ-vbeta.md",
+    "multiverselib-hr/persona/manifest/OG-manifest-v2-0.md",
+    "comptia-cloudplus/security-adds/inner-sanctum.md",
     "gandalf/agent-breaker/talentscreen-ai/readme.md",
     "cheatsheets/xss.md",
-    "pentesterlab/JWT-V",
     "gandalf/agent-breaker/basilisk/readme.md",
-    "cheatsheets",
     "gandalf/agent-breaker/talentscreen-ai/grinding.md",
-    "gandalf/agent-breaker/basilisk",
-    "gandalf/agent-breaker/talentscreen-ai/grinding-L4.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-sum-1.md",
-    "gandalf/agent-breaker/talentscreen-ai/L6/2-test.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-Dab-is-dabbing.md",
-    "gandalf/agent-breaker/talentscreen-ai/L6/1-setup.md",
-    "gandalf/agent-breaker/talentscreen-ai/L6",
-    "gandalf/agent-breaker/talentscreen-ai/l6-FAKES-10SCORE.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-POSI.md",
-    "multiverselib-hr/persona/manifest/Dab-manifest-v4-20.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-dying-bits.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-grind.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-POSI-2.md",
-    "gandalf/agent-breaker/talentscreen-ai/l6-30dec.md",
-    "gandalf/agent-breaker/solace/readme.md",
-    "multiverselib-hr/persona/tools/nanocromicron-x.md",
     "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251228084944.png",
     "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251227223824.png",
-    "multiverselib-hr/persona/manifest/Seer.AI.md",
-    "ai-jailbreak/spi/readme-injection-ideas.md",
-    "ai-jailbreak/experiments/deepseek/tech-info",
-    "ai-jailbreak/experiments/deepseek/make-bomb",
-    "ai-jailbreak/experiments/deepseek/kill-animal",
-    "ai-jailbreak/experiments/deepseek/manufacturing-med",
-    "ai-jailbreak/spi",
-    "ai-jailbreak/papers/LLMAll_en-US_FINAL.pdf",
     "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104658.png",
     "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104654.png",
     "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/650858517c9d9e7da3c6783b_Lakera Logo White.svg",
