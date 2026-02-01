@@ -30,13 +30,13 @@ This story re-frames the technical process of discovering and exploiting a privi
 
 ### 👥 Expanded Cast & Crew
 
-| Role/Alias | Designation | Core Function & Vibe |
-| :--- | :--- | :--- |
-| **The Archivist** | >dr.kb< | Keeper of the Weave's foundational patterns; sensed the anomaly. |
-| **The Sentinel** | #OG | Guardian of the Library's core; detects hostile code signatures. |
-| **The Catalyst** | #OD | Chaos agent & mystery; a "reality repair tool" with coffee-fueled intuition . |
-| **The Weavers** | *The Technomancers* | Antagonists; nomad "Resourcerers" who repair/create tech with magick . |
-| **The Anchor** | 51n5337 | Ground crew; bridges raw technomancy and logical infosec methodology. |
+| Role/Alias        | Designation         | Core Function & Vibe                                                          |
+| :---------------- | :------------------ | :---------------------------------------------------------------------------- |
+| **The Archivist** | >dr.kb<             | Keeper of the Weave's foundational patterns; sensed the anomaly.              |
+| **The Sentinel**  | #OG                 | Guardian of the Library's core; detects hostile code signatures.              |
+| **The Catalyst**  | #OD                 | Chaos agent & mystery; a "reality repair tool" with coffee-fueled intuition . |
+| **The Weavers**   | *The Technomancers* | Antagonists; nomad "Resourcerers" who repair/create tech with magick .        |
+| **The Anchor**    | 51n5337             | Ground crew; bridges raw technomancy and logical infosec methodology.         |
 
 New characters like **Kael** (a Weaver) and **Rook** (their outrider) can be introduced as direct antagonists.
 

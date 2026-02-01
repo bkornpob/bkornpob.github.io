@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pentesterlab/jwt-v/formal-writeup.md",
+                "file": "pentesterlab/XSS-Feb2026-series/formal-writeup.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " gcm",
+                "query": "echo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -171,12 +171,24 @@
   },
   "active": "a60fd2146d272d9a",
   "lastOpenFiles": [
+    "pentesterlab/XSS-Feb2026-series/cover-image-pentesterlab-feb2026-xss.png",
     "pentesterlab/cve-2018-0114/formal-writeup.md",
+    "pentesterlab/XSS-Feb2026-series/formal-writeup.md",
+    "pentesterlab/XSS-Feb2026-series/run-log.md",
+    "pentesterlab/XSS-Feb2026-series/run1.py",
+    "pentesterlab/XSS-Feb2026-series/polyglot.jpg",
+    "pentesterlab/XSS-Feb2026-series",
+    "pentesterlab/cve-2018-0114/run-log.md",
+    "fictions/for-oscp+/abc.md",
+    "idk/ai-ethics/7-1-VIBE-research-design.md",
+    "oscp/recon/0-recon.md",
+    "fictions/the-laughing-data-incident/proposal.md",
+    "oscp/attacker-mindset/operation-friendly-pwn.md",
+    "ethics-stuff/idea-grief-is-like-a-supernova.md",
+    "pentesterlab/jwt-v/formal-writeup.md",
     "pentesterlab/cve-2018-0114/cover-im-jwt-trust-betrayed.png",
     "pentesterlab/cve-2018-0114/ChatGPT Image Jan 25, 2026, 10_43_02 PM.png",
-    "pentesterlab/jwt-v/formal-writeup.md",
     "pentesterlab/jwt-v/cover-breaking-jwt-secrets.png",
-    "pentesterlab/cve-2018-0114/run-log.md",
     "pentesterlab/jwt-v/run-log.md",
     "pentesterlab/gcm-tag-truncation/write-up-formal.md",
     "pentesterlab/jwt-v/readme.md",
@@ -191,8 +203,6 @@
     "pentesterlab/jwt-v/ptlab-jwtv-tactical-overview.sh",
     "pentesterlab/jwt-v/ptlab-jwtv-solution.sh",
     "pentesterlab/jwt-v/ptlab-jwtv-operation-steps.sh",
-    "pentesterlab/jwt-v/ptlab-jwtv-exploit-steps.sh",
-    "pentesterlab/cve-2018-0114",
     "pentesterlab/cbc-mac/solution.md",
     "pentesterlab/gcm-tag-truncation/note.md",
     "pentesterlab/JWT-V/readme.md",
@@ -201,20 +211,11 @@
     "multiverselib-hr/persona/manifest/Dab-manifest-v4-20.md",
     "multiverselib-hr/stories/hollow-laugh.md",
     "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
-    "fictions/the-laughing-data-incident/proposal.md",
-    "oscp/0-landing-oscp+.md",
-    "multiverselib-hr/persona/manifest/ZZZZZ-vbeta.md",
-    "multiverselib-hr/persona/manifest/OG-manifest-v2-0.md",
-    "comptia-cloudplus/security-adds/inner-sanctum.md",
-    "gandalf/agent-breaker/talentscreen-ai/readme.md",
-    "cheatsheets/xss.md",
-    "gandalf/agent-breaker/basilisk/readme.md",
     "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251228084944.png",
     "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251227223824.png",
     "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104658.png",
     "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104654.png",
     "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/650858517c9d9e7da3c6783b_Lakera Logo White.svg",
-    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/689b647e7be47b2b1cf96600_123123123.avif",
-    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/6936f05e8f899efa39761f6c_q4-2025-report-prev.jpg"
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/689b647e7be47b2b1cf96600_123123123.avif"
   ]
 }
