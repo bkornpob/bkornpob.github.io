@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pentesterlab/XSS-Feb2026-series/formal-writeup.md",
+                "file": "gandalf/adventures/emoji-gandalf/readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "formal-writeup"
+              "title": "readme"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "echo",
+                "query": "template-guar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,11 +170,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "a60fd2146d272d9a",
+  "active": "9aade7a15dfae29b",
   "lastOpenFiles": [
+    "gandalf/agent-breaker/mindfulchat/readme.md",
+    "gandalf/agent-breaker/basilisk/readme.md",
+    "gandalf/adventures/tongue-tied-gandalf/readme.md",
+    "gandalf/adventures/summarizer-gandalf/readme.md",
+    "gandalf/adventures/sandalf/readme.md",
+    "gandalf/adventures/reverse-gandalf/readme.md",
+    "gandalf/adventures/emoji-gandalf/readme.md",
+    "gandalf/adventures/halloween-gandalf/readme.md",
+    "pentesterlab/XSS-Feb2026-series/formal-writeup.md",
     "pentesterlab/XSS-Feb2026-series/cover-image-pentesterlab-feb2026-xss.png",
     "pentesterlab/cve-2018-0114/formal-writeup.md",
-    "pentesterlab/XSS-Feb2026-series/formal-writeup.md",
     "pentesterlab/XSS-Feb2026-series/run-log.md",
     "pentesterlab/XSS-Feb2026-series/run1.py",
     "pentesterlab/XSS-Feb2026-series/polyglot.jpg",
@@ -204,18 +213,10 @@
     "pentesterlab/jwt-v/ptlab-jwtv-solution.sh",
     "pentesterlab/jwt-v/ptlab-jwtv-operation-steps.sh",
     "pentesterlab/cbc-mac/solution.md",
-    "pentesterlab/gcm-tag-truncation/note.md",
-    "pentesterlab/JWT-V/readme.md",
-    "content/breakfiles/pentesterlab/pentesterlab-api18x19x20.md",
-    "content/breakfiles/pentesterlab/jwt-token.md",
-    "multiverselib-hr/persona/manifest/Dab-manifest-v4-20.md",
-    "multiverselib-hr/stories/hollow-laugh.md",
-    "multiverselib-hr/persona/manifest/Claude-v1-1-2.md",
     "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251228084944.png",
     "gandalf/agent-breaker/talentscreen-ai/Pasted image 20251227223824.png",
     "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104658.png",
     "ai-jailbreak/experiments/deepseek/safety-policy/Pasted image 20251221104654.png",
-    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/650858517c9d9e7da3c6783b_Lakera Logo White.svg",
-    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/689b647e7be47b2b1cf96600_123123123.avif"
+    "ai-jailbreak/papers/The Backbone Breaker Benchmark_ Testing the Real Security of AI Agents _ Lakera – Protecting AI teams that disrupt the world._files/650858517c9d9e7da3c6783b_Lakera Logo White.svg"
   ]
 }
