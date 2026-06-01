@@ -44,31 +44,31 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
 /* ── FLOATING RABBIT-HOLE ── */
 .rabbit-hole{
   position:fixed;left:50%;transform:translateX(-50%);z-index:8;
-  display:flex;gap:10px;align-items:center;
-  padding:10px 14px;border-radius:999px;
+  display:flex;gap:12px;align-items:flex-start;justify-content:center;
+  padding:8px 12px;border-radius:999px;max-width:96vw;
   background:var(--panel-glass);
   border:1px solid var(--card-border);
   box-shadow:var(--shadow);
   backdrop-filter:blur(10px) saturate(140%);
 }
-.rabbit-hole.top{top:16px}
-.rabbit-hole.bottom{bottom:16px}
-.rabbit-hole .tag{font-size:11px;color:var(--muted);letter-spacing:.12em;padding:0 8px}
+.rabbit-hole.top{top:10px}
+.rabbit-hole.bottom{bottom:10px}
+.brand-stack{display:flex;flex-direction:column;align-items:center;gap:0;line-height:1.1;flex-shrink:0}
+.brand-stack .tag{white-space:nowrap;font-size:11px;color:var(--ink);letter-spacing:.1em;padding:0 4px}
+.nav-right{display:flex;flex-direction:column;gap:4px;align-items:flex-end;flex-shrink:1;min-width:0}
+.nav-row{display:flex;gap:6px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .rabbit-hole a{
-  color:var(--ink);text-decoration:none;font-size:13px;padding:6px 12px;border-radius:999px;
+  color:var(--ink);text-decoration:none;font-size:11px;padding:4px 8px;border-radius:999px;
   border:1px solid var(--card-border);background:rgba(255,255,255,.03);
   transition:transform .15s ease,background .2s ease,border-color .2s ease;
+  flex-shrink:0;white-space:nowrap;
 }
 .rabbit-hole a:hover{background:rgba(255,255,255,.08);border-color:var(--accent)}
-
-/* ── THEME DROPDOWN ── */
-.theme-picker{
-  display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;
-  background:rgba(0,0,0,.25);border:1px solid var(--card-border);color:var(--ink);font-size:12px;
-}
-.theme-picker label{color:var(--muted);font-size:11px;letter-spacing:.1em}
+.theme-picker{padding:4px 6px;font-size:10px}
+.theme-picker label{color:var(--muted);font-size:10px;letter-spacing:.1em}
 .theme-picker select{
   background:transparent;color:var(--ink);border:none;outline:none;font:inherit;cursor:pointer;
+  font-size:10px;
 }
 
 /* ── HALLWAY LAYOUT ── */
