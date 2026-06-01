@@ -1,0 +1,16 @@
+# Dev workspaces
+/research/
+/recon/
+
+# Node / build artifacts
+node_modules/
+dist/
+.cache/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
