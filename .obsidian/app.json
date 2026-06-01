@@ -1,14 +1,17 @@
 {
-  "useMarkdownLinks": true,
+  "newLinkFormat": "relative",
   "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "propertiesInDocument": "source",
+  "newFileLocation": "current",
+  "attachmentFolderPath": "./",
   "pdfExportSettings": {
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
   },
-  "showUnsupportedFiles": true,
-  "showLineNumber": false,
-  "newLinkFormat": "relative",
-  "attachmentFolderPath": "./"
+  "trashOption": "local",
+  "promptDelete": false
 }
