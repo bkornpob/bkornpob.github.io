@@ -1,33 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="neon">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>>dr.kb< multiverse — frontgate</title>
+<link rel="stylesheet" href="styles/hallway.css" />
 <style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  :root {
-    --void: #050505;
-    --vault: #1a0505;
-    --border: #5c1a1a;
-    --accent: #ff4d4d;
-    --muted: #994444;
-    --text: #ffcccc;
-  }
-  body {
-    background: var(--void);
-    color: var(--text);
-    font-family: 'Courier New', 'Consolas', monospace;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    user-select: none;
-  }
   .vault {
     border: 2px solid var(--border);
-    background: radial-gradient(ellipse at center, var(--vault), #000 70%);
+    background: radial-gradient(ellipse at center, #1a0505, #000 70%);
     padding: 3rem 4rem;
     text-align: center;
     border-radius: 12px;
@@ -35,26 +16,34 @@
     max-width: 600px;
     width: 92%;
   }
-  .sigil { font-size: 1.2rem; letter-spacing: 0.4em; color: var(--muted); margin-bottom: 2rem; }
+  .sigil { font-size: 1.2rem; letter-spacing: 0.4em; color: #994444; margin-bottom: 2rem; }
   h1 { letter-spacing: 0.25em; margin-bottom: 1rem; }
-  .sub { font-size: 0.85rem; color: var(--muted); margin-bottom: 2.5rem; line-height: 1.6; }
+  .sub {
+    font-size: 0.85rem;
+    color: #994444;
+    margin-bottom: 2.5rem;
+    line-height: 1.6;
+  }
   .knocker {
-    width: 160px; height: 160px;
-    border: 3px solid var(--border);
+    width: 160px;
+    height: 160px;
+    border: 3px solid #5c1a1a;
     border-radius: 50%;
     margin: 0 auto 1.5rem;
-    display: flex; align-items: center; justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     font-size: 0.9rem;
     letter-spacing: 0.3em;
-    color: var(--accent);
+    color: #ff4d4d;
     transition: transform 0.2s, box-shadow 0.3s;
     position: relative;
   }
   .knocker:hover { transform: scale(1.04); }
   .knocker.hit {
     animation: knockPulse 0.25s ease-out;
-    box-shadow: 0 0 50px var(--accent), inset 0 0 30px rgba(255,77,77,0.4);
+    box-shadow: 0 0 50px #ff4d4d, inset 0 0 30px rgba(255,77,77,0.4);
   }
   @keyframes knockPulse {
     0% { transform: scale(1); }
@@ -65,31 +54,52 @@
     min-height: 1.4em;
     font-size: 0.9rem;
     letter-spacing: 0.15em;
-    color: var(--accent);
+    color: #ff4d4d;
   }
   .msg {
     min-height: 2em;
     margin-top: 1rem;
     font-size: 0.85rem;
-    color: var(--muted);
+    color: #994444;
     font-style: italic;
   }
-  .meta { margin-top: 2rem; font-size: 0.7rem; color: var(--muted); letter-spacing: 0.2em; }
+  .meta { margin-top: 2rem; font-size: 0.7rem; color: #994444; letter-spacing: 0.2em; }
   @media (prefers-reduced-motion: reduce) {
     .knocker.hit { animation: none; }
   }
 </style>
 </head>
 <body>
-<div class="vault">
-  <div class="sigil">⛧ MULTIVERSE-LIB ⛧</div>
-  <h1>#THE_SENTRY</h1>
-  <p class="sub">>> ACCESS TO THE MULTIVERSE HUB IS RESTRICTED.<br>THREE KNOCKS WITHIN 5s. OR STAY OUTSIDE.</p>
-  <div class="knocker" id="knocker" role="button" aria-label="Knock to enter">KNOCK</div>
-  <div class="status" id="status" aria-live="polite"></div>
-  <div class="msg" id="msg"></div>
-  <div class="meta">INTENT OVER VELOCITY</div>
-</div>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <nav class="rabbit-hole top" aria-label="multiverse portal">
+    <span class="tag">>> dr.kb<</span>
+    <span class="tag" style="color:var(--ink);opacity:.7">multiverse</span>
+    <a href="index.html" data-portal="gate">frontgate</a>
+    <a href="hallway.html" data-portal="hallway">hallway</a>
+    <a href="blog.html" data-portal="blog">blogosphere</a>
+
+    <div class="theme-picker">
+      <label for="themeSelect">VIBE</label>
+      <select id="themeSelect" aria-label="theme">
+        <option value="neon">Neon</option>
+        <option value="satire">Satire</option>
+        <option value="flicker">Flicker</option>
+      </select>
+    </div>
+
+    <a href="character-sheet.html">character sheet</a>
+  </nav>
+
+  <div class="vault" style="position:relative;z-index:1;margin-top:100px">
+    <div class="sigil">⛧ MULTIVERSE-LIB ⛧</div>
+    <h1>#THE_SENTRY</h1>
+    <p class="sub">>> ACCESS TO THE MULTIVERSE HUB IS RESTRICTED.<br>THREE KNOCKS WITHIN 5s. OR STAY OUTSIDE.</p>
+    <div class="knocker" id="knocker" role="button" aria-label="Knock to enter">KNOCK</div>
+    <div class="status" id="status" aria-live="polite"></div>
+    <div class="msg" id="msg"></div>
+    <div class="meta">INTENT OVER VELOCITY</div>
+  </div>
 <script src="scripts/frontgate.js"></script>
 </body>
 </html>
