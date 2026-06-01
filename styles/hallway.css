@@ -40,9 +40,6 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
     linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
   background-size:48px 48px;
 }
-.brand{position:fixed;top:14px;left:18px;z-index:5;opacity:.9}
-.brand h1{margin:0;font-size:16px;letter-spacing:.18em;color:var(--accent);text-shadow:0 0 10px var(--glow)}
-.brand p{margin:2px 0 0;font-size:11px;color:var(--muted)}
 
 /* ── FLOATING RABBIT-HOLE ── */
 .rabbit-hole{
