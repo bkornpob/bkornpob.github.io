@@ -1,0 +1,129 @@
+/* ═══════════════════════════════════════════
+   MULTIVERSE HALLWAY — vibe theming + DEI support
+   ═══════════════════════════════════════════ */
+
+/* ── RESET / BASE ── */
+:root{
+  --bg:#050505; --panel:#0a0a0f; --ink:#e8e8ee; --muted:#7a7a8c;
+  --accent:#00ffaa; --glow:rgba(0,255,170,.35);
+  --panel-glass:rgba(12,12,20,.72);
+  --card-bg:rgba(18,18,30,.75); --card-border:rgba(255,255,255,.07);
+  --shadow:0 0 18px rgba(0,255,170,.12);
+}
+[data-theme="neon"]{
+  --bg:#02020a; --panel:#060614; --ink:#ffffff; --muted:#a0a0c0;
+  --accent:#00ffd5; --glow:rgba(0,255,213,.4);
+  --panel-glass:rgba(8,8,24,.72); --card-bg:rgba(16,16,40,.78);
+  --card-border:rgba(255,255,255,.10); --shadow:0 0 22px rgba(0,255,213,.2);
+}
+[data-theme="satire"]{
+  --bg:#100a02; --panel:#1c1206; --ink:#ffecd2; --muted:#d0a882;
+  --accent:#ffb703; --glow:rgba(255,183,3,.38);
+  --panel-glass:rgba(32,20,8,.78); --card-bg:rgba(40,26,10,.8);
+  --card-border:rgba(255,200,100,.12); --shadow:0 0 20px rgba(255,160,0,.18);
+}
+[data-theme="flicker"]{
+  --bg:#080308; --panel:#14080e; --ink:#f2e6ff; --muted:#d0b8e0;
+  --accent:#ff2bd6; --glow:rgba(255,43,214,.38);
+  --panel-glass:rgba(30,10,26,.78); --card-bg:rgba(40,16,34,.82);
+  --card-border:rgba(255,120,220,.12); --shadow:0 0 22px rgba(255,43,214,.2);
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
+  font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+}
+.bg-grid{
+  position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+  background-size:48px 48px;
+}
+.brand{position:fixed;top:14px;left:18px;z-index:5;opacity:.9}
+.brand h1{margin:0;font-size:16px;letter-spacing:.18em;color:var(--accent);text-shadow:0 0 10px var(--glow)}
+.brand p{margin:2px 0 0;font-size:11px;color:var(--muted)}
+
+/* ── FLOATING RABBIT-HOLE ── */
+.rabbit-hole{
+  position:fixed;left:50%;transform:translateX(-50%);z-index:8;
+  display:flex;gap:10px;align-items:center;
+  padding:10px 14px;border-radius:999px;
+  background:var(--panel-glass);
+  border:1px solid var(--card-border);
+  box-shadow:var(--shadow);
+  backdrop-filter:blur(10px) saturate(140%);
+}
+.rabbit-hole.top{top:16px}
+.rabbit-hole.bottom{bottom:16px}
+.rabbit-hole .tag{font-size:11px;color:var(--muted);letter-spacing:.12em;padding:0 8px}
+.rabbit-hole a{
+  color:var(--ink);text-decoration:none;font-size:13px;padding:6px 12px;border-radius:999px;
+  border:1px solid var(--card-border);background:rgba(255,255,255,.03);
+  transition:transform .15s ease,background .2s ease,border-color .2s ease;
+}
+.rabbit-hole a:hover{background:rgba(255,255,255,.08);border-color:var(--accent)}
+
+/* ── THEME DROPDOWN ── */
+.theme-picker{
+  display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;
+  background:rgba(0,0,0,.25);border:1px solid var(--card-border);color:var(--ink);font-size:12px;
+}
+.theme-picker label{color:var(--muted);font-size:11px;letter-spacing:.1em}
+.theme-picker select{
+  background:transparent;color:var(--ink);border:none;outline:none;font:inherit;cursor:pointer;
+}
+
+/* ── HALLWAY LAYOUT ── */
+.hallway{
+  position:relative;z-index:1;
+  max-width:1100px;margin:0 auto;
+  padding:110px 22px 80px;
+}
+.grid{
+  display:grid;gap:22px;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  align-content:start;
+}
+.card{
+  position:relative;min-height:180px;padding:18px;border-radius:14px;
+  background:var(--card-bg);border:1px solid var(--card-border);
+  box-shadow:var(--shadow);overflow:hidden;cursor:pointer;
+  transition:transform .25s ease,border-color .25s ease;
+  transform-style:preserve-3d;perspective:800px;
+}
+.card:hover{transform:translateY(-4px);border-color:var(--accent)}
+.card .front,.card .back{backface-visibility:hidden}
+.card .back{display:none}
+.card.flipped .front{display:none}
+.card.flipped .back{display:block}
+.card .icon{font-size:26px;margin-bottom:10px;filter:drop-shadow(0 0 8px var(--glow))}
+.card h2{margin:0 0 6px;font-size:16px;color:var(--ink)}
+.card p{margin:0;color:var(--muted);font-size:12px;line-height:1.5}
+.card .meta{margin-top:10px;font-size:11px;color:var(--muted);letter-spacing:.08em}
+
+/* ── AMBIENT DRIFT (respects reduced motion) ── */
+@media (prefers-reduced-motion: no-preference){
+  .card{animation:drift 10s ease-in-out infinite alternate}
+  .card:nth-child(2){animation-duration:12s;animation-delay:-2s}
+  .card:nth-child(3){animation-duration:11s;animation-delay:-4s}
+  .card:nth-child(4){animation-duration:13s;animation-delay:-6s}
+  .card:nth-child(5){animation-duration:9s;animation-delay:-1s}
+  @keyframes drift{
+    0%{transform:translateY(0)}
+    50%{transform:translateY(-6px)}
+    100%{transform:translateY(3px)}
+  }
+}
+@media (prefers-reduced-motion: reduce){
+  .card{animation:none !important}
+}
+
+.footer{
+  position:fixed;bottom:14px;right:18px;z-index:5;
+  font-size:11px;color:var(--muted);letter-spacing:.18em;
+}
+.debug-log{
+  position:fixed;bottom:40px;left:18px;z-index:6;
+  font-size:11px;color:var(--muted);opacity:.8;
+}

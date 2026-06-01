@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" data-theme="neon">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>dr.kb< :: multiverse hallway</title>
+<link rel="stylesheet" href="styles/hallway.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+
+  <div class="brand">
+    <h1>>> dr.kb< multiverse</h1>
+    <p>guardian of groove · philosopher of chill</p>
+  </div>
+
+  <!-- floating rabbit-hole -->
+  <nav class="rabbit-hole top" aria-label="multiverse portal">
+    <span class="tag">RABBIT-HOLE</span>
+    <a href="index.html" data-portal="gate">frontgate</a>
+    <a href="hallway.html" data-portal="hallway">hallway</a>
+    <a href="blog.html" data-portal="blog">blogosphere</a>
+
+    <div class="theme-picker">
+      <label for="themeSelect">VIBE</label>
+      <select id="themeSelect" aria-label="theme">
+        <option value="neon">Neon</option>
+        <option value="satire">Satire</option>
+        <option value="flicker">Flicker</option>
+      </select>
+    </div>
+
+    <a href="character-sheet.html">character sheet</a>
+  </nav>
+
+  <main class="hallway" id="hallway">
+    <section class="grid" id="moduleGrid" aria-label="module cards"></section>
+  </main>
+
+  <footer class="footer">😎CHILL 🔮COSMIC 💞CONNECTION</footer>
+  <div class="debug-log" id="debugLog" aria-live="polite"></div>
+
+<script src="scripts/vibe-hallway.js"></script>
+</body>
+</html>
