@@ -1,0 +1,13 @@
+/goal demo the website ... use placeholder for contents ... assuming 5 modules
+suggest steps:
+  1: create folder for '_demo', and mimic its root as the landing README.md on github repo
+  2: provisioning the space
+  3: plan ... thinking frame {intents -> deliverables -> tasks -> check-loop} ... the following are items to be considered (not limited to)
+    3A: frontgate
+    3B: the-hub
+    3C: each module_1 ... module_5
+    3D: jekyll (or other md->html style)
+  4: describe effects to be implemented
+as i'm setting this to 'goal demo the website', i expect you to iterate until you finis the goal ...
+only ping me after you get a demo for me to review.
+
