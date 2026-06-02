@@ -34,30 +34,31 @@
   const grid = document.getElementById('moduleGrid');
   if(!grid){ log('no grid'); return; }
 
-  PLACEHOLDER_MODULES.forEach((m, idx) => {
-    const card = document.createElement('article');
-    card.className = 'card';
-    card.setAttribute('tabindex','0');
-    card.setAttribute('aria-label', m.title);
+  const page = document.body.getAttribute('data-page');
+  if (page !== 'hallway') {
+    PLACEHOLDER_MODULES.forEach((m, idx) => {
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.setAttribute('tabindex','0');
+      card.setAttribute('aria-label', m.title);
 
-    const front = document.createElement('div');
-    front.className = 'front';
-    front.innerHTML = `<div class="icon" aria-hidden="true">${m.icon}</div><h2>${m.title}</h2><p>${m.desc}</p><div class="meta">mod #${String(idx+1).padStart(2,'0')} · placeholder</div>`;
+      const front = document.createElement('div');
+      front.className = 'front';
+      front.innerHTML = `<div class="icon" aria-hidden="true">${m.icon}</div><h2>${m.title}</h2><p>${m.desc}</p><div class="meta">mod #${String(idx+1).padStart(2,'0')} · placeholder</div>`;
 
-    const back = document.createElement('div');
-    back.className = 'back';
-    back.innerHTML = `<div class="meta">portal link ready</div><div class="meta">${m.url}</div>`;
+      const back = document.createElement('div');
+      back.className = 'back';
+      back.innerHTML = `<div class="meta">portal link ready</div><div class="meta">${m.url}</div>`;
 
-    // flipping behaviour
-    const flip = () => card.classList.toggle('flipped');
+      const flip = () => card.classList.toggle('flipped');
 
-    card.addEventListener('click', flip);
-    card.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); flip(); } });
+      card.addEventListener('click', flip);
+      card.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); flip(); } });
 
-    card.appendChild(front);
-    card.appendChild(back);
-    grid.appendChild(card);
-  });
-
-  log('loaded: '+PLACEHOLDER_MODULES.length+' modules · theme='+initial);
+      card.appendChild(front);
+      card.appendChild(back);
+      grid.appendChild(card);
+    });
+    log('loaded: '+PLACEHOLDER_MODULES.length+' modules · theme='+initial);
+  }
 })();
