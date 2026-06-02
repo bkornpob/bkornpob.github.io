@@ -15,17 +15,15 @@
       <span class="tag">&gt;dr.kb&lt;</span>
       <span class="tag" style="color:var(--ink);opacity:.7">multiverse-lib</span>
     </div>
-    <div class="portal-grid">
-      <a href="hallway.html" data-portal="hallway">hallway</a>
-      <a href="blog.html" data-portal="blog">blogosphere</a>
-      <a href="#">research</a>
-      <a href="#">ops</a>
-      <a href="#">magic</a>
-      <a href="#">recon</a>
-    </div>
-    <div class="right-stack">
-      <div class="theme-picker">
-        <label for="themeSelect">VIBE</label>
+    <div class="nav-right">
+      <a href="blog.html" class="nav-slot" data-slot="1,1">blogosphere</a>
+      <a href="#" class="nav-slot" data-slot="2,1">research</a>
+      <a href="#" class="nav-slot" data-slot="4,1">magic</a>
+      <a href="#" class="nav-slot" data-slot="3,1">ops</a>
+      <a href="hallway.html" class="nav-slot" data-slot="1,2">hallway</a>
+      <a href="#" class="nav-slot" data-slot="2,2">recon</a>
+      <a href="character-sheet.html" class="nav-slot" data-slot="3,2">character sheet</a>
+      <div class="theme-picker nav-slot" data-slot="4,2">
         <select id="themeSelect" aria-label="theme">
           <option value="neon">neon</option>
           <option value="satire">satire</option>
@@ -36,9 +34,24 @@
           <option value="satire-drkb">satire · drkb</option>
           <option value="satire-PAM">satire · PAM</option>
           <option value="satire-Dab">satire · Dab</option>
+          <option value="flicker-red">flicker-red</option>
+          <option value="flicker-red-drkb">flicker-red · drkb</option>
+          <option value="flicker-red-PAM">flicker-red · PAM</option>
+          <option value="flicker-red-Dab">flicker-red · Dab</option>
+          <option value="neonvomit">neonvomit</option>
+          <option value="neonvomit-drkb">neonvomit · drkb</option>
+          <option value="neonvomit-PAM">neonvomit · PAM</option>
+          <option value="neonvomit-Dab">neonvomit · Dab</option>
+          <option value="darksatire">darksatire</option>
+          <option value="darksatire-drkb">darksatire · drkb</option>
+          <option value="darksatire-PAM">darksatire · PAM</option>
+          <option value="darksatire-Dab">darksatire · Dab</option>
+          <option value="voidterminal">voidterminal</option>
+          <option value="voidterminal-drkb">voidterminal · drkb</option>
+          <option value="voidterminal-PAM">voidterminal · PAM</option>
+          <option value="voidterminal-Dab">voidterminal · Dab</option>
         </select>
       </div>
-      <a href="character-sheet.html">character sheet</a>
     </div>
   </nav>
 

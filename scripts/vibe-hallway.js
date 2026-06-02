@@ -1,9 +1,16 @@
-/* vibe-hallway.js — multiverse registry + theme + rabbit-hole */
 (() => {
   'use strict';
 
   /* ── config ── */
-  const THEMES = ['neon','satire','flicker','neon-drkb','neon-PAM','neo-Dab','satire-drkb','satire-PAM','satire-Dab'];
+  const THEMES = [
+    'neon','satire','flicker',
+    'neon-drkb','neon-PAM','neo-Dab',
+    'satire-drkb','satire-PAM','satire-Dab',
+    'flicker-drkb','flicker-PAM','flicker-Dab',
+    'neonvomit-drkb','neonvomit-PAM','neonvomit-Dab',
+    'darksatire-drkb','darksatire-PAM','darksatire-Dab',
+    'voidterminal-drkb','voidterminal-PAM','voidterminal-Dab'
+  ];
   const PLACEHOLDER_MODULES = [
     { id:'isc2-cc',   title:'ISC2 CC',         desc:'Systems security practice.', icon:'🔒', url:'https://example.com/isc2-cc' },
     { id:'cloudplus', title:'Cloud+',           desc:'Cloud ops from the void.',  icon:'☁️', url:'https://example.com/cloud-plus' },
