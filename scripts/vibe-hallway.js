@@ -3,7 +3,7 @@
   'use strict';
 
   /* ── config ── */
-  const THEMES = ['neon','satire','flicker'];
+  const THEMES = ['neon','satire','flicker','neon-drkb','neon-PAM','neo-Dab','satire-drkb','satire-PAM','satire-Dab'];
   const PLACEHOLDER_MODULES = [
     { id:'isc2-cc',   title:'ISC2 CC',         desc:'Systems security practice.', icon:'🔒', url:'https://example.com/isc2-cc' },
     { id:'cloudplus', title:'Cloud+',           desc:'Cloud ops from the void.',  icon:'☁️', url:'https://example.com/cloud-plus' },

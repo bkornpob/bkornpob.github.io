@@ -28,6 +28,37 @@
   --panel-glass:rgba(30,10,26,.78); --card-bg:rgba(40,16,34,.82);
   --card-border:rgba(255,120,220,.12); --shadow:0 0 12px rgba(255,43,214,.12);
 }
+[data-theme="neon-drkb"]{
+  --bg:#0a0a02; --panel:#1a1406; --ink:#ffd6a0; --muted:#c4a882;
+  --accent:#ff8c00; --glow:rgba(255,140,0,.3);
+  --panel-glass:rgba(26,20,6,.78); --card-bg:rgba(40,32,10,.8);
+  --card-border:rgba(255,160,60,.12); --shadow:0 0 14px rgba(255,140,0,.14);
+}[data-theme="neon-PAM"]{
+  --bg:#0a0202; --panel:#1a0606; --ink:#ffc0b0; --muted:#e0a090;
+  --accent:#ff3030; --glow:rgba(255,48,48,.3);
+  --panel-glass:rgba(26,6,6,.78); --card-bg:rgba(40,10,10,.8);
+  --card-border:rgba(255,80,60,.12); --shadow:0 0 14px rgba(255,48,48,.14);
+}[data-theme="neo-Dab"]{
+  --bg:#06020a; --panel:#0e0614; --ink:#e0ffc0; --muted:#a0d090;
+  --accent:#39ff14; --glow:rgba(57,255,20,.3);
+  --panel-glass:rgba(14,6,20,.78); --card-bg:rgba(22,10,34,.8);
+  --card-border:rgba(57,255,20,.12); --shadow:0 0 14px rgba(57,255,20,.14);
+}[data-theme="satire-drkb"]{
+  --bg:#0a0802; --panel:#1a1206; --ink:#ffd6a0; --muted:#c4a882;
+  --accent:#ff8c00; --glow:rgba(255,140,0,.3);
+  --panel-glass:rgba(26,18,6,.78); --card-bg:rgba(40,28,10,.8);
+  --card-border:rgba(255,160,60,.12); --shadow:0 0 14px rgba(255,140,0,.14);
+}[data-theme="satire-PAM"]{
+  --bg:#0a0202; --panel:#1a0606; --ink:#ffc0b0; --muted:#e0a090;
+  --accent:#ff3030; --glow:rgba(255,48,48,.3);
+  --panel-glass:rgba(26,6,6,.78); --card-bg:rgba(40,10,10,.8);
+  --card-border:rgba(255,80,60,.12); --shadow:0 0 14px rgba(255,48,48,.14);
+}[data-theme="satire-Dab"]{
+  --bg:#06020a; --panel:#0e0614; --ink:#e0ffc0; --muted:#a0d090;
+  --accent:#39ff14; --glow:rgba(57,255,20,.3);
+  --panel-glass:rgba(14,6,20,.78); --card-bg:rgba(22,10,34,.8);
+  --card-border:rgba(57,255,20,.12); --shadow:0 0 14px rgba(57,255,20,.14);
+}
 
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
