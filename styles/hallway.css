@@ -12,9 +12,9 @@
 }
 [data-theme="neon"]{
   --bg:#02020a; --panel:#060614; --ink:#ffffff; --muted:#a0a0c0;
-  --accent:#00ffd5; --glow:rgba(0,255,213,.4);
+  --accent:#00ffd5; --glow:rgba(0,255,213,.28);
   --panel-glass:rgba(8,8,24,.72); --card-bg:rgba(16,16,40,.78);
-  --card-border:rgba(255,255,255,.10); --shadow:0 0 22px rgba(0,255,213,.2);
+  --card-border:rgba(255,255,255,.10); --shadow:0 0 14px rgba(0,255,213,.14);
 }
 [data-theme="satire"]{
   --bg:#100a02; --panel:#1c1206; --ink:#ffecd2; --muted:#d0a882;
@@ -24,9 +24,9 @@
 }
 [data-theme="flicker"]{
   --bg:#080308; --panel:#14080e; --ink:#f2e6ff; --muted:#d0b8e0;
-  --accent:#ff2bd6; --glow:rgba(255,43,214,.38);
+  --accent:#ff2bd6; --glow:rgba(255,43,214,.28);
   --panel-glass:rgba(30,10,26,.78); --card-bg:rgba(40,16,34,.82);
-  --card-border:rgba(255,120,220,.12); --shadow:0 0 22px rgba(255,43,214,.2);
+  --card-border:rgba(255,120,220,.12); --shadow:0 0 12px rgba(255,43,214,.12);
 }
 
 *{box-sizing:border-box}
@@ -56,6 +56,7 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
 .brand-stack{display:flex;flex-direction:column;align-items:center;gap:0;line-height:1.1;flex-shrink:0}
 .brand-stack .tag{white-space:nowrap;font-size:11px;color:var(--ink);letter-spacing:.1em;padding:0 4px}
 .nav-right{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto auto;gap:6px;align-items:center;justify-content:end;flex-shrink:1;min-width:0}
+.nav-slot{display:flex;align-items:center;justify-content:center;text-align:center}
 .theme-picker{grid-column:auto;grid-row:auto;display:flex;align-items:center;justify-content:center}
 .rabbit-hole a{
   color:var(--ink);text-decoration:none;font-size:11px;padding:4px 8px;border-radius:999px;
@@ -69,6 +70,15 @@ html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
 .theme-picker select{
   background:transparent;color:var(--ink);border:none;outline:none;font:inherit;cursor:pointer;
   font-size:10px;
+}
+.theme-picker option{
+  background:var(--panel);
+  color:var(--ink);
+}
+.theme-picker option:hover,
+.theme-picker option:checked{
+  background:var(--accent);
+  color:var(--bg);
 }
 
 /* ── HALLWAY LAYOUT ── */
