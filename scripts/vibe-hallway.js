@@ -30,35 +30,41 @@
   const logEl = document.getElementById('debugLog');
   const log = (...args) => { if(logEl) logEl.textContent = args.join(' '); };
 
-  /* ── cards ── */
-  const grid = document.getElementById('moduleGrid');
-  if(!grid){ log('no grid'); return; }
+  /* ── focus panel ── */
+  const grid = document.getElementById('focusGrid');
+  if(!grid){ log('no focusGrid'); return; }
 
-  const page = document.body.getAttribute('data-page');
-  if (page !== 'hallway') {
-    PLACEHOLDER_MODULES.forEach((m, idx) => {
-      const card = document.createElement('article');
-      card.className = 'card';
-      card.setAttribute('tabindex','0');
-      card.setAttribute('aria-label', m.title);
+  let current = 0;
 
-      const front = document.createElement('div');
-      front.className = 'front';
-      front.innerHTML = `<div class="icon" aria-hidden="true">${m.icon}</div><h2>${m.title}</h2><p>${m.desc}</p><div class="meta">mod #${String(idx+1).padStart(2,'0')} · placeholder</div>`;
+  const render = (idx) => {
+    const m = PLACEHOLDER_MODULES[idx];
+    grid.innerHTML = `
+      <!-- row 1: messages (7 cols) -->
+      <div class="fp-msg" style="grid-column:1/5">📡 module ${String(idx+1).padStart(2,'0')} of ${PLACEHOLDER_MODULES.length}</div>
+      <div class="fp-msg" style="grid-column:5/8">${m.title}</div>
 
-      const back = document.createElement('div');
-      back.className = 'back';
-      back.innerHTML = `<div class="meta">portal link ready</div><div class="meta">${m.url}</div>`;
+      <!-- rows 2-4: focus screen (4 cols) + attributes (3 cols) -->
+      <div class="fp-screen" style="grid-column:1/5;grid-row:2/5">${m.icon}</div>
+      <div class="fp-attr" style="grid-column:5/8;grid-row:2">${m.desc}</div>
+      <div class="fp-attr" style="grid-column:5/8;grid-row:3">id · ${m.id}</div>
+      <div class="fp-attr" style="grid-column:5/8;grid-row:4">${m.url}</div>
 
-      const flip = () => card.classList.toggle('flipped');
+      <!-- row 5: nav (7 cols) -->
+      <button class="fp-btn" id="fpPrev" style="grid-column:1/4">&#8592; prev</button>
+      <div class="fp-emoji" style="grid-column:4/5">🌀</div>
+      <button class="fp-btn" id="fpNext" style="grid-column:5/8">next &#8594;</button>
+    `;
 
-      card.addEventListener('click', flip);
-      card.addEventListener('keydown', e => { if(e.key==='Enter'||e.key===' '){ e.preventDefault(); flip(); } });
-
-      card.appendChild(front);
-      card.appendChild(back);
-      grid.appendChild(card);
+    document.getElementById('fpPrev').addEventListener('click', () => {
+      current = (current - 1 + PLACEHOLDER_MODULES.length) % PLACEHOLDER_MODULES.length;
+      render(current);
     });
-    log('loaded: '+PLACEHOLDER_MODULES.length+' modules · theme='+initial);
-  }
+    document.getElementById('fpNext').addEventListener('click', () => {
+      current = (current + 1) % PLACEHOLDER_MODULES.length;
+      render(current);
+    });
+  };
+
+  render(current);
+  log('focusPanel ready · '+PLACEHOLDER_MODULES.length+' modules · theme='+initial);
 })();
