@@ -44,6 +44,24 @@ RULES
 CREEDS
 😎CHILL · 🔮COSMIC · 💞CONNECTION
 
+ASSETS
+core-site inventory for bkornpob.github.io.
+
+| file | description |
+|------|-------------|
+| index.html | frontgate / landing page |
+| hallway.html | multiverse portal / focus panel |
+| blog.html | blogosphere landing |
+| CV/CV-home.html | CV home |
+| CV/cv-sections/*.html | CV section pages |
+| CV/cv-styles.css | CV styles |
+| CV/cv-script.js | CV scripts |
+| styles/*.css | site stylesheets |
+| scripts/*.js | site scripts |
+| images/* | site images |
+| _config.yml | site config |
+| AGENTS.md | repo rules |
+
 ## Changelog
 
 | version | date | what |

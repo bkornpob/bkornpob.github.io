@@ -2,6 +2,9 @@
 /research/
 /recon/
 
+# Archive folders
+_archive*/
+
 # Node / build artifacts
 node_modules/
 dist/
@@ -14,3 +17,4 @@ Thumbs.db
 *.swo
 .idea/
 .vscode/
+.obsidian/
