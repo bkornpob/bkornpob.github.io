@@ -59,6 +59,18 @@
 
   <main class="hallway" id="hallway">
     <div id="focusPanel" class="focus-panel" aria-label="focus panel">
+
+<!-- 5x7 -> left-block :x4, right-block :x3
+row=1 -> [message-1],[message-2]
+row=2-4 -> [focus-screen].[row2-attribute,row3-attribute,row4-attribute]
+row=5 -> [button-go-prev 3-col][emoji 1-col][button-go-next 3col] -->
+
+<!-- [msg-1        ][msg-2        ]
+[             ][attr-row-2   ]
+[focus-screen ][attr-row-3   ]
+[             ][attr-row-4   ]
+[<< prev  3col][emoji][next >>3col] -->
+
       <div class="focus-grid" id="focusGrid"></div>
     </div>
   </main>
