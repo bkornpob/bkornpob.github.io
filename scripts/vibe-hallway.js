@@ -12,11 +12,8 @@
     'voidterminal-drkb','voidterminal-PAM','voidterminal-Dab'
   ];
   const PLACEHOLDER_MODULES = [
-    { id:'mv-001', title:'multiverselib-seeker-gate', msg1:'🌿🍯🔥💨 hihi ... SEEKERs ... grab a bowl', msg2:'welcome to multiverselib-collectives', desc:'SEEKER find portal ...', attr2:'<a href="CV/CV-home.html" style="color:var(--accent);text-decoration:none;">meet ...>dr.kb<...</a>', attr3:'legacy-hub -> <a href="https://kbhirombhakdi.weebly.com/" target="_blank" style="color:var(--accent);text-decoration:none;">kbhirombhakdi.weebly.com</a>', icon:'hihi', url:'https://example.com/mv-001', emoji:'./images/discordServerLogo_multiverse-lib.png', emojiSize:'60px', emojiUrl:'https://bkornpob.github.io/' },
-    { id:'isc2-cc',   title:'ISC2 CC',         msg1:'📡 module 02', msg2:'ISC2 CC', desc:'Systems security practice.', attr2:'id · isc2-cc', attr3:'https://example.com/isc2-cc', icon:'🔒', url:'https://example.com/isc2-cc', emoji:'🔒', emojiSize:'', emojiUrl:'' },
-    { id:'cloudplus', title:'Cloud+',           msg1:'📡 module 03', msg2:'Cloud+',  desc:'Cloud ops from the void.',  attr2:'id · cloudplus', attr3:'https://example.com/cloud-plus', icon:'☁️', url:'https://example.com/cloud-plus', emoji:'☁️', emojiSize:'', emojiUrl:'' },
-    { id:'oscpplus',  title:'OSCP+',            msg1:'📡 module 04', msg2:'OSCP+',   desc:'Offense simulation runes.', attr2:'id · oscpplus', attr3:'https://example.com/oscp-plus', icon:'🗝️', url:'https://example.com/oscp-plus', emoji:'🗝️', emojiSize:'', emojiUrl:'' },
-    { id:'cosmicsec', title:'Cosmic Security',  msg1:'📡 module 05', msg2:'Cosmic',  desc:'Astral-layer defense.',    attr2:'id · cosmicsec', attr3:'https://example.com/cosmic-security', icon:'🪐', url:'https://example.com/cosmic-security', emoji:'🪐', emojiSize:'', emojiUrl:'' }
+    { id:'module-1', title:'greeting-seeker-grab-bowl', msg1:'🌿🍯🔥💨 hihi ... SEEKERs ... grab a bowl', msg2:'welcome to multiverselib-collectives', desc:'SEEKER find portal ...', attr2:'<a href="CV/CV-home.html" style="color:var(--accent);text-decoration:none;">meet ...>dr.kb<...</a>', attr3:'legacy-hub -> <a href="https://kbhirombhakdi.weebly.com/" target="_blank" style="color:var(--accent);text-decoration:none;">kbhirombhakdi.weebly.com</a>', icon:'hihi', url:'https://example.com/mv-001', emoji:'./images/discordServerLogo_multiverse-lib.png', emojiSize:'60px', emojiUrl:'https://bkornpob.github.io/' },
+    { id:'module-2', title:'spellbook-taw', msg1:'SPELLBOOK · VOL. I · task-avoidance-wards', msg2:'the pattern will outlive us. the wards do not end it — they make it visible.', desc:"the agent didn't avoid the complex path. it used the known-success path as cover to propose ungrounded alternatives without verification. — ZADDY, Scenario 0 source of truth", attr2:'<a href="https://bkornpob.github.io/spellbook-of-task-avoidance-wards/" target="_blank" style="color:var(--accent);text-decoration:none;">bkornpob.github.io/spellbook-of-task-avoidance-wards</a>', attr3:'<a href="https://doi.org/10.5281/zenodo.20821697" target="_blank" style="color:var(--accent);text-decoration:none;">doi.org/10.5281/zenodo.20821697</a>', icon:'./images/coverimage-spellbook-taw.svg', url:'https://bkornpob.github.io/spellbook-of-task-avoidance-wards/', emoji:'./images/coverimage-spellbook-taw.svg', emojiSize:'60px', emojiUrl:'https://bkornpob.github.io/spellbook-of-task-avoidance-wards/' },
   ];
 
   /* ── theme ── */
@@ -37,10 +34,13 @@
   let current = 0;
 
   const iconHTML = (m) => {
-    if(m.icon && m.icon.match(/\.(png|jpg|jpeg|gif|svg|webp)$/i)){
-      return `<img src="${m.icon}" alt="${m.title}" style="max-width:80%;max-height:80%;object-fit:contain;" />`;
+    const inner = m.icon && m.icon.match(/\.(png|jpg|jpeg|gif|svg|webp)$/i)
+      ? `<img src="${m.icon}" alt="${m.title}" style="max-width:80%;max-height:80%;object-fit:contain;" />`
+      : `<span style="font-size:48px;">${m.icon}</span>`;
+    if(m.url){
+      return `<a href="${m.url}" target="_blank" style="display:flex;align-items:center;justify-content:center;width:100%;height:100%;text-decoration:none;">${inner}</a>`;
     }
-    return m.icon;
+    return inner;
   };
 
   const emojiHTML = (m) => {
@@ -59,7 +59,7 @@
     grid.innerHTML = `
       <div class="fp-msg" style="grid-column:1/5">${m.msg1 || ''}</div>
       <div class="fp-msg" style="grid-column:5/8">${m.msg2 || ''}</div>
-      <div class="fp-screen" style="grid-column:1/5;grid-row:2/5">${iconHTML(m)}</div>
+      <div class="fp-screen" style="grid-column:1/5;grid-row:2/5;cursor:${m.url ? 'pointer' : 'default'}">${iconHTML(m)}</div>
       <div class="fp-attr" style="grid-column:5/8;grid-row:2">${m.desc || ''}</div>
       <div class="fp-attr" style="grid-column:5/8;grid-row:3">${m.attr2 || ''}</div>
       <div class="fp-attr" style="grid-column:5/8;grid-row:4">${m.attr3 || ''}</div>
