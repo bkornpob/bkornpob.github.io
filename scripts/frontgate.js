@@ -59,7 +59,7 @@
   function enterIdle() {
     state = 'idle';
     knocks = 0;
-    statusEl.textContent = 'KNOCK TO ENTER';
+    statusEl.textContent = 'are you a SEEKER?';
     msgEl.textContent = '';
     knocker.classList.remove('hit');
     knocker.style.removeProperty('box-shadow');
@@ -69,8 +69,8 @@
   function open() {
     clearTimers();
     state = 'open';
-    statusEl.textContent = '3/3 — OPEN';
-    msgEl.textContent = 'welcome, traveler.';
+    statusEl.textContent = 'BINDING COMPLETE';
+    msgEl.textContent = 'welcome, seeker.';
     knocker.style.boxShadow = '0 0 25px #ff4d4d, inset 0 0 18px rgba(255,77,77,0.4)';
     setDebug('open');
     setTimeout(() => {
@@ -99,9 +99,9 @@
       const sec = (remain / 1000).toFixed(1);
 
       if (knocks === 1) {
-        statusEl.textContent = '1/3 · ' + sec + 's';
+        statusEl.textContent = 'SEEKER seeks portal?';// + sec + 's';
       } else if (knocks === 2) {
-        statusEl.textContent = '2/3 · ' + sec + 's';
+        statusEl.textContent = 'TRUTH LOVE LIBERATION?';// + sec + 's';
       }
 
       const next = Math.max(16, Math.min(250, remain));
