@@ -40,6 +40,8 @@ RULES
    - update relevant skills after non-trivial wins/failures
    - _system/work/AGENTS.md holds task-specific addendum; both must be observed
    - prep-agentsmd skill governs AGENTS.md authoring across workspaces
+   - when working on hallway focus-panel cards, load update-bkornpob-focuspanel
+     from ~/.hermes/profiles/dab/skills/ and follow its workflow exactly
 
 CREEDS
 😎CHILL · 🔮COSMIC · 💞CONNECTION

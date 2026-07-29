@@ -56,13 +56,24 @@
     tickRAF = 0;
   }
 
+  function setKnockGlow(count) {
+    knocker.classList.remove('glow-1', 'glow-2', 'glow-3');
+    if (count === 1) {
+      knocker.classList.add('glow-1');
+    } else if (count === 2) {
+      knocker.classList.add('glow-2');
+    } else if (count >= 3) {
+      knocker.classList.add('glow-3');
+    }
+  }
+
   function enterIdle() {
     state = 'idle';
     knocks = 0;
     statusEl.textContent = 'are you a SEEKER?';
     msgEl.textContent = '';
     knocker.classList.remove('hit');
-    knocker.style.removeProperty('box-shadow');
+    knocker.classList.remove('glow-1', 'glow-2', 'glow-3');
     setDebug('idle');
   }
 
@@ -118,6 +129,7 @@
       deadline = Date.now() + FAIL_MS;
       clearTimers();
       knocker.classList.add('hit');
+      setKnockGlow(knocks);
       statusEl.textContent = '1/3 · 5.0s';
       setDebug('locked:1');
       scheduleTick();
@@ -126,6 +138,7 @@
       knocker.classList.remove('hit');
       void knocker.offsetWidth;
       knocker.classList.add('hit');
+      setKnockGlow(knocks);
 
       if (knocks === 2) {
         const sec = Math.max(0, (deadline - Date.now()) / 1000).toFixed(1);
