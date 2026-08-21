@@ -18,7 +18,7 @@ RULES
 3. before touching anything
    - read _system/work/handoff-<date>.md
    - read AGENTS.md (this file)
-   - read the relevant skill from ~/.hermes/profiles/dab/skills/
+   - read the relevant skill from ~/.hermes/profiles/equinox/skills/
 
 4. use the thinking frame for every non-trivial task
    intents → deliverables → tasks → check-loop
@@ -41,7 +41,7 @@ RULES
    - _system/work/AGENTS.md holds task-specific addendum; both must be observed
    - prep-agentsmd skill governs AGENTS.md authoring across workspaces
    - when working on hallway focus-panel cards, load update-bkornpob-focuspanel
-     from ~/.hermes/profiles/dab/skills/ and follow its workflow exactly
+     from ~/.hermes/profiles/equinox/skills/ and follow its workflow exactly
 
 CREEDS
 😎CHILL · 🔮COSMIC · 💞CONNECTION
